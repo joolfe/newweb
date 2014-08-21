@@ -85,6 +85,25 @@ http://themeforest.net/item/pav-digital-store-responsive-opencart-theme/full_scr
 iconos:
 - key
 - user
-- play en crculito
+- play en crculito o play (checkout)
 - cart
 - corazon
+- estrella
+- cart +
+- labs o flask o proveta vamos
+- lista de info
+- avion (enviar mensaje)
+- mail
+- mail alternativo
+- share s
+- flecha top (go top)
+- cart añternativo?
+- reloj
+- globo de mensaje
+- lupa
+- lupa zoom
+- cruz de delete.
+- ojo
+- download
+- vesion up
+- version down.
