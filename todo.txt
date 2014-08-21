@@ -1,0 +1,84 @@
+
+- Usar fuente Roboto
+
+- Demasiados colores negros
+	links tienen uno
+	links fe footer otros
+	headers otros...
+	tego que arreglar eso...s
+
+- carousel: Sin controles ni ostias me gusta mucho,
+hacer una prueba sin controles bajando texto y dema 
+NO ES MALA IDEA SI QUIEREN CONTROLES QU DEN A ZOOM!!!
+
+- Usar solo glypicons o fa o hacerme una personalizada??
+	fontello revisar
+
+- Logo de about tiene que ser fotico mia o algo
+	Me tengo que acer una fotico la trato un poco y listo
+
+- hacer una version flat a ver que tal se ve...
+
+- Carousel: Las imagenes deben ser mayores a los 570 para que se vena bie siempre incluso en md cuando se reduce..
+
+- ver lo de camtasia estudio poner gifs como aqui https://github.com/cdowdy/concrete5-Magnific-Popup mola bastante.
+
+
+
+Diseño pagina productos:
+-------------------------
+
+FALTAN TOQUES DE COLOR DEMAISADO SIMPLE!
+
+- poner tooltips en lo de iconcitos??
+
+- Donde poner sumary y resumen
+- la insatllacion hay que ponerlo como en tbs algo asi investigar...
+
+- Product info:
+	- Orden de lementos e preico suele se rlo primeros
+	Titulo
+	Precio
+	review
+	infos
+	botones
+
+
+EJEMPLOS INSPIRACIONALES
+me mola para los tiles
+http://fresh-pixel.com/premium-templates/?theme=essentials-magento
+
+http://prestazilla.com/demo/maxshop2/index.php
+
+- Tiene una descripcion...
+http://mobilewebs.net/mojoomla/demo/opencart/vigo/index.php?route=product/product&product_id=99
+
+-tb buena
+http://themeforest.net/item/olivia-opencart-responsive-theme/full_screen_preview/8529563
+
+- muchos enredos pero on es malo 
+http://althemist.com/metropoliten/index.php?route=product/product&product_id=50
+
+- De este me gusta que la parte de la derecha es de otro color ueda bien
+http://321cart.com/demo/sellya/index.php?route=product/product&product_id=95
+
+- Megusta que estan separados como en cajitas
+http://themeforest.net/item/pav-digital-store-responsive-opencart-theme/full_screen_preview/6461154
+
+
+- Crear un carrousel responsive como el del tema que me dejo el tipo este ver!!
+
+- el carrito cuando es para movi hacer mas gorodo o de otro color el boton'? no me mola ocmo queda
+
+- captcha ver como lo hago a corde al estilo de todo, circulos de colores y la longitud...
+
+- Buscar que licencia pongo en el css.
+
+- css pasarle algun validador
+
+iconos:
+- key
+- user
+- play en crculito
+- cart
+- corazon

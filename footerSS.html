@@ -1,0 +1,608 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+<title>New Template</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- link rel="stylesheet" type="text/css" media="screen" href="Styles/bootstrap.css" / -->
+<link rel="stylesheet" type="text/css" media="screen" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+
+<script type="text/javascript" src="Scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="Scripts/jquery.animate-colors-min-old.js"></script>
+<script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="Scripts/bootstrap-typeahead.js"></script>
+<script type="text/javascript" src="Scripts/placeholder.js"></script>
+<link rel="stylesheet" href="Styles/font-awesome.min.css">
+<style>
+	/* Language inputs */
+	.input-group-addon-white{background-color: #FFF;}
+	/* Icon buttons */
+    .btn-tab-container{display: block;text-align: center;}
+	.btn-icon{padding: 4px 6px 7px 6px;font-size: 12px;line-height: 1;border-radius: 3px;}
+	.btn-expand, .btn-collapse{color: #808080;font-weight: bold;border-color: #DDD;}
+	.btn-expand:hover, .btn-collapse:hover{background-color: #D1D1D1;}
+	.icon-down:hover, .icon-up:hover {color: #FFF;background-color: #428BCA}
+	.icon-remove:hover {color: #FFF;background-color: #D2322D}
+	/* Product list */
+	.panel-products{margin-bottom:0px}
+	.panel-products > .list-products {overflow: auto;}
+	.panel-products >  div.panel-heading{color: #808080;font-weight: bold;}
+	/* Switch button */
+	.btn-default.btn-on.active{background-color: #5BB75B;color: white;}
+	.btn-default.btn-off.active{background-color: #DA4F49;color: white;}
+	/* Mod list*/
+	.module-list .panel-heading{font-weight: bold;color: #808080;}
+	.module-list .row > .col-sm-2, .module-list .row > .col-sm-1, .module-list .row > .col-sm-8 {padding-right: 10px;padding-left: 10px;}
+	.col-sm-4 > .btn-icon{margin-top: 2px;}
+	/* Size input */
+	.size-input > .input-group-addon{background-color:white;border: 0px;}
+	/* number input */
+	.numberInput > input{text-align:center}
+
+	/* xs inline hidden */
+	.hidden-inline-xs{ display: inline-block !important;}
+	@media (max-width: 767px) {.hidden-inline-xs{display: none !important;}}
+	@media (min-width: 768px) and (max-width: 991px) {.hidden-inline-xs.hidden-sm{display: none !important;}}
+	@media (min-width: 992px) and (max-width: 1199px) {.hidden-inline-xs.hidden-md {display: none !important;}}
+	@media (min-width: 1200px) {.hidden-inline-xs.hidden-lg {display: none !important;}}
+	/* adaptative */
+	.field-separator{margin-top:10px}
+</style>
+
+</head>
+<body>
+
+
+<div class="container">
+	<div style="margin-top:100px;"></div>
+    <div class="row" style="padding: 15px 0px;">
+		
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<div class="item-product">
+				<div class="photo">
+					<div class="caption">
+						<div>
+							<p>Show products from the same category in the products page.</p>
+						</div>
+					</div>
+					<img src="image/SEO-titles.png" class="img-responsive" alt="a">
+				</div>
+				<div class="info">
+					<div class="row">
+						<div class="col-xs-12">
+							<h5 class="item-name">Same Category Products</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="item-price col-xs-12">
+							<ins>$99.99</ins>
+						</div>
+					</div>
+					<div class="row">
+						<div class="rating col-xs-12">
+							<span class="active fa fa-star"></span>
+							<span class="active fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+					</div>
+					<div class="separator clear-left">
+						<p>
+							<button class="btn btn-primary">
+								<span class="fa fa-shopping-cart"></span>Add to cart
+							</button>
+							<button class="btn btn-default">
+								<span class="fa fa-flask"></span>Demo
+							</button>
+						</p>
+					</div>
+					<div class="clearfix">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<div class="item-product">
+				<div class="photo">
+					<div class="caption">
+						<div>
+							<p>Show links to their social networks where and how you want, Completely configurable!</p>
+						</div>
+					</div>
+					<img src="image/social-follow.png" class="img-responsive" alt="a">
+				</div>
+				<div class="info">
+					<div class="row">
+						<div class="col-xs-12">
+							<h5 class="item-name">Social Follow</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="item-price col-xs-12">
+							<del><span>$599.99</span></del>
+							<ins>$199.99</ins>
+						</div>
+					</div>
+					<div class="row">
+						<div class="rating col-xs-12">
+							<span class="active fa fa-star"></span>
+							<span class="active fa fa-star"></span>
+							<span class="active fa fa-star"></span>
+							<span class="active fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+					</div>
+					<div class="separator clear-left">
+						<p>
+							<button class="btn btn-primary">
+								<span class="fa fa-shopping-cart"></span>Add to cart
+							</button>
+							<button class="btn btn-default">
+								<span class="fa fa-flask"></span>Demo
+							</button>
+						</p>
+					</div>
+					<div class="clearfix">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<div class="item-product">
+				<div class="photo">
+					<div class="caption">
+						<div>
+							<p>This extension let you easy configure one background for each product, category and manufacturer, so you can change the view of your web for each page.</p>
+						</div>
+					</div>
+					<img src="image/backgroundchange.png" class="img-responsive" alt="a">
+				</div>
+				<div class="info">
+					<div class="row">
+						<div class="col-xs-12">
+							<div>
+								<h5 class="item-name">Background Change For Products</h5>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="item-price col-xs-12">
+							<del><span>$599.99</span></del>
+							<ins>$199.99</ins>
+						</div>
+					</div>
+					<div class="row">
+						<div class="rating col-xs-12">
+							<span class="active fa fa-star"></span>
+							<span class="active fa fa-star"></span>
+							<span class="active fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+					</div>
+					<div class="separator clear-left">
+						<p>
+							<button class="btn btn-primary">
+								<span class="fa fa-shopping-cart"></span>Add to cart
+							</button>
+							<button class="btn btn-default">
+								<span class="fa fa-flask"></span>Demo
+							</button>
+						</p>
+					</div>
+					<div class="clearfix">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<div class="item-product">
+				<div class="photo">
+					<div class="caption">
+						<div>
+							<p>Make your product images multilanguage in all modules and pages of your store.</br>
+							<span class="btn btn-visit-mod">See this mod&nbsp;<span class="fa fa-chevron-circle-right"></span></span>
+							</p>
+							
+						</div>
+					</div>
+					<img src="image/multilingual-image.png" class="img-responsive" alt="a">
+				</div>
+				<div class="info">
+					<div class="row">
+						<div class="col-xs-12">
+							<h5 class="item-name">Multilingual Image for Product</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="item-price col-xs-12">
+							<del><span>$10.00</span></del>
+							<ins>$9.00</ins>
+						</div>
+					</div>
+					<div class="row">
+						<div class="rating col-xs-12">
+							<span class="active fa fa-star"></span>
+							<span class="active fa fa-star"></span>
+							<span class="active fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+					</div>
+					<div class="separator clear-left">
+						<p>
+							<button class="btn btn-primary">
+								<span class="fa fa-shopping-cart"></span>Add to cart
+							</button>
+							<button class="btn btn-default">
+								<span class="fa fa-flask"></span>Demo
+							</button>
+						</p>
+					</div>
+					<div class="clearfix">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+</div>
+	<style>
+.btn-primary{
+	background-color: #474747;
+	border-color: #FFF;
+}	
+
+/* caption button*/
+.btn-visit-mod{
+	margin-top:10px;
+	border-color: #FFF;
+}
+.btn-visit-mod:hover{
+	background-color: #FFF;
+	color: #474747;
+	border-color:#474747;
+}
+
+
+/* caption de item products*/
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background: rgba(21, 16, 14, 0.7);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+	font-size:12px;
+	font-weight: bold;
+	display: none;
+	vertical-align: middle;
+}
+.caption > div {
+	display: table;
+	width:100%;
+    height:100%;
+	padding:10px;
+}
+.caption > div > p{
+	display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+/* item products*/
+.item-product{
+    border: 1px solid #DFDFDF;
+	margin-top:25px;
+}
+.item-product .row{
+	margin-top:4px;
+}
+.item-product .photo img{
+    margin: 0 auto;
+    width: 100%;
+}
+.item-product .photo{
+	position:relative;
+}
+.item-product .info{
+    padding: 10px;
+	text-align: left;
+}
+.item-product:hover .info {
+    background-color: #F9F9F9;
+	-webkit-transition: background-color 0.6s;
+	-moz-transition: background-color 0.6s;
+	-o-transition: background-color 0.6s;
+	-ms-transition: background-color 0.6s;
+}
+.item-product button span{
+    margin-right: 5px;
+}
+.item-product .item-price{
+    color: #F71919;
+	font-weight: bold;
+	line-height: 20px;
+	font-size: 15px;
+	margin-top:5px;
+}
+.item-product ins {
+	text-decoration: none;
+}
+.item-product del span {
+	color:#666;
+}
+.item-product .item-name{
+    line-height: 20px;
+    margin: 0;
+	font-weight: bold;
+	color: #474747;
+}
+.item-product .separator{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 18px;
+    text-align: center;
+}
+.clear-left{
+    clear: left;
+}
+/* Rating */
+.item-product .rating{
+    color: #777;
+	float: left;
+    font-size: 15px;
+	margin-top:5px;
+}
+.item-product .rating > .active{
+	color: #F71919;
+}
+
+
+
+
+  </style>
+<script>
+	$( document ).ready(function() { 
+	 
+		$('.item-product').hover(
+			function(){
+				$(this).find('.caption').slideDown(250); 
+			},
+			function(){
+				$(this).find('.caption').slideUp(250); 
+			}
+		); 
+	});
+
+</script>
+
+  <style>
+	.footer{
+		padding-top:15px;
+		background-color: #F5F5F5;
+		min-height: 100px;
+	}
+	.footer h4{
+		border-bottom: 1px solid #D5D5D5;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding-bottom: 12px;
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+	.link-holder{
+		list-style: none;
+		padding-left: 0px;
+	}
+	.link-holder > li{
+		padding-bottom: 5px;
+	}
+	.link-holder > li > a{
+		color: #1C1C1C;
+	}
+	.link-holder > li:hover > a:hover{
+		-webkit-transition: all 0.4s ease 0s;
+		transition: all 0.4s ease 0s;
+		-moz-transition: all 0.4s ease 0s;
+		-o-transition: all 0.4s ease 0s;
+		-ms-transition: all 0.4s ease 0s;
+		color: #F71919;
+		text-decoration: none;
+	}
+	.about-text{
+		font-size:13px;
+	}
+	.contact-ico{
+		margin-right:10px;
+		color: #7C7C7C;
+	}
+	.contact > div.btn-holder{
+		padding-bottom:15px;
+	}
+	.contact li:hover > a:hover, .contact li:hover > .contact-ico, .contact li:hover{
+		-webkit-transition: all 0.4s ease 0s;
+		transition: all 0.4s ease 0s;
+		color: #F71919;
+	}
+	.deep-footer{
+		font-size:12px;
+		border-top: 1px solid #E0E0E0;
+	}
+	.copyright{
+		text-align: center;
+		margin-top:15px;
+	}
+	.payments-icons{
+		display: inline-block;
+		list-style: none;
+		padding-left: 0px;
+	}
+	.payments-icons > li{
+		float:left;
+	}
+	.payments-icons img{
+		width:45px;
+	}
+	
+	/* responsive*/
+	@media(min-width:768px){
+		.payments-icons{
+			float:right;
+		}
+		.copyright{
+			text-align: left;
+			margin-top:10px;
+		}
+	}
+	@media(max-width:768px){
+		.footer h4{
+			border-bottom: 0px solid #D5D5D5;
+			margin-bottom: 5px;
+			margin-top: 5px;
+		}
+		.link-holder{
+			padding-left: 10px;
+		}
+		.media{
+			margin-top: 0px;
+		}
+		
+	}
+	.footer-separator{
+		margin:20px 0px;
+		border-top:1px solid #E0E0E0;
+	}
+
+  </style>
+  
+
+  
+
+
+  <div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-sm-push-6 col-md-push-0"><h4>About Us</h4>
+				<div class="media">
+				  <a class="pull-left" href="#">
+					<img width="70px" class="media-object" src="image/esto.jpg" >
+				  </a>
+				  <p class="about-text">After developing many web stores using OpenCart we discovered the power and versatility of 
+				  this Shopping Cart, but also we miss some basic and useful mods in it. For this reasons we offer 
+				  this mods in our shop at a reasonable price, because we take into account that users who choose 
+				  OpenCart also do it because is a free Open Source solution.</p>
+				</div>
+				
+			</div>
+			<div class="visible-xs footer-separator"></div>
+			<div class="col-md-3 col-sm-6 col-md-pull-0 col-sm-pull-6"><h4>Information</h4>
+				<ul class="link-holder">
+					<li><a href="">Documentation</a></li>
+					<li><a href="">Know Our customers</a></li>
+					<li><a href="">Privacy Policy</a></li>
+					<li><a href="">Terms & Conditions</a></li>
+				</ul>
+			</div>
+			<div class="visible-xs footer-separator"></div>
+			<div class="clearfix visible-sm"></div>
+			<div class="col-md-3 col-sm-6"><h4>My Account</h4>
+				<ul class="link-holder">
+					<li><a href="">My Account</a></li>
+					<li><a href="">Order History</a></li>
+					<li><a href="">Downloads</a></li>
+					<li><a href="">Wishlist</a></li>
+				</ul>
+			</div>
+			<div class="visible-xs footer-separator"></div>
+			<div class="col-md-3 col-sm-6 contact">
+				<h4>Contact Details</h4>
+				<ul class="link-holder">
+					<li><span class="contact-ico fa fa-envelope"></span><a href="">joolfe04@gmail.com</a></li>
+					<li><span class="contact-ico fa fa-envelope-o"></span><a href="">jolivapps@gmail.com</a></li>
+					<li><span class="contact-ico fa fa-comment"></span><a href="">joolfe04@gmail.com</a></li>
+					<li><span class="contact-ico fa fa-clock-o"></span>10am to 17pm</li>
+					<li><span class="contact-ico fa fa-shopping-cart"></span><a href="http://www.opencart.com/index.php?route=extension/extension&filter_username=joliva">Us in Opencart Web</a></li>
+				</ul>
+				<div class="btn-holder">
+					<button class="btn btn-default btn-block" data-toggle="modal" data-target="#contact-modal"><span class="contact-ico fa fa-pencil-square-o"></span>Send us a message!</button>
+				</div>
+			
+			</div>
+		</div>
+		
+		<div class="row deep-footer">
+			<div class="col-sm-6 copyright">&copy; 2014 JolivApps. All Rights Reserved | <a href="" target="_blank">Attributions</a></div>
+			<div class="col-sm-6 text-center">
+				<ul class="payments-icons">
+					<li><img src="image/paypal.png" alt=""></li>
+					<li><img src="image/visa.png" alt=""></li>
+					<li><img src="image/mastercard.png" alt=""></li>
+					<li><img src="image/american-express.png" alt=""></li>	
+					<li><img src="image/discover.png" alt=""></li>				
+				</ul>
+			</div>		
+		</div>
+	</div>
+  </div>
+  
+  <div class="modal fade" id="contact-modal" role="dialog">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title"><span class="fa fa-envelope"></span>&nbsp;Contact Us</h4>
+		  </div>
+		  <div class="modal-body">
+			<form>
+				<div class="form-group">
+					<label class="sr-only" for="contact-name">Name</label>
+					<input type="text" class="form-control" id="contact-name" placeholder="Name...">
+				</div>
+				<div class="form-group">
+					<label class="sr-only" for="contact-email">Email</label>
+					<input type="email" class="form-control" id="contact-email" placeholder="Email...">
+				</div>
+				<div class="form-group">
+					<label class="sr-only" for="contact-text">Enquiry</label>
+					<textarea class="form-control" style="resize: none;" id="contact-text" rows="3" placeholder="Enquiry..."></textarea>
+				</div>
+				<div class="form-group">
+					<label class="sr-only" for="contact-captcha">Captcha</label>
+					<div class="row">
+						<div class="col-xs-6" style="">
+							<img class="img-responsive" src="image/index.jpg"></img>
+						</div>
+						<div class="col-xs-6">
+							<input type="text" id="contact-captcha" class="form-control" placeholder="Enter Code...">
+						</div>
+					</div>
+				</div>
+			</form>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-primary">Send</button>
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<script>
+		$('input, textarea').placeholder();
+	</script>
+	
+	<script>
+	
+	</script>
+	
+</body>
+</html>
