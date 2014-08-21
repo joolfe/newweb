@@ -28,9 +28,15 @@ NO ES MALA IDEA SI QUIEREN CONTROLES QU DEN A ZOOM!!!
 Diseño pagina productos:
 -------------------------
 
-FALTAN TOQUES DE COLOR DEMAISADO SIMPLE!
-
-- poner tooltips en lo de iconcitos??
+PROBAR
+- cambiar plan etiquetas 
+	- fono y en blanco
+	
+- tooltips de bootsrap desaparecer en mobile
+	entre esto
+		https://github.com/benschwarz/matchMedia.js/blob/IE7-8/matchMedia.js
+		o lo de touch enable quizas sea mejor...
+		http://stackoverflow.com/questions/11903001/hiding-bootstrap-tooltips-on-mobile-using-media-queries
 
 - Donde poner sumary y resumen
 - la insatllacion hay que ponerlo como en tbs algo asi investigar...
