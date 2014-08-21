@@ -214,8 +214,9 @@ ul.currency-set>li>a{
 }
 .btn.btn-flat-red:hover, .btn.btn-flat-red:focus, .btn.btn-flat-red:active, .btn.btn-flat-red.active {
 	text-decoration: none;
-	color: #FFF;
-	background-color: #F71919;
+	color: #F71919;
+	border-color: #F71919;
+	background-color: #F4F4F4;
 }
 .btn-flat-dark {
 	color: #333;
@@ -224,8 +225,8 @@ ul.currency-set>li>a{
 }
 .btn.btn-flat-dark:hover, .btn.btn-flat-dark:focus, .btn.btn-flat-dark:active, .btn.btn-flat-dark.active {
 	text-decoration: none;
-	color: #FFF;
-	background-color: #333;
+	color: #333;
+	background-color: #F4F4F4;
 }
 .btn-flat-grey {
 	color: #ADADAD;
@@ -234,8 +235,8 @@ ul.currency-set>li>a{
 }
 .btn.btn-flat-grey:hover, .btn.btn-flat-grey:focus, .btn.btn-flat-grey:active, .btn.btn-flat-grey.active {
 	text-decoration: none;
-	color: #FFF;
-	background-color: #ADADAD;
+	color: #ADADAD;
+	background-color: #F4F4F4;
 }
 
 
