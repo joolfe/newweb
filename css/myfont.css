@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "myfont";
+  src:url("../fonts/myfont.eot");
+  src:url("../fonts/myfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/myfont.woff") format("woff"),
+    url("../fonts/myfont.ttf") format("truetype"),
+    url("../fonts/myfont.svg#myfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "myfont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "myfont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-livejournal:before {
+  content: "a";
+}
+.icon-lab:before {
+  content: "b";
+}
+.icon-key:before {
+  content: "c";
+}
+.icon-bulb:before {
+  content: "d";
+}
+.icon-like:before {
+  content: "e";
+}
+.icon-location:before {
+  content: "f";
+}
+.icon-clock:before {
+  content: "g";
+}
+.icon-caddie-shop-shopping-streamline:before {
+  content: "h";
+}
+.icon-caddie-shopping-streamline:before {
+  content: "i";
+}
+.icon-user-outline:before {
+  content: "j";
+}
+.icon-user:before {
+  content: "k";
+}
+.icon-star:before {
+  content: "l";
+}
+.icon-star-two:before {
+  content: "m";
+}
+.icon-heart:before {
+  content: "n";
+}
+.icon-tag:before {
+  content: "o";
+}
+.icon-home-house-streamline:before {
+  content: "p";
+}
+.icon-download:before {
+  content: "q";
+}

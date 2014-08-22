@@ -71,9 +71,6 @@ http://321cart.com/demo/sellya/index.php?route=product/product&product_id=95
 - Megusta que estan separados como en cajitas
 http://themeforest.net/item/pav-digital-store-responsive-opencart-theme/full_screen_preview/6461154
 
-
-- Crear un carrousel responsive como el del tema que me dejo el tipo este ver!!
-
 - el carrito cuando es para movi hacer mas gorodo o de otro color el boton'? no me mola ocmo queda
 
 - captcha ver como lo hago a corde al estilo de todo, circulos de colores y la longitud...
@@ -83,21 +80,21 @@ http://themeforest.net/item/pav-digital-store-responsive-opencart-theme/full_scr
 - css pasarle algun validador
 
 iconos:
-- key
-- user
+|- key
+|- user
 - play en crculito o play (checkout)
-- cart
-- corazon
-- estrella
+|- cart
+|- corazon
+|- estrella
 - cart +
 - labs o flask o proveta vamos
 - lista de info
 - avion (enviar mensaje)
 - mail
-- mail alternativo
-- share s
+- mail alternativo ->
+- share (related products)
 - flecha top (go top)
-- cart añternativo?
+- cart alternatibo -> indicra web en opencart osea que bola del mundo vale..
 - reloj
 - globo de mensaje
 - lupa
@@ -107,3 +104,7 @@ iconos:
 - download
 - vesion up
 - version down.
+- icono para responsive
+- vqmod tb
+|- home
+
