@@ -566,7 +566,8 @@ button.mfp-arrow.ctrl-btn{
 	margin-top: 0px;
 	margin-bottom: 20px;
 	color: #555;
-	font-weight: bolder;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
 }
 .product-info .price{
 	margin-bottom: 11px;
@@ -609,10 +610,18 @@ button.mfp-arrow.ctrl-btn{
 	}
 }
 
-
+/* Estrellitas */
 .review{
 	color:#F71919;
 }
 .review .empty{
-	color:#333;
+	color:#474747;
+}
+
+/* sumary */
+.summary{
+	color: #FFF;
+	background-color: #474747;	
+	padding: 20px;
+	margin-top: 20px;
 }
