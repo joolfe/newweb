@@ -53,10 +53,53 @@
 	@media (min-width: 1200px) {.hidden-inline-xs.hidden-lg {display: none !important;}}
 	/* adaptative */
 	.field-separator{margin-top:10px}
+
+
+
+	/* para el width */
+	.background{
+		background-color: #888;
+		color: #FFF;
+		padding: 20px 0px;
+	}
+	.background .title{
+		font-weight: bolder;
+	}
+	.background .body{
+
+	}
+
+
 </style>
 
 </head>
 <body>
+
+	<div class="background">
+		<div class="container">
+			<div class="title">
+				Show your products in tabs anywhere in your store showing great amount of information in a small space.
+			</div>
+			<div class="body">
+				The mod has a lot of easy configuration options and thanks to the separation between tabs and the module in the settings you can create a tab (defining products to be displayed inside and the title) and display it on many modules as you want across your store.
+				</br></br>Features:
+				<ul>
+					<li>Multilanguage.</li>
+					<li>Simple configuration.</li>
+					<li>Definition of separate tabs.</li>
+					<li>Create as many modules as you want.</li>
+					<li>3 different types of product selection</li>
+				</ul>
+
+				Product Selection:
+				<ul>
+					<li>List specific products (Choosen with autocomplet)</li>
+					<li>By group (Bestseller, latest, Popular or Special)</li>
+					<li>Custom Query (Choose category, manufacturer and order...)</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
 <div class="container">
 	<div style="margin-top:100px;"></div>
@@ -612,36 +655,73 @@
 		</div>
 	</div>
 </br></br>
+	
 	<div>
 
-		<div class="btn btn-lg btn-primary" href="http://dotstrap.com/">
-          <i class="fa fa-eye pull-left"></i>
-          <span>1020<br><small>Views</small></span>
-    	</div> 
 
-    	<div class="btn btn-lg btn-primary" href="http://dotstrap.com/">
-          <i class="fa fa-download"></i>
-          <span>60<br><small>Downloads</small></span>
-    	</div> 
+    	<div class="tag tag-first" href="http://dotstrap.com/">
+          <div class="icon">
+	          <i class="fa fa-eye"></i>
+	          <div>1020</div>
+        	</div>
+          <div class="text">Views</div>
+    	</div>
+
+    	<div class="tag tag-first" href="http://dotstrap.com/">
+          <div class="icon">
+	          <i class="fa fa-download"></i>
+	          <div>60</div>
+        	</div>
+          <div class="text">Downloads</div>
+    	</div>
+
+    	<div class="tag tag-first" href="http://dotstrap.com/">
+          <div class="icon">
+	          <i class="fa fa-check-square-o"></i>
+	          <div>2.4.1</div>
+        	</div>
+          <div class="text">VQmod</div>
+    	</div>
 
 
-    	<div class="btn btn-lg btn-primary" href="http://dotstrap.com/">
-          <i class="fa fa-check-square-o"></i>
-          <span>VQmod<br><small>Required</small></span>
-    	</div> 
+    	<div class="tag tag-first" href="http://dotstrap.com/">
+          <div class="icon">
+	          <i class="fa fa-tablet"></i>
+	          <div>Design</div>
+        	</div>
+          <div class="text">Responsive</div>
+    	</div>
 
+    	<div class="tag tag-first" href="http://dotstrap.com/">
+          <div class="icon no-text">
+	          <i class="fa fa-flag"></i>
+        	</div>
+          <div class="text">Multilanguage</div>
+    	</div>
 
-    	<div class="btn btn-lg btn-primary" href="http://dotstrap.com/">
-          <i class="fa fa-mobile"></i>
-          <span>Responsive<br><small>Design</small></span>
-    	</div> 
+    	<div class="tag tag-first" href="http://dotstrap.com/">
+          <div class="icon">
+	          <i class="fa fa-history"></i>
+	          <div>1.5.6</div>
+        	</div>
+          <div class="text">up Version</div>
+    	</div>
 
-    	
+    	<div class="tag tag-first" href="http://dotstrap.com/">
+          <div class="icon">
+	          <i class="fa fa-magic"></i>
+	          <div>Easy</div>
+        	</div>
+          <div class="text">Configuration</div>
+    	</div>
 
-    	<div class="btn btn-lg btn-primary" href="http://dotstrap.com/">
-          <i class="fa fa-language"></i>
-          <span>Multilanguage<br><small>Ready</small></span>
-    	</div> 
+    	<div class="tag tag-first" href="http://dotstrap.com/">
+          <div class="icon">
+	          <i class="fa fa-tint"></i>
+	          <div>Two</div>
+        	</div>
+          <div class="text">Diferent Styles</div>
+    	</div>
 
     	</br>
     	</br>
@@ -651,6 +731,38 @@
 
 
 	<style>
+
+		.tag{
+			display: inline-block;
+			text-align: center;
+			margin-right: 10px;
+		}
+		.tag .icon{
+			border-radius: 100%;
+			padding: 10px;
+			width: 70px;
+			height: 70px;
+			margin: auto;
+		}
+		.tag .icon.no-text i{
+			margin-top: 8px;
+		}
+		.tag .icon i{
+			font-size: 34px;
+			vertical-align: middle;
+		}
+		.tag .text{
+			color: #6B6B6B;
+		}
+
+		.tag-first .icon{
+			border: 1px solid #F37676;
+			color: #F37676;
+			background-color: #FFF;
+		}
+		
+
+
 		.product-tile{
 			/*padding: 10px;*/
 			border: 1px solid #CCC;
