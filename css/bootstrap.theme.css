@@ -608,6 +608,11 @@ button.mfp-arrow.ctrl-btn{
 		padding: 10px;
 	}
 }
+@media(max-width:768px){
+	.product-info{
+		margin-top: 25px;
+	}
+}
 
 /* Estrellitas */
 .review{
@@ -622,6 +627,6 @@ button.mfp-arrow.ctrl-btn{
 	color: #333;
 	background-color: #F5F5F5;	
 	padding: 10px 20px;
-	margin-top: 20px;
+	margin-top: 25px;
 	border: 1px solid #D6D6D6;
 }
