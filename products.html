@@ -7,11 +7,13 @@
     <title>Home New Template</title>
      
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.theme.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 
+     <!-- Foonts -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -22,13 +24,18 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
     <!-- Popup -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css">
     <script src=" //cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
 
+    <!-- Carousel -->
+    <script type="text/javascript" src="scripts/owl.carousel.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/owl.carousel.css" />
 
+    <!-- Ellipsis -->
+    <script type="text/javascript" src="scripts/jquery.dotdotdot.min.js"></script>
 
   </head>
   <body>
@@ -288,37 +295,366 @@
               </div>
               <hr></hr>
               <div class="btn-holder">
-                <button class="btn btn-flat-red">Add to cart</button>
-                <a class="btn btn-flat-dark" href="#">Demo</a>
-                <a class="btn btn-flat-grey" href="">
+                <button class="btn btn-primary">Add to cart</button>
+                <a class="btn btn-dark" href="#">Demo</a>
+                <a class="btn btn-default" href="">
                   <span class="fa fa-heart-o"></span>
                 </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-     
-        <div class="container">
-           <div class="summary">
-          <h4>Show your products in tabs anywhere in your store showing great amount of information in a small space.</h4>
-          <p>The mod has a lot of easy configuration options and thanks to the separation between tabs and the module in the settings you can create a tab (defining products to be displayed inside and the title) and display it on many modules as you want across your store.</p>
-        </div>
-      </div>
-
-      <div class="container">
+        <!-- Summary -->
         <div class="row">
-          <div class="col-md-12">
-             <h3>Installation</h3>
+          <div class="col-xs-12">
+            <div class="summary">
+              <h4>Show your products in tabs anywhere in your store showing great amount of information in a small space.</h4>
+              <p>The mod has a lot of easy configuration options and thanks to the separation between tabs and the module in the settings you can create a tab (defining products to be displayed inside and the title) and display it on many modules as you want across your store.</p>
+            </div>
           </div>
         </div>
 
+        <!-- Reviews -->
         <div class="row">
-          <div class="col-md-12">
-            <h3>Related Products</h3>
+            <div class="col-xs-12">
+              <div class="box">
+              <div class="box-head">
+                <span class="box-title">
+                  <span class="fa fa-comments-o"></span>Reviews
+                </span>
+                <span class="triangle"></span>
+                <span class="nav-controlers"></span>
+              </div>
+              <div class="box-content">
+                      <div class="owl-carousel">
+                        <div class="item">
+                    <div class="bubble-rev">
+                      <h4>Juan manuel</h4>
+                      <div class="review">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o empty"></span>
+                        <span class="date">
+                              on 02 Dec 2013
+                            </span>
+                      </div>
+                      
+                      <p>
+                        I think this is just what i want, a name follow by the rating and the
+                        I think this is just what i want, a name follow by the rating and the date, the reviews normaly are very very sort i don´t know what is the longest but i think i have to put a limit no?
+                      </p>
+                    </div>
+                    <div class="icon-rev rel">
+                              <span class="fa fa-smile-o"></span>
+                    </div>
+                  </div>
+                         <div class="item">
+                    <div class="bubble-rev">
+                      <h4>Rocky</h4>
+                       <div class="review">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o empty"></span>
+                        <span class="fa fa-star-o empty"></span>
+                        <span class="fa fa-star-o empty"></span>
+                        <span class="date">
+                              on 02 Dec 2013
+                            </span>
+                      </div>
+                      
+                      <p>
+                        I think this is just what i want, a name follow by the rating and the date, the reviews normaly are very very sort i don´t know what is the longest but i think i have to put a limit no?
+                      </p>
+                    </div>
+                    <div class="icon-rev rel">
+                              <span class="fa fa-frown-o"></span>
+                    </div>
+                  </div>
+                        <div class="item">
+                    <div class="bubble-rev">
+                      <h4>Rafaela</h4>
+                          <div class="review">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="date">
+                              on 02 Dec 2013
+                            </span>
+                      </div>
+                      
+                      <p>
+                        I think this is just what i want, a name follow by the rating and the date, the reviews normaly are very very sort i don´t know what is the longest but i think i have to put a limit no?
+                      </p>
+                    </div>
+                    <div class="icon-rev rel">
+                              <span class="fa fa-smile-o"></span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="bubble-rev">
+                      <h4>Sotillos man</h4>
+                          <div class="review">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o empty"></span>
+                        <span class="fa fa-star-o empty"></span>
+                        <span class="date">
+                              on 02 Dec 2013
+                            </span>
+                      </div>
+                      
+                      <p>
+                        Great work and support, jorge is a supper guy!
+                      </p>
+                    </div>
+                    <div class="icon-rev rel">
+                              <span class="fa fa-meh-o"></span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="bubble-rev">
+                      <h4>Legolas</h4>
+                          <div class="review">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o empty"></span>
+                        <span class="date">
+                              on 02 Dec 2013
+                            </span>
+                      </div>
+                      
+                      <p>
+                        I think this is just what i want, a name follow by the rating and the date, the reviews normaly are very very sort i don´t know what is the longest but i think i have to put a limit no?
+                      </p>
+                    </div>
+                    <div class="icon-rev rel">
+                              <span class="fa fa-smile-o"></span>
+                    </div>
+                  </div>
+                      </div>
+                     </div>
+                    </div>
+              </div>
           </div>
-        </div>
+
+          <!-- Related products -->
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="box">
+                <div class="box-head">
+                  <span class="box-title">
+                    <span class="fa fa-share-alt"></span>Related Products
+                  </span>
+                  <span class="triangle"></span>
+                </div>
+                <div class="box-content">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <div class="product-tile">
+                        <img class="img-responsive" width="700px" src="http://jolivapps.com/image/data/tabs/tabs.png"/>
+                        <div class="product-body">
+                          <div class="name">Mail Templates for orders</div>
+                          <div class="row">
+                            <div class="col-xs-6 clear-pad-right">
+                              <div class="price">
+                                          <span class="price-old">$19.50</span> 
+                                          <span class="price-new">$10.75</span>
+                                      </div>
+                                  </div>
+                                  <div class="col-xs-6 clear-pad-left">
+                                      <div class="review">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-o empty"></span>
+                              </div>
+                            </div>
+                          </div>
+                                  <div class="desc">
+                                    Show your products in tabs anywhere in your store showing great amount of information in a small space.
+                                  </div>
+                          <div class="actions">
+                            <div class="row">
+                              <div class="col-xs-6 clear-pad-right">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-shopping-cart"></i>
+                                  <span>&nbsp;Add to cart</span>
+                                </button>
+                              </div>
+                              <div class="col-xs-3 clear-pad-all">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-flask"></i>
+                                  <span class="visible-xs-inline">&nbsp;Demo</span>
+                                </button>
+                              </div>
+                              <div class="col-xs-3 clear-pad-left">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-list"></i>
+                                  <span class="visible-xs-inline">&nbsp;Info</span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <div class="product-tile">
+                        <img class="img-responsive" width="700px" src="http://jolivapps.com/image/cache/data/cookie-advice/cookie-advice-220x140.png"/>
+                        <div class="product-body">
+                          <div class="name">Show it on Tab!</div>
+                          <div class="row">
+                            <div class="col-xs-6 clear-pad-right">
+                              <div class="price">
+                                          <span class="price-new">$10.00</span>
+                                      </div>
+                                  </div>
+                                  <div class="col-xs-6 clear-pad-left">
+                                      <div class="review">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-o empty"></span>
+                                <span class="fa fa-star-o empty"></span>
+                              </div>
+                            </div>
+                          </div>
+                                <div class="desc">
+                                    Configure side ads for your web of any kind of content: images, text, links ...
+                                </div>
+                          <div class="actions">
+                            <div class="row">
+                              <div class="col-xs-6 clear-pad-right">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-shopping-cart"></i>
+                                  <span>&nbsp;Add to cart</span>
+                                </button>
+                              </div>
+                              <div class="col-xs-3 clear-pad-all">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-flask"></i>
+                                  <span class="visible-xs-inline">&nbsp;Demo</span>
+                                </button>
+                              </div>
+                              <div class="col-xs-3 clear-pad-left">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-list"></i>
+                                  <span class="visible-xs-inline">&nbsp;Info</span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix visible-sm"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <div class="product-tile">
+                        <img class="img-responsive" width="700px" src="http://jolivapps.com/image/data/html-ads/htmlads.png"/>
+                        <div class="product-body">
+                          <div class="name">Order Counter</div>
+                                  <div class="row">
+                            <div class="col-xs-6 clear-pad-right">
+                              <div class="price">
+                                          <span class="price-old">$39.50</span> 
+                                          <span class="price-new">$37.75</span>
+                                      </div>
+                                  </div>
+                                  <div class="col-xs-6 clear-pad-left">
+                                      <div class="review">
+                                <span class="not-rated">Not rated yet!  </span>
+                              </div>
+                            </div>
+                          </div>
+                                  <div class="desc">
+                                    Show your customers how many sales are placed in your store, so increases the customer trust in your site.
+                                  </div>
+                          <div class="actions">
+                            <div class="row">
+                              <div class="col-xs-6 clear-pad-right">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-shopping-cart"></i>
+                                  <span>&nbsp;Add to cart</span>
+                                </button>
+                              </div>
+                              <div class="col-xs-3 clear-pad-all">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-flask"></i>
+                                  <span class="visible-xs-inline">&nbsp;Demo</span>
+                                </button>
+                              </div>
+                              <div class="col-xs-3 clear-pad-left">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-list"></i>
+                                  <span class="visible-xs-inline">&nbsp;Info</span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix visible-md"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <div class="product-tile">
+                        <img class="img-responsive" width="700px" src="http://jolivapps.com/image/cache/data/askProduct/ask-product-220x140.png"/>
+                        <div class="product-body">
+                          <div class="name">Order Counter</div>
+                          <div class="row">
+                            <div class="col-xs-6 clear-pad-right">
+                              <div class="price">
+                                          <span class="price-new">$10.50</span> 
+                                      </div>
+                                  </div>
+                                  <div class="col-xs-6 clear-pad-left">
+                                      <div class="review">
+                                <span class="not-rated">Not rated yet!  </span>
+                              </div>
+                            </div>
+                          </div>
+                                  <div class="desc">
+                                    Caja Rural Payment gateway for Opencart (Ruralvia)
+                                  </div>
+                          <div class="actions">
+                            <div class="row">
+                              <div class="col-xs-6 clear-pad-right">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-shopping-cart"></i>
+                                  <span>&nbsp;Add to cart</span>
+                                </button>
+                              </div>
+                              <div class="col-xs-3 clear-pad-all">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-flask"></i>
+                                  <span class="visible-xs-inline">&nbsp;Demo</span>
+                                </button>
+                              </div>
+                              <div class="col-xs-3 clear-pad-left">
+                                <button class="btn btn-flat-red btn-block">
+                                  <i class="fa fa-list"></i>
+                                  <span class="visible-xs-inline">&nbsp;Info</span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </div>
     </div>
 
@@ -474,6 +810,23 @@
           preload: [0,2] // Will preload 0 - before current, and 1 after the current image
         }
       });
+      // reviews acrousel 
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          dots:true,
+          navText:['<span class="fa fa-chevron-left"></span>','<span class="fa fa-chevron-right"></span>'],
+          navContainer:'.nav-controlers',
+          responsive:{
+              0:{items:1},
+              768:{items:2},
+              992:{items:3},
+              1200:{items:4}
+          }
+      });
+      // ellipsis 
+      $('.bubble-rev p').dotdotdot({watch: true});
     </script>
   </body>
 </html>
