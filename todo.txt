@@ -1,6 +1,4 @@
 
-- Usar fuente Roboto
-
 - Demasiados colores negros
 	links tienen uno
 	links fe footer otros
@@ -17,8 +15,6 @@ NO ES MALA IDEA SI QUIEREN CONTROLES QU DEN A ZOOM!!!
 - Logo de about tiene que ser fotico mia o algo
 	Me tengo que acer una fotico la trato un poco y listo
 
-- hacer una version flat a ver que tal se ve...
-
 - Carousel: Las imagenes deben ser mayores a los 570 para que se vena bie siempre incluso en md cuando se reduce..
 
 - ver lo de camtasia estudio poner gifs como aqui https://github.com/cdowdy/concrete5-Magnific-Popup mola bastante.
@@ -28,6 +24,10 @@ NO ES MALA IDEA SI QUIEREN CONTROLES QU DEN A ZOOM!!!
 Diseño pagina productos:
 -------------------------
 
+- crear cajas blancas contenedoras.
+- pensar como ajustar la info de los productos.
+
+
 PROBAR
 - cambiar plan etiquetas 
 	- fono y en blanco
@@ -36,13 +36,8 @@ PROBAR
 
 - la insatllacion ponemos boton y un download y lo hago en un html a parte y listo...
 
-- Product info:
-	- Orden de lementos e preico suele se rlo primeros
-	Titulo
-	Precio
-	review
-	infos
-	botones
+
+
 
 
 EJEMPLOS INSPIRACIONALES
@@ -66,7 +61,7 @@ http://321cart.com/demo/sellya/index.php?route=product/product&product_id=95
 - Megusta que estan separados como en cajitas
 http://themeforest.net/item/pav-digital-store-responsive-opencart-theme/full_screen_preview/6461154
 
-- el carrito cuando es para movi hacer mas gorodo o de otro color el boton'? no me mola ocmo queda
+- hacer una version flat a ver que tal se ve...
 
 - captcha ver como lo hago a corde al estilo de todo, circulos de colores y la longitud...
 
