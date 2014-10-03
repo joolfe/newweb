@@ -5,13 +5,6 @@
 	headers otros...
 	tego que arreglar eso...s
 
-- carousel: Sin controles ni ostias me gusta mucho,
-hacer una prueba sin controles bajando texto y dema 
-NO ES MALA IDEA SI QUIEREN CONTROLES QU DEN A ZOOM!!!
-
-- Usar solo glypicons o fa o hacerme una personalizada??
-	fontello revisar
-
 - Logo de about tiene que ser fotico mia o algo
 	Me tengo que acer una fotico la trato un poco y listo
 
@@ -19,24 +12,40 @@ NO ES MALA IDEA SI QUIEREN CONTROLES QU DEN A ZOOM!!!
 
 - ver lo de camtasia estudio poner gifs como aqui https://github.com/cdowdy/concrete5-Magnific-Popup mola bastante.
 
+- hacer una version flat a ver que tal se ve...
 
+- captcha colores guay pero no me usta como se redimensiona...pongo mas gande o como??
+
+- Buscar que licencia pongo en el css.
+
+- css pasarle algun validador
+
+- meter validadores html5 en formularios????
+
+- en carousel de productos poner alguna pista de que s epude arrastrar?? plan tutorial??
 
 Diseño pagina productos:
 -------------------------
+- carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
+	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
-- crear cajas blancas contenedoras.
-- pensar como ajustar la info de los productos.
+- OJO tengo que meter download y documentaicon?? donde lo hago??
+	2 opciones:
+		- lo pongo con la info producto
+		- lo pongo a la altura del sumary
+	Las etiquetas las voy a poner al final o no??
+
+SI lo pongo en la desc de producto puedo quitar la info de views etc y ponerla en las eiquetas que queria??
+
+- descripcion y etiquetas en dos div de 6 col??
+
+- la insatllacion ponemos boton y un download y lo hago en un html a parte y listo...
 
 
 PROBAR
 - cambiar plan etiquetas 
 	- fono y en blanco
 	
-- Poner nu boton de add review en e carousel??
-
-- la insatllacion ponemos boton y un download y lo hago en un html a parte y listo...
-
-
 
 
 
@@ -61,13 +70,8 @@ http://321cart.com/demo/sellya/index.php?route=product/product&product_id=95
 - Megusta que estan separados como en cajitas
 http://themeforest.net/item/pav-digital-store-responsive-opencart-theme/full_screen_preview/6461154
 
-- hacer una version flat a ver que tal se ve...
 
-- captcha ver como lo hago a corde al estilo de todo, circulos de colores y la longitud...
 
-- Buscar que licencia pongo en el css.
-
-- css pasarle algun validador
 
 iconos:
 |- key
@@ -98,3 +102,39 @@ iconos:
 - vqmod tb
 |- home
 
+
+
+
+	function showImage() {
+        $image = imagecreatetruecolor($this->height, $this->width);
+
+        $width = imagesx($image); 
+        $height = imagesy($image);
+		
+        $black = imagecolorallocate($image, 0, 0, 0); 
+        $white = imagecolorallocate($image, 255, 255, 255); 
+        $red = imagecolorallocate($image, 247, 25, 25); 
+        $green = imagecolorallocate($image, 128, 128, 128); 
+        $blue = imagecolorallocate($image, 249, 124, 124); 
+        $gris = imagecolorallocate($image, 204, 204, 204); 
+         
+        imagefilledrectangle($image, 0, 0, $width, $height, $white); 
+         
+        imagefilledellipse($image, ceil(rand(5, 145)), ceil(rand(0, 35)), 30, 30, $red); 
+        imagefilledellipse($image, ceil(rand(5, 145)), ceil(rand(0, 35)), 30, 30, $green); 
+        imagefilledellipse($image, ceil(rand(5, 145)), ceil(rand(0, 35)), 30, 30, $blue); 
+        imagefilledellipse($image, ceil(rand(5, 145)), ceil(rand(0, 35)), 30, 30, $gris); 
+
+        imagefilledrectangle($image, 0, 0, $width, 0, $gris); 
+        imagefilledrectangle($image, $width - 1, 0, $width - 1, $height - 1, $gris); 
+        imagefilledrectangle($image, 0, 0, 0, $height - 1, $gris); 
+        imagefilledrectangle($image, 0, $height - 1, $width, $height - 1, $gris); 
+         
+        imagestring($image, 10, intval(($width - (strlen($this->code) * 9)) / 2),  intval(($height - 15) / 2), $this->code, $black);
+	
+		header('Content-type: image/jpeg');
+		
+		imagejpeg($image);
+		
+		imagedestroy($image);		
+	}
