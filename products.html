@@ -255,19 +255,13 @@
                 <a href="#" id="link-review">3 reviews</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" id="link-write-review">Write a review</a>
               </div>
               <hr></hr>
-              <div class="indicators">
-                <span data-toggle="tooltip"  data-original-title="Views">
-                  <span class="fa fa-eye"></span>&nbsp;&nbsp;3000
-                </span>
-                <span data-toggle="tooltip"  data-original-title="Downloads">
-                  <span class="fa fa-download"></span>&nbsp;&nbsp;40
-                </span>
-                <span data-toggle="tooltip"  data-original-title="Max version supported">
-                  <span class="fa fa-arrow-circle-o-up"></span>&nbsp;&nbsp;v1.5.6
-                </span>
-                <span data-toggle="tooltip"  data-original-title="Min version supported">
-                  <span class="fa fa-arrow-circle-o-down"></span>&nbsp;&nbsp;v1.5.2
-                </span>
+              <div class="documentation">
+                <a class="btn btn-invisible" href="#">
+                  <span class="fa fa-book"></span>&nbsp;&nbsp;Documentation
+                </a>
+                <a class="btn btn-invisible" href="#">
+                  <span class="fa fa-print"></span>&nbsp;&nbsp;Download Docu.
+                </a>
               </div>
               <hr></hr>
               <div class="price"> 
@@ -305,12 +299,124 @@
 
         <!-- Summary -->
         <div class="row">
-          <div class="col-xs-12">
+
+          <div class="col-sm-6 col-md-5">
+            <div class="box" id="tag-container">
+              <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-3">
+                  <div class="tag-wrap">
+                    <div class="tag tag-view">
+                      <span class="fa fa-eye"></span>
+                      <div class="info">80</div>
+                    </div>
+                    <div class="caption">Views</div>
+                  </div>
+                </div>
+
+                <div class="col-xs-4 col-sm-4 col-md-3">
+                  <div class="tag-wrap">
+                    <div class="tag tag-down">
+                      <span class="fa fa-download"></span>
+                      <div class="info">12</div>
+                    </div>
+                    <div class="caption">Downloads</div>
+                  </div>
+                </div>
+
+                <div class="col-xs-4 col-sm-4 col-md-3">
+                  <div class="tag-wrap">
+                    <div class="tag tag-version-max">
+                      <span class="fa fa-hand-o-up"></span>
+                      <div class="info">1.5.6</div>
+                    </div>
+                    <div class="caption">Max Version</div>
+                  </div>
+                </div>
+
+                <div class="col-xs-4 col-sm-4 col-md-3">
+                  <div class="tag-wrap">
+                    <div class="tag tag-version-min">
+                      <span class="fa fa-hand-o-down"></span>
+                      <div class="info">1.5.2</div>
+                    </div>
+                    <div class="caption">Min Version</div>
+                  </div>
+                </div>
+   
+                <div class="col-xs-4 col-sm-4 col-md-3">   
+                  <div class="tag-wrap">
+                    <div class="tag tag-vqmod">
+                      <span class="fa fa-plug only-icon"></span>
+                    </div>
+                    <div class="caption">Vqmod</div>
+                  </div>
+                </div>
+              </div>
+<!--
+              <div class="tag-wrap">
+                <div class="tag tag-install">
+                  <span class="fa fa-magic"></span>
+                  <div class="info">Easy</div>
+                </div>
+                <div class="caption">Install</div>
+              </div>
+
+              <div class="tag-wrap">
+                <div class="tag tag-resp">
+                  <span class="fa fa-mobile only-icon"></span>
+                </div>
+                <div class="caption">Responsive</div>
+              </div>
+
+              <div class="tag-wrap">
+                <div class="tag tag-langua">
+                  <span class="fa fa-flag"></span>
+                  <div class="info">Multi</div>
+                </div>
+                <div class="caption">language</div>
+              </div>
+
+              <div class="tag-wrap">
+                <div class="tag tag-boot">
+                  <span class="fa fa-twitter only-icon"></span>
+                </div>
+                <div class="caption">Bootstrap</div>
+              </div>
+
+              <div class="tag-wrap">
+                <div class="tag tag-html">
+                  <span class="fa fa-pencil-square-o"></span>
+                  <div class="info">html</div>
+                </div>
+                <div class="caption">Editor</div>
+              </div>
+
+              <div class="tag-wrap">
+                <div class="tag tag-skin">
+                  <span class="fa fa-paint-brush"></span>
+                  <div class="info">multi</div>
+                </div>
+                <div class="caption">skin/theme</div>
+              </div>
+
+              <div class="tag-wrap">
+                <div class="tag tag-js">
+                  <span class="fa fa-puzzle-piece"></span>
+                  <div class="info">need</div>
+                </div>
+                <div class="caption">jquery</div>
+              </div>
+-->
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-7">
             <div class="summary">
               <h4>Show your products in tabs anywhere in your store showing great amount of information in a small space.</h4>
               <p>The mod has a lot of easy configuration options and thanks to the separation between tabs and the module in the settings you can create a tab (defining products to be displayed inside and the title) and display it on many modules as you want across your store.</p>
             </div>
           </div>
+        
         </div>
 
         <!-- Reviews -->
@@ -535,11 +641,9 @@
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-flask"></i>
-                                    <span class="visible-xs-inline">&nbsp;Demo</span>
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-list"></i>
-                                    <span class="visible-xs-inline">&nbsp;Info</span>
                                   </button>
                                 </div>
                               </div>
@@ -582,11 +686,9 @@
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-flask"></i>
-                                    <span class="visible-xs-inline">&nbsp;Demo</span>
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-list"></i>
-                                    <span class="visible-xs-inline">&nbsp;Info</span>
                                   </button>
                                 </div>
                               </div>
@@ -627,11 +729,9 @@
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-flask"></i>
-                                    <span class="visible-xs-inline">&nbsp;Demo</span>
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-list"></i>
-                                    <span class="visible-xs-inline">&nbsp;Info</span>
                                   </button>
                                 </div>
                               </div>
@@ -671,11 +771,9 @@
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-flask"></i>
-                                    <span class="visible-xs-inline">&nbsp;Demo</span>
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-list"></i>
-                                    <span class="visible-xs-inline">&nbsp;Info</span>
                                   </button>
                                 </div>
                               </div>
@@ -822,8 +920,6 @@
             e.stopPropagation();
         });
       });
-      // tooltips de indicadores
-      $('.indicators > span').tooltip();
       // Magnific zoom
       $('.zoom').magnificPopup({
         type: 'image',

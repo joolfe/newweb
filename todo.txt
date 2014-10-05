@@ -29,23 +29,9 @@ Diseño pagina productos:
 - carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
 	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
-- OJO tengo que meter download y documentaicon?? donde lo hago??
-	2 opciones:
-		- lo pongo con la info producto
-		- lo pongo a la altura del sumary
-	Las etiquetas las voy a poner al final o no??
-
-SI lo pongo en la desc de producto puedo quitar la info de views etc y ponerla en las eiquetas que queria??
-
-- descripcion y etiquetas en dos div de 6 col??
-
-- la insatllacion ponemos boton y un download y lo hago en un html a parte y listo...
-
-
-PROBAR
-- cambiar plan etiquetas 
-	- fono y en blanco
-	
+- en los iles no se si tb inkar imagen y titulo del producto??
+- hay un error en los botones del modal de login cuando esta en desktop, revisar.
+- rediseñar los modals al nuevo estilo?
 
 
 
@@ -69,7 +55,6 @@ http://321cart.com/demo/sellya/index.php?route=product/product&product_id=95
 
 - Megusta que estan separados como en cajitas
 http://themeforest.net/item/pav-digital-store-responsive-opencart-theme/full_screen_preview/6461154
-
 
 
 
