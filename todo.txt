@@ -26,12 +26,20 @@
 
 Diseño pagina productos:
 -------------------------
-- carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
+PAGINA ACCOUNT
+- hago que se active la opcion en la que estamos en el menu?? ojo que va a requerir programar mucho no??
+
+- Tanto los links de abajo como otros al estar con el focus se queda uy feo es mejor que solo sea en el hover, revisar, la prueba es
+pinchar una opcion (account) y cerra el popup sigue pillao cuando 
+temueves y no mola...
+- en los tiles no se si tb inkar imagen y titulo del producto??
+
+- Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
 	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
-- en los iles no se si tb inkar imagen y titulo del producto??
 - hay un error en los botones del modal de login cuando esta en desktop, revisar.
 - rediseñar los modals al nuevo estilo?
+
 
 
 
