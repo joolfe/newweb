@@ -27,6 +27,13 @@
 Diseño pagina productos:
 -------------------------
 ACCOUNT:
+- al terminar el form en linea hacer verison agrupada a ver...
+- poner el width que necesitan cada uno de input.
+- permitir ver password con un chekbox etc...
+- revisar los legend mas chulos o que se vean bien
+- hay un margin en los inputs por los cols si pongo un row se arregla probar qu eme gusta mas.
+- hcer lo del forgoten que decia en un iconcito??
+- pensar si botones cart o rojos sigo dudando...
 - convertir el menu lateral  en un menu depslegable en xs?????
 
 PRODUCTOS
