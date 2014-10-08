@@ -201,42 +201,56 @@
           </ol>
         </div>
 
-        <div class="row"> 
+        <div class="row">
           <!-- Product Carousel -->
-          <div class="col-xs-12">
-          <div class="main-container">
-          <div class="row"> 
-
-          <div class="col-xs-12 col-md-7 col-lg-8 carousel-div">
-            <div id="carousel-product">
-              <div class="item active">
-                <img data-src="ex-img/carousel1.jpg" alt="900x500" src="ex-img/carousel1.jpg">
-                <div class="carousel-caption hidden-xs">
-                  <span>First slide label</span>
-                  <a class="zoom" href="ex-img/config-tabs-query.jpg"><i  class="fa fa-search-plus"></i></a>
+          <div class="col-xs-12 col-md-7 col-lg-8">
+            <div id="carousel-product" class="carousel slide" data-ride="carousel" data-interval="false">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-product" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-product" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-product" data-slide-to="2" class=""></li>
+                <li data-target="#carousel-product" data-slide-to="3" class=""></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img data-src="ex-img/carousel1.jpg" alt="900x500" src="ex-img/carousel1.jpg">
+                  <div class="carousel-caption hidden-xs">
+                    <span>First slide label</span>
+                    <a class="zoom" href="ex-img/config-tabs-query.jpg"><i  class="fa fa-search-plus"></i></a>
+                  </div>
+                </div>
+                <div class="item">
+                  <img data-src="ex-img/carousel2.jpg" alt="900x500" src="ex-img/carousel2.jpg">
+                  <div class="carousel-caption hidden-xs">
+                    <span>Second slide label</span>
+                    <a class="zoom" href="ex-img/config-modules.jpg"><i  class="fa fa-search-plus"></i></a>
+                  </div>
+                </div>
+                <div class="item">
+                  <img data-src="ex-img/carousel3.jpg" alt="900x500" src="ex-img/carousel3.jpg">
+                  <div class="carousel-caption hidden-xs">
+                    <span>Third slide label</span>
+                    <a class="zoom" href="ex-img/example-1.jpg"><i  class="fa fa-search-plus"></i></a>
+                  </div>
+                </div>
+                <div class="item">
+                  <img data-src="ex-img/carousel4.jpg" alt="900x500" src="ex-img/carousel4.jpg">
+                  <div class="carousel-caption hidden-xs">
+                    <span>Third slide label</span>
+                    <a class="zoom" href="ex-img/example-2.jpg"><i  class="fa fa-search-plus"></i></a>
+                  </div>
                 </div>
               </div>
-              <div class="item">
-                <img data-src="ex-img/carousel2.jpg" alt="900x500" src="ex-img/carousel2.jpg">
-                <div class="carousel-caption hidden-xs">
-                  <span>Second slide label</span>
-                  <a class="zoom" href="ex-img/config-modules.jpg"><i  class="fa fa-search-plus"></i></a>
+              <a class="left-f carousel-control" href="#carousel-product" role="button" data-slide="prev">
+                <div class="ctrl-btn">
+                  <span class="fa fa-chevron-left"></span>
                 </div>
-              </div>
-              <div class="item">
-                <img data-src="ex-img/carousel3.jpg" alt="900x500" src="ex-img/carousel3.jpg">
-                <div class="carousel-caption hidden-xs">
-                  <span>Third slide label</span>
-                  <a class="zoom" href="ex-img/example-1.jpg"><i  class="fa fa-search-plus"></i></a>
+              </a>
+              <a class="right-f carousel-control" href="#carousel-product" role="button" data-slide="next">
+                <div class="ctrl-btn">
+                  <span class="fa fa-chevron-right"></span>
                 </div>
-              </div>
-              <div class="item">
-                <img data-src="ex-img/carousel4.jpg" alt="900x500" src="ex-img/carousel4.jpg">
-                <div class="carousel-caption hidden-xs">
-                  <span>Third slide label</span>
-                  <a class="zoom" href="ex-img/example-2.jpg"><i  class="fa fa-search-plus"></i></a>
-                </div>
-              </div>
+              </a>
             </div>
           </div>
 
@@ -255,13 +269,19 @@
                 <a href="#" id="link-review">3 reviews</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" id="link-write-review">Write a review</a>
               </div>
               <hr></hr>
-              <div class="documentation">
-                <a class="btn btn-invisible" href="#">
-                  <span class="fa fa-book"></span>&nbsp;&nbsp;Documentation
-                </a>
-                <a class="btn btn-invisible" href="#">
-                  <span class="fa fa-print"></span>&nbsp;&nbsp;Download Docu.
-                </a>
+              <div class="indicators">
+                <span data-toggle="tooltip"  data-original-title="Views">
+                  <span class="fa fa-eye"></span>&nbsp;&nbsp;3000
+                </span>
+                <span data-toggle="tooltip"  data-original-title="Downloads">
+                  <span class="fa fa-download"></span>&nbsp;&nbsp;40
+                </span>
+                <span data-toggle="tooltip"  data-original-title="Max version supported">
+                  <span class="fa fa-arrow-circle-o-up"></span>&nbsp;&nbsp;v1.5.6
+                </span>
+                <span data-toggle="tooltip"  data-original-title="Min version supported">
+                  <span class="fa fa-arrow-circle-o-down"></span>&nbsp;&nbsp;v1.5.2
+                </span>
               </div>
               <hr></hr>
               <div class="price"> 
@@ -274,149 +294,24 @@
               </div>
               <hr></hr>
               <div class="btn-holder">
-                <div class="row">
-                  <div class="col-xs-6 clear-pad-right">
-                    <button class="btn btn-primary btn-block">Add to cart</button>
-                  </div>
-                  <div class="col-xs-3 clear-pad-all">
-                    <a class="btn btn-secondary btn-block" href="#">Demo</a>
-                  </div>
-                  <div class="col-xs-3 clear-pad-left">
-                    <a class="btn btn-default btn-block" href="">
-                      <span class="fa fa-heart-o"></span>
-                      <span class="visible-sm-inline">&nbsp;Wish list</span>
-                    </a>
-                  </div>
-                </div>
+                <button class="btn btn-primary">Add to cart</button>
+                <a class="btn btn-secondary" href="#">Demo</a>
+                <a class="btn btn-default" href="">
+                  <span class="fa fa-heart-o"></span>
+                </a>
               </div>
             </div>
-          </div>
-          
-          </div>
-          </div>
           </div>
         </div>
 
         <!-- Summary -->
         <div class="row">
-
-          <div class="col-sm-6 col-md-5">
-            <div class="box" id="tag-container">
-              <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-3">
-                  <div class="tag-wrap">
-                    <div class="tag tag-view">
-                      <span class="fa fa-eye"></span>
-                      <div class="info">80</div>
-                    </div>
-                    <div class="caption">Views</div>
-                  </div>
-                </div>
-
-                <div class="col-xs-4 col-sm-4 col-md-3">
-                  <div class="tag-wrap">
-                    <div class="tag tag-down">
-                      <span class="fa fa-download"></span>
-                      <div class="info">12</div>
-                    </div>
-                    <div class="caption">Downloads</div>
-                  </div>
-                </div>
-
-                <div class="col-xs-4 col-sm-4 col-md-3">
-                  <div class="tag-wrap">
-                    <div class="tag tag-version-max">
-                      <span class="fa fa-hand-o-up"></span>
-                      <div class="info">1.5.6</div>
-                    </div>
-                    <div class="caption">Max Version</div>
-                  </div>
-                </div>
-
-                <div class="col-xs-4 col-sm-4 col-md-3">
-                  <div class="tag-wrap">
-                    <div class="tag tag-version-min">
-                      <span class="fa fa-hand-o-down"></span>
-                      <div class="info">1.5.2</div>
-                    </div>
-                    <div class="caption">Min Version</div>
-                  </div>
-                </div>
-   
-                <div class="col-xs-4 col-sm-4 col-md-3">   
-                  <div class="tag-wrap">
-                    <div class="tag tag-vqmod">
-                      <span class="fa fa-plug only-icon"></span>
-                    </div>
-                    <div class="caption">Vqmod</div>
-                  </div>
-                </div>
-              </div>
-<!--
-              <div class="tag-wrap">
-                <div class="tag tag-install">
-                  <span class="fa fa-magic"></span>
-                  <div class="info">Easy</div>
-                </div>
-                <div class="caption">Install</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-resp">
-                  <span class="fa fa-mobile only-icon"></span>
-                </div>
-                <div class="caption">Responsive</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-langua">
-                  <span class="fa fa-flag"></span>
-                  <div class="info">Multi</div>
-                </div>
-                <div class="caption">language</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-boot">
-                  <span class="fa fa-twitter only-icon"></span>
-                </div>
-                <div class="caption">Bootstrap</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-html">
-                  <span class="fa fa-pencil-square-o"></span>
-                  <div class="info">html</div>
-                </div>
-                <div class="caption">Editor</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-skin">
-                  <span class="fa fa-paint-brush"></span>
-                  <div class="info">multi</div>
-                </div>
-                <div class="caption">skin/theme</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-js">
-                  <span class="fa fa-puzzle-piece"></span>
-                  <div class="info">need</div>
-                </div>
-                <div class="caption">jquery</div>
-              </div>
--->
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-7">
+          <div class="col-xs-12">
             <div class="summary">
               <h4>Show your products in tabs anywhere in your store showing great amount of information in a small space.</h4>
               <p>The mod has a lot of easy configuration options and thanks to the separation between tabs and the module in the settings you can create a tab (defining products to be displayed inside and the title) and display it on many modules as you want across your store.</p>
             </div>
           </div>
-        
         </div>
 
         <!-- Reviews -->
@@ -429,7 +324,7 @@
                 </span>
                 <span class="nav-controlers"></span>
               </div>
-              <div class="box-content padd">
+              <div class="box-content has-carousel">
                 <div class="owl-carousel">
                   <div class="item">
                     <div class="bubble-rev">
@@ -454,7 +349,7 @@
                               <span class="fa fa-smile-o"></span>
                     </div>
                   </div>
-                  <div class="item">
+                         <div class="item">
                     <div class="bubble-rev">
                       <h4>Rocky</h4>
                        <div class="review">
@@ -476,7 +371,7 @@
                               <span class="fa fa-frown-o"></span>
                     </div>
                   </div>
-                  <div class="item">
+                        <div class="item">
                     <div class="bubble-rev">
                       <h4>Rafaela</h4>
                           <div class="review">
@@ -553,7 +448,7 @@
                     <span class="fa fa-pencil"></span>Write a review
                   </span>
                 </div>
-                <div class="box-content padd">
+                <div class="box-content has-carousel">
                   <form>
                     <div class="form-group">
                       <label class="sr-only" for="review-name">Name</label>
@@ -641,9 +536,11 @@
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-flask"></i>
+                                    <span class="visible-xs-inline">&nbsp;Demo</span>
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-list"></i>
+                                    <span class="visible-xs-inline">&nbsp;Info</span>
                                   </button>
                                 </div>
                               </div>
@@ -686,9 +583,11 @@
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-flask"></i>
+                                    <span class="visible-xs-inline">&nbsp;Demo</span>
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-list"></i>
+                                    <span class="visible-xs-inline">&nbsp;Info</span>
                                   </button>
                                 </div>
                               </div>
@@ -729,9 +628,11 @@
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-flask"></i>
+                                    <span class="visible-xs-inline">&nbsp;Demo</span>
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-list"></i>
+                                    <span class="visible-xs-inline">&nbsp;Info</span>
                                   </button>
                                 </div>
                               </div>
@@ -771,9 +672,11 @@
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-flask"></i>
+                                    <span class="visible-xs-inline">&nbsp;Demo</span>
                                   </button>
                                   <button class="btn btn-cart">
                                     <i class="fa fa-list"></i>
+                                    <span class="visible-xs-inline">&nbsp;Info</span>
                                   </button>
                                 </div>
                               </div>
@@ -920,6 +823,7 @@
             e.stopPropagation();
         });
       });
+      $('.indicators > span').tooltip();
       // Magnific zoom
       $('.zoom').magnificPopup({
         type: 'image',
@@ -937,7 +841,7 @@
       });
       // reviews acrousel 
       $('.owl-carousel').owlCarousel({
-          loop:false,
+          loop:true,
           margin:10,
           nav:true,
           dots:true,
@@ -967,6 +871,7 @@
         );
         $('.rating-input').mouseleave( 
           function(e) {
+            console.log("remuevo");
             var $elem =  $(this);
             $elem.find('label').removeClass('ind');
             if(!checked_rating){
@@ -1004,12 +909,6 @@
       $( "#link-write-review" ).click(function(e) {
         $('html, body').animate({scrollTop : $('#review-form').offset().top-20 },600);
         e.stopPropagation();
-      });
-      // Carousel producto
-      $('#carousel-product').owlCarousel({
-          items:1,
-          margin:10,
-          nav:false
       });
     </script>
   </body>

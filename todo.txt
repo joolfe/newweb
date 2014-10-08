@@ -1,53 +1,46 @@
 
-- Usar fuente Roboto
-
 - Demasiados colores negros
 	links tienen uno
 	links fe footer otros
 	headers otros...
 	tego que arreglar eso...s
 
-- carousel: Sin controles ni ostias me gusta mucho,
-hacer una prueba sin controles bajando texto y dema 
-NO ES MALA IDEA SI QUIEREN CONTROLES QU DEN A ZOOM!!!
-
-- Usar solo glypicons o fa o hacerme una personalizada??
-	fontello revisar
-
 - Logo de about tiene que ser fotico mia o algo
 	Me tengo que acer una fotico la trato un poco y listo
-
-- hacer una version flat a ver que tal se ve...
 
 - Carousel: Las imagenes deben ser mayores a los 570 para que se vena bie siempre incluso en md cuando se reduce..
 
 - ver lo de camtasia estudio poner gifs como aqui https://github.com/cdowdy/concrete5-Magnific-Popup mola bastante.
 
+- hacer una version flat a ver que tal se ve...
 
+- captcha colores guay pero no me usta como se redimensiona...pongo mas gande o como??
+
+- Buscar que licencia pongo en el css.
+
+- css pasarle algun validador
+
+- meter validadores html5 en formularios????
+
+- en carousel de productos poner alguna pista de que s epude arrastrar?? plan tutorial??
 
 Diseño pagina productos:
 -------------------------
+PAGINA ACCOUNT
+- hago que se active la opcion en la que estamos en el menu?? ojo que va a requerir programar mucho no??
 
-PROBAR
-- cambiar plan etiquetas 
-	- fono y en blanco
-	
-- tooltips de bootsrap desaparecer en mobile
-	entre esto
-		https://github.com/benschwarz/matchMedia.js/blob/IE7-8/matchMedia.js
-		o lo de touch enable quizas sea mejor...
-		http://stackoverflow.com/questions/11903001/hiding-bootstrap-tooltips-on-mobile-using-media-queries
+- Tanto los links de abajo como otros al estar con el focus se queda uy feo es mejor que solo sea en el hover, revisar, la prueba es
+pinchar una opcion (account) y cerra el popup sigue pillao cuando 
+temueves y no mola...
+- en los tiles no se si tb inkar imagen y titulo del producto??
 
-- Donde poner sumary y resumen
-- la insatllacion hay que ponerlo como en tbs algo asi investigar...
+- Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
+	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
-- Product info:
-	- Orden de lementos e preico suele se rlo primeros
-	Titulo
-	Precio
-	review
-	infos
-	botones
+- hay un error en los botones del modal de login cuando esta en desktop, revisar.
+- rediseñar los modals al nuevo estilo?
+
+
 
 
 EJEMPLOS INSPIRACIONALES
@@ -71,13 +64,7 @@ http://321cart.com/demo/sellya/index.php?route=product/product&product_id=95
 - Megusta que estan separados como en cajitas
 http://themeforest.net/item/pav-digital-store-responsive-opencart-theme/full_screen_preview/6461154
 
-- el carrito cuando es para movi hacer mas gorodo o de otro color el boton'? no me mola ocmo queda
 
-- captcha ver como lo hago a corde al estilo de todo, circulos de colores y la longitud...
-
-- Buscar que licencia pongo en el css.
-
-- css pasarle algun validador
 
 iconos:
 |- key
@@ -108,3 +95,39 @@ iconos:
 - vqmod tb
 |- home
 
+
+
+
+	function showImage() {
+        $image = imagecreatetruecolor($this->height, $this->width);
+
+        $width = imagesx($image); 
+        $height = imagesy($image);
+		
+        $black = imagecolorallocate($image, 0, 0, 0); 
+        $white = imagecolorallocate($image, 255, 255, 255); 
+        $red = imagecolorallocate($image, 247, 25, 25); 
+        $green = imagecolorallocate($image, 128, 128, 128); 
+        $blue = imagecolorallocate($image, 249, 124, 124); 
+        $gris = imagecolorallocate($image, 204, 204, 204); 
+         
+        imagefilledrectangle($image, 0, 0, $width, $height, $white); 
+         
+        imagefilledellipse($image, ceil(rand(5, 145)), ceil(rand(0, 35)), 30, 30, $red); 
+        imagefilledellipse($image, ceil(rand(5, 145)), ceil(rand(0, 35)), 30, 30, $green); 
+        imagefilledellipse($image, ceil(rand(5, 145)), ceil(rand(0, 35)), 30, 30, $blue); 
+        imagefilledellipse($image, ceil(rand(5, 145)), ceil(rand(0, 35)), 30, 30, $gris); 
+
+        imagefilledrectangle($image, 0, 0, $width, 0, $gris); 
+        imagefilledrectangle($image, $width - 1, 0, $width - 1, $height - 1, $gris); 
+        imagefilledrectangle($image, 0, 0, 0, $height - 1, $gris); 
+        imagefilledrectangle($image, 0, $height - 1, $width, $height - 1, $gris); 
+         
+        imagestring($image, 10, intval(($width - (strlen($this->code) * 9)) / 2),  intval(($height - 15) / 2), $this->code, $black);
+	
+		header('Content-type: image/jpeg');
+		
+		imagejpeg($image);
+		
+		imagedestroy($image);		
+	}
