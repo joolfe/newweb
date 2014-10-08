@@ -40,6 +40,13 @@ a:hover, a:focus{
 p{
 	margin: 0 0 15px;
 }
+legend{
+	font-size: 18px;
+	border-bottom: 1px solid #D6D6D6;
+}
+label{
+	color: #808080;
+}
 
 /* top nav*/
 .navbar-top {
@@ -955,6 +962,7 @@ button.mfp-arrow.ctrl-btn{
 .modal-dialog.modal-md{
 	width: 550px;
 }
+
 
 /* Responsive Css */
 @media(max-width:992px){

@@ -197,22 +197,111 @@
           <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
             <li><a href="#">Account</a></li>
-            <li class="active">Forgot Password</li>
+            <li class="active">New Account</li>
           </ol>
         </div>
 
         <div class="row">
           <div class="col-sm-8 col-md-9">
             <div class="box main-container">
-              <h2>Forgot Your Password?</h2>
-              <p>Enter the e-mail address associated with your account. Click submit to have your password e-mailed to you.</p>
+              <h2>Create New Account</h2>
+              <p>If you already have an account with us, please login at the <a href="account-login.html">login page</a>.</p>
               <form class="form-horizontal">
-                <div class="form-group">
-                  <div class="col-md-8 col-lg-6">
-                    <label class="sr-only" for="forgot-email">E-mail</label>
-                    <input type="text" class="form-control" id="forgot-email" placeholder="E-mail...">
-                  </div>
-                </div>
+                <fieldset>
+                  <legend>Your Personal Details</legend>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-firstname">First Name</label>
+                      <div class="col-md-9">
+                        <input type="text" name="firstname" value="" id="input-firstname" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-firstname">Last Name</label>
+                      <div class="col-md-9">
+                        <input type="text" name="firstname" value="" id="input-firstname" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-mail">E-mail</label>
+                      <div class="col-md-9">
+                        <input type="text" name="mail" value="" id="input-mail" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-telephone">Telephone</label>
+                      <div class="col-md-9">
+                        <input type="text" name="telephone" value="" id="input-telephone" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-fax">Fax</label>
+                      <div class="col-md-9">
+                        <input type="text" name="fax" value="" id="input-fax" class="form-control">
+                      </div>
+                    </div>                    
+                  <legend>Your Address</legend>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-company">Company</label>
+                      <div class="col-md-9">
+                        <input type="text" name="company" value="" id="input-company" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-address1">Address 1</label>
+                      <div class="col-md-9">
+                        <input type="text" name="address1" value="" id="input-address1" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-address2">Address 2</label>
+                      <div class="col-md-9">
+                        <input type="text" name="address2" value="" id="input-address2" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-city">City</label>
+                      <div class="col-md-9">
+                        <input type="text" name="city" value="" id="input-city" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-postcode">Post Code</label>
+                      <div class="col-md-9">
+                        <input type="text" name="postcode" value="" id="input-postcode" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-country">Country</label>
+                      <div class="col-md-9">
+                        <select name="country_id" id="input-country" class="form-control">
+                          <option value=""> --- Please Select --- </option>
+                          <option value="244">Aaland Islands</option>
+                          <option value="1">Afghanistan</option>
+                          <option value="2">Albania</option>
+                          <option value="3">Algeria</option>
+                          <option value="4">American Samoa</option>
+                          <option value="5">Andorra</option>
+                          <option value="6">Angola</option>
+                          <option value="7">Anguilla</option>
+                          <option value="8">Antarctica</option>
+                          <option value="9">Antigua and Barbuda</option>
+                          <option value="10">Argentina</option>
+                          <option value="11">Armenia</option>   
+                        </select> 
+                      </div>
+                    </div>
+                    <div class="form-group required">
+                      <label class="col-md-2 control-label" for="input-zone">Region / State</label>
+                      <div class="col-sm-10">
+                        <select name="zone_id" id="input-zone" class="form-control"><option value=""> --- Please Select --- </option>
+                          <option value="3513">Aberdeen</option><option value="3514">Aberdeenshire</option>
+                          <option value="3515">Anglesey</option><option value="3516">Angus</option>
+                        </select>
+                      </div>
+                    </div>
+
+                  <legend>Your Password</legend>
+                </fieldset>
                 <div class="row">
                   <div class="col-xs-12 col-sm-6 col-md-3">
                     <button class="btn btn-primary btn-block btn-form-near">
