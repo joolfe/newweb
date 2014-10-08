@@ -26,20 +26,21 @@
 
 Diseño pagina productos:
 -------------------------
-PAGINA ACCOUNT
-- hago que se active la opcion en la que estamos en el menu?? ojo que va a requerir programar mucho no??
+ACCOUNT:
+- convertir el menu lateral  en un menu depslegable en xs?????
 
-- Tanto los links de abajo como otros al estar con el focus se queda uy feo es mejor que solo sea en el hover, revisar, la prueba es
-pinchar una opcion (account) y cerra el popup sigue pillao cuando 
-temueves y no mola...
-- en los tiles no se si tb inkar imagen y titulo del producto??
+PRODUCTOS
+
+- aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
+        si va a ser siempre variable o le pongo un hidden y elipssis porque siempre va a ser algo dinamico no?
+        PENSAR
 
 - Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
 	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
-- hay un error en los botones del modal de login cuando esta en desktop, revisar.
+GLOBAL
+- ALGO IMPORTANTE placeholder no van en que navegadores?? porque no estoy poniendo labels :-(
 - rediseñar los modals al nuevo estilo?
-
 
 
 

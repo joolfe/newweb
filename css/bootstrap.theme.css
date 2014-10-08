@@ -28,6 +28,7 @@ h2{
 	margin-top: 0px;
 	color:#474747;
 	font-size: 23px;
+	margin-bottom: 15px;
 }
 a{
 	color: #808080;
@@ -35,6 +36,9 @@ a{
 a:hover, a:focus{
 	outline: none;
 	color: #F71919;
+}
+p{
+	margin: 0 0 15px;
 }
 
 /* top nav*/
@@ -75,11 +79,13 @@ ul.currency-set>li>a{
 .links-set.nav-pills>li+li {
 	margin-left: 0px;
 }
-.nav>li>a:hover, .nav>li>a:focus {
+.nav>li>a:focus, .nav>li>a:hover{
 	background-color: #545454;
-	color:#F71919;
 	outline: none;
 	border-radius: 0px;
+}
+.nav>li>a:hover{
+	color:#F71919;
 }
 
 /* Main nav  */
@@ -173,6 +179,9 @@ a, a.list-group-item > span {
 .btn-form{
 	margin-top: 30px;
 }
+.btn-form-near{
+	margin-top: 5px;
+}
 .btn-cart, .btn-cart:focus{
 	color: #F71919;
 	background-color: #FFF;
@@ -210,10 +219,14 @@ a, a.list-group-item > span {
 	background-color: #333;
 	border-color: #FFF;
 }
-.btn.btn-dark:hover, .btn.btn-dark:focus, .btn.btn-dark:active, .btn.btn-dark.active {
+.btn.btn-dark:hover, .btn.btn-dark:active, .btn.btn-dark.active {
+	color: #FFF;
+	background-color: #F71919;
+}
+.btn.btn-dark:focus{
 	color: #FFF;
 	text-decoration: none;
-	background-color: #F71919;
+	background-color: #333;
 }
 .btn-primary{
 	color: #FFF;
@@ -262,11 +275,10 @@ a, a.list-group-item > span {
 	margin-bottom: 40px;
 }
 .main-container{
-	background-color: #FFF;
-	border: 1px solid #DDD;
 	padding: 20px 20px;
-	overflow: hidden;
-	margin-top: 25px;
+}
+.block-content{
+	margin-bottom: 40px;
 }
 
 /* footer */
@@ -403,7 +415,7 @@ a, a.list-group-item > span {
 .link-forgot{
 	cursor: pointer;
 	color: #807F7F;
-	margin-left: 5px;
+	margin-left: 3px;
 	font-size: 14px;
 }
 .link-forgot:hover {
@@ -532,10 +544,6 @@ button.mfp-arrow.ctrl-btn{
 
 /* sumary */
 .summary{
-	color: #333;
-	background-color: #FFF;	
-	margin-top: 25px;
-	border: 1px solid #D6D6D6;
 	padding: 10px 20px;
 }
 
@@ -544,6 +552,7 @@ button.mfp-arrow.ctrl-btn{
 	margin-top: 25px;
 	background-color: #FFF;
 	border: 1px solid #D6D6D6;
+	overflow: hidden;
 }
 .box .box-head{
 	position: relative;
@@ -749,9 +758,13 @@ button.mfp-arrow.ctrl-btn{
 .product-tile .product-body{
 	padding: 10px;
 }
-.product-tile .name{
+.product-tile .name a{
 	font-size: 17px;
 	font-weight: bold;
+	color: #333;
+}
+.product-tile .name a:hover{
+	text-decoration: none;
 }
 .product-tile .price{
 	line-height: 2;
@@ -936,6 +949,13 @@ button.mfp-arrow.ctrl-btn{
 	padding-right: 5px;
 }
 
+.modal-dialog.modal-sm{
+	width: 450px;
+}
+.modal-dialog.modal-md{
+	width: 550px;
+}
+
 /* Responsive Css */
 @media(max-width:992px){
 	.foot-go-top{
@@ -943,12 +963,6 @@ button.mfp-arrow.ctrl-btn{
 	}
 	.product-info{
 		margin-top: 15px;
-	}
-	.modal-dialog.modal-sm{
-		width: 450px;
-	}
-	.modal-dialog.modal-md{
-		width: 550px;
 	}
 	.product-tile .desc{
 		height: 68px;
@@ -960,7 +974,7 @@ button.mfp-arrow.ctrl-btn{
 		padding: 0px;
 	}
 }
-@media(max-width:768px){
+@media(max-width:767px){
 	.modal-dialog.modal-sm{
 		width: auto;
 	}
@@ -1025,6 +1039,10 @@ button.mfp-arrow.ctrl-btn{
 		background: -ms-linear-gradient(left,  #ffffff 0%,#d6d6d6 45%,#d6d6d6 55%,#ffffff 100%); /* IE10+ */
 		background: linear-gradient(to right,  #ffffff 0%,#d6d6d6 45%,#d6d6d6 55%,#ffffff 100%); /* W3C */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-8 */
+	}
+	.btn-xs-block{
+		display: block;
+		width: 100%;	
 	}
 }
 
