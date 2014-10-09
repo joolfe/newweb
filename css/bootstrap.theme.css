@@ -43,6 +43,7 @@ p{
 legend{
 	font-size: 18px;
 	border-bottom: 1px solid #D6D6D6;
+	color: #F71919;
 }
 label{
 	color: #808080;
@@ -963,6 +964,9 @@ button.mfp-arrow.ctrl-btn{
 	width: 550px;
 }
 
+.psw-check{
+	margin-top: 30px;
+}
 
 /* Responsive Css */
 @media(max-width:992px){
