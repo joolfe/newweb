@@ -202,7 +202,24 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-8 col-md-9">
+          <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-9">
+            <div class="box menu-box">
+              <div class="box-head">
+                <span class="box-title">
+                  <span class="fa fa-user"></span>Account
+                </span>
+              </div>
+              <div class="list-group">
+                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Login / Register</a>
+                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Forgotten Password</a>
+                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Wish List</a>
+                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Order History</a>
+                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Downloads</a>
+                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Newsletter</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3">
             <div class="box main-container">
               <h2>Create New Account</h2>
               <p>If you already have an account with us, please login at the <a href="account-login.html">login page</a>.</p>
@@ -211,36 +228,36 @@
                   <legend>Your Personal Details</legend>
                     
                   <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group">
+                    <div class="col-md-8 col-lg-7">
+                      <div class="form-group required">
                         <label class="control-label" for="input-firstname">First Name</label>
                         <input type="text" name="firstname" value="" id="input-firstname" class="form-control">
                       </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-md-6">
+                    <div class="col-md-8 col-lg-7">
                       <div class="form-group required">
-                        <label class="control-label" for="input-firstname">Last Name</label>
-                        <input type="text" name="firstname" value="" id="input-firstname" class="form-control">
+                        <label class="control-label" for="input-lastname">Last Name</label>
+                        <input type="text" name="lastname" value="" id="input-lastname" class="form-control">
                       </div>   
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-md-6">
+                    <div class="col-md-8 col-lg-7">
                       <div class="form-group required">
                         <label class="control-label" for="input-mail">E-mail</label>
-                        <input type="text" name="mail" value="" id="input-mail" class="form-control">
+                        <input type="text" name="mail" value="" placeholder="example@gmail.com" id="input-mail" class="form-control">
                       </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-sm-6 col-md-4">  
-                      <div class="form-group required">
+                      <div class="form-group">
                         <label class="control-label" for="input-telephone">Telephone</label>
                         <input type="text" name="telephone" value="" id="input-telephone" class="form-control">
                       </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-sm-6 col-md-4">
-                      <div class="form-group required">
+                      <div class="form-group">
                         <label class="control-label" for="input-fax">Fax</label>
                         <input type="text" name="fax" value="" id="input-fax" class="form-control">
                       </div>
@@ -248,42 +265,42 @@
                   </div>                  
                   <legend>Your Address</legend>
                   <div class="row">
-                    <div class="col-md-5">
-                      <div class="form-group required">
+                    <div class="col-sm-10 col-md-6 col-lg-5">
+                      <div class="form-group">
                         <label class="control-label" for="input-company">Company</label>
                         <input type="text" name="company" value="" id="input-company" class="form-control">
                       </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-md-8">
+                    <div class="col-md-10 col-lg-8">
                       <div class="form-group required">
                         <label class="control-label" for="input-address1">Address 1</label>
                         <input type="text" name="address1" value="" id="input-address1" class="form-control">
                       </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-md-8">
-                      <div class="form-group required">
+                    <div class="col-md-10 col-lg-8">
+                      <div class="form-group">
                         <label class="control-label" for="input-address2">Address 2</label>
                         <input type="text" name="address2" value="" id="input-address2" class="form-control">
                       </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-lg-5">
                       <div class="form-group required">
                         <label class="control-label" for="input-city">City</label>
                         <input type="text" name="city" value="" id="input-city" class="form-control">
                       </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-md-4">
                       <div class="form-group required">
                         <label class="control-label" for="input-postcode">Post Code</label>
                         <input type="text" name="postcode" value="" id="input-postcode" class="form-control">
                       </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-5">
                       <div class="form-group required">
                         <label class="control-label" for="input-country">Country</label>
                         <select name="country_id" id="input-country" class="form-control">
@@ -304,7 +321,7 @@
                       </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-5">
                       <div class="form-group required">
                         <label class="control-label" for="input-zone">Region / State</label>
                         <select name="zone_id" id="input-zone" class="form-control"><option value=""> --- Please Select --- </option>
@@ -317,10 +334,10 @@
                   
                   <legend>Your Password</legend>
                   <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-6 col-lg-5">
                       <div class="form-group required">
                         <label class="control-label" for="input-password">Password</label>
-                        <input type="password" name="password" value="" id="input-password" class="form-control">
+                        <input type="password" name="password" value="" id="input-password" class="form-control" placeholder="Must have at least 6 characters">
                       </div>
                     </div>
                     <div class="col-md-5">
@@ -331,6 +348,22 @@
                       </div>
                     </div>
                   </div>
+
+                  <legend>Newsletter</legend>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <label class="control-label" for="newsletter-yes">Subscribe</label>
+                      <div class="form-group">
+                        <label class="radio-inline">
+                          <input type="radio" name="newsletter" id="newsletter-yes" value="S"> Yes
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="newsletter" id="newsletter-no" checked="checked"  value="N"> No
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
                 </fieldset>
                 <div class="row">
                   <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-3 col-md-push-9">
@@ -343,23 +376,7 @@
               </form>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
-            <div class="box">
-              <div class="box-head">
-                <span class="box-title">
-                  <span class="fa fa-user"></span>Account
-                </span>
-              </div>
-              <div class="list-group">
-                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Login / Register</a>
-                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Forgotten Password</a>
-                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Wish List</a>
-                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Order History</a>
-                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Downloads</a>
-                <a href="#" class="list-group-item"><span class="fa fa-chevron-right"></span>&nbsp;&nbsp;Newsletter</a>
-              </div>
-            </div>
-          </div>
+         
         </div>
 
       </div>

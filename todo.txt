@@ -8,13 +8,17 @@
 - Logo de about tiene que ser fotico mia o algo
 	Me tengo que acer una fotico la trato un poco y listo
 
-- Carousel: Las imagenes deben ser mayores a los 570 para que se vena bie siempre incluso en md cuando se reduce..
-
 - ver lo de camtasia estudio poner gifs como aqui https://github.com/cdowdy/concrete5-Magnific-Popup mola bastante.
 
 - hacer una version flat a ver que tal se ve...
 
+- cuando revise las validaciones de los form usar los placeholder para ayudar con eso.
+
+- convertir el menu lateral  en un menu depslegable en xs?????
+
 - captcha colores guay pero no me usta como se redimensiona...pongo mas gande o como??
+
+- edit y add address es la misma pagina pero deberia cmabiar la etiqueta.
 
 - Buscar que licencia pongo en el css.
 
@@ -24,16 +28,14 @@
 
 - en carousel de productos poner alguna pista de que s epude arrastrar?? plan tutorial??
 
+- Carousel: Las imagenes deben ser mayores a los 570 para que se vena bie siempre incluso en md cuando se reduce.
+
 Diseño pagina productos:
 -------------------------
 ACCOUNT:
-- Ponner legen un poco mas separao o algo??
-- Al terminar el form en linea hacer verison agrupada a ver...
-- hay un margin en los inputs por los cols si pongo un row se arregla probar qu eme gusta mas.
+        - hacer la direccion mas bonita como en bootraps juntando cmapos y poniend algun iconcito no?
+        - botones como los hago?? tal vez solo cambio el color de dentro??
 
-- hcer lo del forgoten que decia en un iconcito??
-- pensar si botones cart o rojos sigo dudando...
-- convertir el menu lateral  en un menu depslegable en xs?????
 
 PRODUCTOS
 
@@ -45,8 +47,10 @@ PRODUCTOS
 	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
 GLOBAL
-- ALGO IMPORTANTE placeholder no van en que navegadores?? porque no estoy poniendo labels :-(
 - rediseñar los modals al nuevo estilo?
+        - cuadraditos
+        - label visibles
+        - dar una vuelta al link del forgotten.
 
 
 

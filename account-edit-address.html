@@ -197,7 +197,7 @@
           <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
             <li><a href="#">Account</a></li>
-            <li class="active">Login</li>
+            <li class="active">Edit Address</li>
           </ol>
         </div>
 
@@ -221,50 +221,122 @@
           </div>
           <div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3">
             <div class="box main-container">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="block-content">
-                    <h2>New Customer</h2>
-                    <p><b>Register Account</b></p>
-                    <p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
-                        <a href="#" class="btn btn-primary btn-block">
-                          <i class="fa fa-pencil"></i>
-                          <span>&nbsp;Register</span>
-                        </a>
+              <h2>Edit Address</h2>
+              <p>Fill the fields below, pay attention to required fiels as marqued with a red asterik.</p>
+              <form>
+                <fieldset>
+                  <div class="row">
+                    <div class="col-md-8 col-lg-7">
+                      <div class="form-group required">
+                        <label class="control-label" for="input-firstname">First Name</label>
+                        <input type="text" name="firstname" value="" id="input-firstname" class="form-control">
                       </div>
-                    </div>      
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-8 col-lg-7">
+                      <div class="form-group required">
+                        <label class="control-label" for="input-lastname">Last Name</label>
+                        <input type="text" name="lastname" value="" id="input-lastname" class="form-control">
+                      </div>   
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-10 col-md-6 col-lg-5">
+                      <div class="form-group">
+                        <label class="control-label" for="input-company">Company</label>
+                        <input type="text" name="company" value="" id="input-company" class="form-control">
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-10 col-lg-8">
+                      <div class="form-group required">
+                        <label class="control-label" for="input-address1">Address 1</label>
+                        <input type="text" name="address1" value="" id="input-address1" class="form-control">
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-10 col-lg-8">
+                      <div class="form-group">
+                        <label class="control-label" for="input-address2">Address 2</label>
+                        <input type="text" name="address2" value="" id="input-address2" class="form-control">
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-6 col-lg-5">
+                      <div class="form-group required">
+                        <label class="control-label" for="input-city">City</label>
+                        <input type="text" name="city" value="" id="input-city" class="form-control">
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-6 col-md-4">
+                      <div class="form-group required">
+                        <label class="control-label" for="input-postcode">Post Code</label>
+                        <input type="text" name="postcode" value="" id="input-postcode" class="form-control">
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-6 col-lg-5">
+                      <div class="form-group required">
+                        <label class="control-label" for="input-country">Country</label>
+                        <select name="country_id" id="input-country" class="form-control">
+                          <option value=""> --- Please Select --- </option>
+                          <option value="244">Aaland Islands</option>
+                          <option value="1">Afghanistan</option>
+                          <option value="2">Albania</option>
+                          <option value="3">Algeria</option>
+                          <option value="4">American Samoa</option>
+                          <option value="5">Andorra</option>
+                          <option value="6">Angola</option>
+                          <option value="7">Anguilla</option>
+                          <option value="8">Antarctica</option>
+                          <option value="9">Antigua and Barbuda</option>
+                          <option value="10">Argentina</option>
+                          <option value="11">Armenia</option>   
+                        </select> 
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-6 col-lg-5">
+                      <div class="form-group required">
+                        <label class="control-label" for="input-zone">Region / State</label>
+                        <select name="zone_id" id="input-zone" class="form-control"><option value=""> --- Please Select --- </option>
+                          <option value="3513">Aberdeen</option><option value="3514">Aberdeenshire</option>
+                          <option value="3515">Anglesey</option><option value="3516">Angus</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-8 col-lg-6">
+                      <label class="control-label" for="default-address-yes">Default Address</label>
+                      <div class="form-group">
+                        <label class="radio-inline">
+                          <input type="radio" name="default-address" id="default-address-yes" value="S"> Yes
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="default-address" id="default-address-no" checked="checked"  value="N"> No
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+                <div class="row">
+                  <div class="col-xs-5 col-sm-3 col-md-2 clear-pad-right">
+                    <button class="btn btn-default btn-block btn-form-near">
+                      <i class="fa fa-chevron-left"></i>
+                      <span>&nbsp;Back</span>
+                    </button>
+                  </div>
+                  <div class="col-xs-7 col-sm-5 col-md-3 clear-pad-left">
+                    <button class="btn btn-primary btn-block btn-form-near">
+                      <i class="fa fa-check"></i>
+                      <span>&nbsp;Save Address</span>
+                    </button>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <h2>Returning Customer</h2>
-                  <form>
-                    <div class="form-group">
-                      <label class="control-label" for="login-email">E-mail</label>
-                      <input type="text" class="form-control" id="login-email" placeholder="Your account E-mail...">
-                    </div>
-                    <div class="form-group">
-                      <label class="control-label" for="login-pass">Password</label>
-                      <input type="password" class="form-control" id="login-pass" placeholder="Your Password...">
-                    </div>
-                    <div class="form-group">
-                      <a href="account-forgoten.html" class="link-forgot">Forgot Password? <span class="fa fa-lock "></span></a>
-                    </div>
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
-                        <button class="btn btn-primary btn-block">
-                          <i class="fa fa-sign-in"></i>
-                          <span>&nbsp;Sign In</span>
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
+              </form>
             </div>
           </div>
-        
+         
         </div>
 
       </div>
@@ -489,6 +561,14 @@
           items:1,
           margin:10,
           nav:false
+      });
+      //Mask/unmask password
+      $('.psw-check input').click(function(e) {
+        if( $(this).prop('checked') ){
+            $('#'+$(this).attr('name') ).attr('type', 'text');
+        }else{
+            $('#'+$(this).attr('name')).attr('type', 'password');
+        }
       });
     </script>
   </body>

@@ -40,14 +40,6 @@ a:hover, a:focus{
 p{
 	margin: 0 0 15px;
 }
-legend{
-	font-size: 18px;
-	border-bottom: 1px solid #D6D6D6;
-	color: #F71919;
-}
-label{
-	color: #808080;
-}
 
 /* top nav*/
 .navbar-top {
@@ -187,9 +179,6 @@ a, a.list-group-item > span {
 .btn-form{
 	margin-top: 30px;
 }
-.btn-form-near{
-	margin-top: 5px;
-}
 .btn-cart, .btn-cart:focus{
 	color: #F71919;
 	background-color: #FFF;
@@ -312,6 +301,10 @@ a, a.list-group-item > span {
 .link-holder > li{
 	padding-bottom: 10px;
 }
+.link-holder > li > a{
+	display: block;
+	width: 100%
+}
 .link-holder > li > a:hover{
 	text-decoration: none;
 }
@@ -350,6 +343,10 @@ a, a.list-group-item > span {
 	text-align: center;
 	padding: 5px;
 	border: solid 2px #808080;
+}
+.list-ico{
+	color: #F71919;
+	font-size: 18px;
 }
 
 /* deep footer*/
@@ -616,11 +613,11 @@ button.mfp-arrow.ctrl-btn{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
 }
 
-/* Listgroup en box*/
-.box .list-group{
+/* Listgroup en menu-box*/
+.menu-box .list-group{
 	margin-bottom: -1px;
 }
-.box .list-group > .list-group-item{
+.menu-box .list-group > .list-group-item{
 	border: 0px;
 	border-radius: 0px;
 	-webkit-border-radius:0px;
@@ -628,10 +625,10 @@ button.mfp-arrow.ctrl-btn{
 	border-bottom:1px solid #DDD;
 	margin-bottom: 0px;
 }
-.box a.list-group-item:hover, a.list-group-item:focus,.box a.list-group-item:hover span, a.list-group-item:focus span {
+.menu-box a.list-group-item:hover, a.list-group-item:focus,.box a.list-group-item:hover span, a.list-group-item:focus span {
 	color: #F71919;
 }
-.box a.list-group-item span{
+.menu-box a.list-group-item span{
 	color: #D6D6D6;
 }
 
@@ -964,9 +961,28 @@ button.mfp-arrow.ctrl-btn{
 	width: 550px;
 }
 
+/* Formularios */
 .psw-check{
 	margin-top: 30px;
 }
+.btn-form-near{
+	margin-top: 10px;
+}
+legend{
+	font-size: 20px;
+	border-bottom: 1px solid #D6D6D6;
+	color: #F71919;
+	padding-top: 15px;
+}
+label{
+	color: #808080;
+}
+div.required .control-label:after {
+	content: ' *';
+	color: #F00;
+	font-weight: bold;
+}
+
 
 /* Responsive Css */
 @media(max-width:992px){
@@ -984,6 +1000,10 @@ button.mfp-arrow.ctrl-btn{
 	}
 	#carousel-product{
 		padding: 0px;
+	}
+	.psw-check{
+		margin-top: 0px;
+		margin-left: 5px;
 	}
 }
 @media(max-width:767px){
