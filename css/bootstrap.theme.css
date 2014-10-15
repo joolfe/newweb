@@ -263,8 +263,23 @@ a, a.list-group-item > span {
 .btn-invisible:hover, .btn-invisible:focus, .btn-invisible:active, .btn-invisible.active {
 	background-color: #F6F6F6;
 	color: #333;
-	border-color: #ADADAD;border-color: #CCC;
+	border-color: #CCC;
 }
+.btn-edit, .btn-edit:hover{
+	color: #FFA500;
+}
+.btn-edit:hover, .btn-edit:focus, .btn-edit:active, .btn-edit.active {
+	color: #FFA500;
+	border-color: #FFA500;
+}
+.btn-delete{
+	color: #F71919;
+}
+.btn-delete:hover, .btn-delete:focus, .btn-delete:active, .btn-delete.active {
+	color: #F71919;
+	border-color: #F71919;
+}
+
 
 /* main Body*/
 .main-body{
@@ -981,6 +996,9 @@ div.required .control-label:after {
 	content: ' *';
 	color: #F00;
 	font-weight: bold;
+}
+.grey-ico{
+	color:#AAA;
 }
 
 

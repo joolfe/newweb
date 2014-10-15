@@ -32,9 +32,8 @@
 
 Diseño pagina productos:
 -------------------------
-ACCOUNT:
-        - hacer la direccion mas bonita como en bootraps juntando cmapos y poniend algun iconcito no?
-        - botones como los hago?? tal vez solo cambio el color de dentro??
+ACCOUNT
+- revisar tema de botones porque no me acaba de gustar que esten en dos sitios distintos...
 
 
 PRODUCTOS
