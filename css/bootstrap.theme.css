@@ -279,6 +279,13 @@ a, a.list-group-item > span {
 	color: #F71919;
 	border-color: #F71919;
 }
+.btn-add, .btn-add:hover{
+	color: #229AC8;
+}
+.btn-add:hover, .btn-add:focus, .btn-add:active, .btn-add.active {
+	color: #229AC8;
+	border-color: #229AC8;
+}
 
 
 /* main Body*/
@@ -770,6 +777,19 @@ button.mfp-arrow.ctrl-btn{
 	height: 86px;
 }
 
+/* Prices */
+.price{
+	line-height: 2;
+	font-size: 15px;
+}
+.price-old {
+	color: #777;
+	text-decoration: line-through;
+}
+.price-new {
+	color: #f71919;
+}
+
 /* Product tiles/boxs */
 .product-tile{
 	padding: 20px 5px;
@@ -785,17 +805,6 @@ button.mfp-arrow.ctrl-btn{
 }
 .product-tile .name a:hover{
 	text-decoration: none;
-}
-.product-tile .price{
-	line-height: 2;
-	font-size: 15px;
-}
-.product-tile .price-old {
-	color: #777;
-	text-decoration: line-through;
-}
-.product-tile .price-new {
-	color: #f71919;
 }
 .product-tile .review{
 	font-size: 14px;
@@ -1001,6 +1010,16 @@ div.required .control-label:after {
 	color:#AAA;
 }
 
+/* false table */
+.false-table{
+	text-align: center;
+}
+.false-table .header-tab{
+	font-weight: bold;
+}
+.false-table > li > div > div{
+	
+}
 
 /* Responsive Css */
 @media(max-width:992px){

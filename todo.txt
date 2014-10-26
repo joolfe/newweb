@@ -33,10 +33,19 @@
 Diseño pagina productos:
 -------------------------
 ACCOUNT
+- poner en la lista el ejemplo con el nombres mas largo de todos. para testear
+- hay que poner paddin top en las piezas para que lugeo este mas separado
+         OJO en la imagen no solo en las otras
+- PONER boones juntos como lo del cart??? quedara mejor seguro :-)
+- Botones problemas en md y sm con los botones block :-(
+
 - revisar tema de botones porque no me acaba de gustar que esten en dos sitios distintos...
+        Tengo que crear una regla cuanod hay uno dos y para los distintos tamaños y retocarlos todos.
 
 
 PRODUCTOS
+
+- fallan las etiquetas cuando esta en lg hay que poner los tetxos que no se partan nunca aunque sean grandes.
 
 - aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
         si va a ser siempre variable o le pongo un hidden y elipssis porque siempre va a ser algo dinamico no?
