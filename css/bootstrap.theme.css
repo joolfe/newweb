@@ -779,7 +779,6 @@ button.mfp-arrow.ctrl-btn{
 
 /* Prices */
 .price{
-	line-height: 2;
 	font-size: 15px;
 }
 .price-old {
@@ -788,6 +787,9 @@ button.mfp-arrow.ctrl-btn{
 }
 .price-new {
 	color: #f71919;
+}
+.product-tile .price{
+	line-height: 2;
 }
 
 /* Product tiles/boxs */
@@ -1014,12 +1016,14 @@ div.required .control-label:after {
 .false-table{
 	text-align: center;
 }
-.false-table .header-tab{
+.false-table .header-table{
 	font-weight: bold;
 }
-.false-table > li > div > div{
-	
+
+.btn-group-justified>.btn:first-child {
+	border-right: 0px;
 }
+
 
 /* Responsive Css */
 @media(max-width:992px){
@@ -1041,6 +1045,23 @@ div.required .control-label:after {
 	.psw-check{
 		margin-top: 0px;
 		margin-left: 5px;
+	}
+	.false-table .col-img{
+		padding-top: 10px;
+	}
+	.false-table .col-btn{
+		padding-top: 16px;
+		padding-bottom: 10px
+	}
+	.false-table .col-title{
+		padding-top: 10px;
+		font-weight: bold;
+	}
+	.false-table .col-title a{
+		color: #333;
+	}
+	.false-table .col-text{
+		padding-top: 5px;
 	}
 }
 @media(max-width:767px){
@@ -1113,6 +1134,7 @@ div.required .control-label:after {
 		display: block;
 		width: 100%;	
 	}
+
 }
 
 
