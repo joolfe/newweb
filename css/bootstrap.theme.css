@@ -1020,8 +1020,11 @@ div.required .control-label:after {
 	font-weight: bold;
 }
 
-.btn-group-justified>.btn:first-child {
-	border-right: 0px;
+.btn-group-block{
+	width: 100%;
+}
+.btn-group-block > .btn {
+	width: 50%;
 }
 
 
@@ -1062,6 +1065,16 @@ div.required .control-label:after {
 	}
 	.false-table .col-text{
 		padding-top: 5px;
+	}
+	.false-table .col-grid{
+		padding-top: 7px;
+		text-align: left;
+	}
+	.false-table .col-label{
+		padding-top: 7px;
+		padding-left: 20px;
+		font-weight: bolder;
+		text-align: left;
 	}
 }
 @media(max-width:767px){
