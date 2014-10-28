@@ -34,6 +34,8 @@ Diseño pagina productos:
 -------------------------
 ACCOUNT
 
+- adaptar al estilo nuevo el wishlist
+
 - en direcciones tb pongo los botones gemelos??
 
 - revisar tema de botones porque no me acaba de gustar que esten en dos sitios distintos...
