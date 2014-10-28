@@ -33,9 +33,6 @@
 Diseño pagina productos:
 -------------------------
 ACCOUNT
-- la cabecera ya no la escondo hay que poner el fondito de otro color o algo
-
-- meter algun iconcito o algo? esta como mu soso no?
 
 - en direcciones tb pongo los botones gemelos??
 
