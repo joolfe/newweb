@@ -34,13 +34,14 @@ Diseño pagina productos:
 -------------------------
 ACCOUNT
 
-- adaptar al estilo nuevo el wishlist
+- los orders ids ponerlos de otro colorcito todos??
 
-- en direcciones tb pongo los botones gemelos??
-
+BOTONES
+- color botones de order history no me convence, pensar en colores por acciones buscar por internet.
 - revisar tema de botones porque no me acaba de gustar que esten en dos sitios distintos...
         Tengo que crear una regla cuanod hay uno dos y para los distintos tamaños y retocarlos todos.
 
+- pensar en paginaciones?? que listas las tienen diseñar alguna.
 
 PRODUCTOS
 

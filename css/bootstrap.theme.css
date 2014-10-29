@@ -1020,6 +1020,17 @@ div.required .control-label:after {
 	font-weight: bold;
 	background-color: #F5F6F7;
 }
+.false-table .col-label{
+	padding-top: 7px;
+	padding-left: 20px;
+	font-weight: bolder;
+	text-align: left;
+}
+.false-table .col-grid{
+	padding-top: 7px;
+	text-align: left;
+}
+
 
 .btn-group-block{
 	width: 100%;
@@ -1027,7 +1038,6 @@ div.required .control-label:after {
 .btn-group-block > .btn {
 	width: 50%;
 }
-
 
 
 /* Responsive Css */
@@ -1051,6 +1061,7 @@ div.required .control-label:after {
 		margin-top: 0px;
 		margin-left: 5px;
 	}
+	/* False table especial css */
 	.false-table .col-img{
 		padding-top: 10px;
 	}
@@ -1068,14 +1079,8 @@ div.required .control-label:after {
 	.false-table .col-text{
 		padding-top: 5px;
 	}
-	.false-table .col-grid{
+	.false-table .col-grid-sm{
 		padding-top: 7px;
-		text-align: left;
-	}
-	.false-table .col-label{
-		padding-top: 7px;
-		padding-left: 20px;
-		font-weight: bolder;
 		text-align: left;
 	}
 

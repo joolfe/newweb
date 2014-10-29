@@ -197,7 +197,8 @@
           <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
             <li><a href="#">Account</a></li>
-            <li class="active">Order History</li>
+            <li><a href="#">Order History</a></li>
+            <li class="active">Order Information</li>
           </ol>
         </div>
 
@@ -221,92 +222,73 @@
           </div>
           <div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3">
             <div class="box main-container">
-              <h2>Order History</h2>
-              <p>Here you can review the history of your orders.</p>
-              <ul class="list-group false-table">
-                  <li class="list-group-item  header-table">
-                    <div class="row hidden-sm hidden-xs">
-                      <div class="col-md-1">Order</div>
-                      <div class="col-md-2">Status</div>
-                      <div class="col-md-2">Date</div>
-                      <div class="col-md-1">Qty.</div>
-                      <div class="col-md-2">Customer</div>
-                      <div class="col-md-2">Total</div>
-                      <div class="col-md-2">Actions</div>
-                    </div>
-                    <div class="row hidden-md hidden-lg"><span class="fa fa-clock-o"></span>&nbsp;Order History</div>
-                  </li>
-                  <li class="list-group-item">
-                    <div class="row">
-                      <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Order ID:</div>
-                      <div class="col-xs-6 col-md-1 col-grid-sm">
-                        #208
-                      </div>
-                      <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Status:</div>
-                      <div class="col-xs-6 col-md-2 col-grid-sm">
-                        <a href="#">Pending</a>
-                      </div>
-                      <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Date:</div>
-                      <div class="col-xs-6 col-md-2 col-grid-sm">
-                       27/10/2014
-                      </div>
-                      <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Product Nº:</div>
-                      <div class="col-xs-6 col-md-1 col-grid-sm">
-                        2
-                      </div>
-                      <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Customer:</div>
-                      <div class="col-xs-6 col-md-2 col-grid-sm">
-                        Jorge Oliva
-                      </div>
-                      <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Total:</div>
-                      <div class="col-xs-6 col-md-2 col-grid-sm">
-                        <div class="price">
-                          <span class="price-new">$17.75</span>
-                        </div>
-                      </div>
-                      <div class="clearfix visible-sm-block visible-xs-block"></div>
-                      <div class="col-md-2 col-btn">
+              <h2>Order Information</h2>
+              <p>Here you can review your order information.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="list-group false-table">
+                      <li class="list-group-item  header-table">
+                        <div class="text-left"><span class="fa fa-tasks"></span>&nbsp;Order Detail</div>
+                      </li>
+                      <li class="list-group-item">
                         <div class="row">
-                          <div class="col-xs-12">
-                            <div class="btn-group btn-group-block">
-                              <a class="btn btn-default btn-add">
-                                <span class="fa fa-eye"></span>
-                                <span class="hidden-md hidden-lg">&nbsp;View</span>
-                              </a>
-                              <a class="btn btn-default btn-delete">
-                                <span class="fa fa-shopping-cart"></span>
-                                <span class="hidden-md hidden-lg">&nbsp;Reorder</span>
-                              </a>
-                            </div>
+                          <div class="col-sm-6 col-label">Order ID:</div>
+                          <div class="col-sm-6 col-grid">
+                            #208
+                          </div>
+                          <div class="col-sm-6 col-label">Date Added:</div>
+                          <div class="col-sm-6 col-grid">
+                            11/04/2014
+                          </div>
+                          <div class="col-sm-6 col-label">Payment:</div>
+                          <div class="col-sm-6 col-grid">
+                            Paypal
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </li>
+                      </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-group false-table">
+                      <li class="list-group-item header-table">
+                        <div class="text-left"><span class="fa fa-map-marker"></span>&nbsp;Payment Address</div>
+                      </li>
+                      <li class="list-group-item text-left">
+                        Jorge Oliva Fernández</br>
+                        C/ de las ramblas no veas</br>
+                        addres 2</br>
+                        City Esto es aqui 28038</br> 
+                        Barcelona (Spain)
+                      </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+              <ul class="list-group false-table">    
                   <li class="list-group-item">
                     <div class="row">
                       <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Order ID:</div>
-                      <div class="col-xs-6 col-md-1 col-grid-sm">
+                      <div class="col-xs-6 col-md-1 col-grid">
                         #2023
                       </div>
                       <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Status:</div>
-                      <div class="col-xs-6 col-md-2 col-grid-sm">
+                      <div class="col-xs-6 col-md-2 col-grid">
                         <a href="#">Complet</a>
                       </div>
                       <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Date:</div>
-                      <div class="col-xs-6 col-md-2 col-grid-sm">
+                      <div class="col-xs-6 col-md-2 col-grid">
                        11/04/2014
                       </div>
                       <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Product Nº:</div>
-                      <div class="col-xs-6 col-md-1 col-grid-sm">
+                      <div class="col-xs-6 col-md-1 col-grid">
                         2
                       </div>
                       <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Customer:</div>
-                      <div class="col-xs-6 col-md-2 col-grid-sm">
+                      <div class="col-xs-6 col-md-2 col-grid">
                         Juanjose Garcia
                       </div>
                       <div class="col-xs-6 visible-sm-block visible-xs-block col-label">Total:</div>
-                      <div class="col-xs-6 col-md-2 col-grid-sm">
+                      <div class="col-xs-6 col-md-2 col-grid">
                         <div class="price">
                           <span class="price-new">$890.75</span>
                         </div>
@@ -331,6 +313,7 @@
                     </div>
                   </li>
               </ul>
+              </div>
               <div class="row">
                 <div class="col-sm-5 col-md-2 col-md-push-10">
                   <button class="btn btn-primary btn-block btn-form-near">
