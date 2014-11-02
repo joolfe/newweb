@@ -32,23 +32,15 @@
 
 Diseño pagina productos:
 -------------------------
-ACCOUNT
-
-- recalcar total de alguna manera.
-- pensar si las cabeceras las pongo centradas oa la izquierda en todos hayq ue hacerlo.
-- los orders ids ponerlos de otro colorcito todos??
+MENSAJES:
+- dieñar mesajes de ok, ko y eso a ver donde salen y como. Estilos.
 
 BOTONES
 - color botones de order history no me convence, pensar en colores por acciones buscar por internet.
 - revisar tema de botones porque no me acaba de gustar que esten en dos sitios distintos...
         Tengo que crear una regla cuanod hay uno dos y para los distintos tamaños y retocarlos todos.
 
-- pensar en paginaciones?? que listas las tienen diseñar alguna.
-
 PRODUCTOS
-
-- fallan las etiquetas cuando esta en lg hay que poner los tetxos que no se partan nunca aunque sean grandes.
-
 - aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
         si va a ser siempre variable o le pongo un hidden y elipssis porque siempre va a ser algo dinamico no?
         PENSAR
@@ -62,6 +54,21 @@ GLOBAL
         - label visibles
         - dar una vuelta al link del forgotten.
 
+
+BUTTONS RULES:
+--------------
+- En popups:
+        > a la derecha
+        > juntos
+        > ok, continue etc.. a la derecha
+        > ok marcado de rojo
+        > resto otros colores.
+- En Forms:
+        > marcamos opcion princicpal
+        > back en blanquito.
+        > juntos
+        > Si una columna en la izquierda
+        > Si dos columnas a la derecha mejor.
 
 
 EJEMPLOS INSPIRACIONALES

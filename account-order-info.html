@@ -228,22 +228,23 @@
                 <div class="col-md-6">
                   <ul class="list-group false-table">
                       <li class="list-group-item  header-table">
-                        <div class="text-left"><span class="fa fa-tasks"></span>&nbsp;Order Detail</div>
+                        <div class="text-left-center"><span class="fa fa-tasks"></span>&nbsp;Order Detail</div>
                       </li>
                       <li class="list-group-item">
                         <div class="row">
                           <div class="col-xs-6 col-label">Order ID:</div>
-                          <div class="col-xs-6 col-grid">
-                            #208
+                          <div class="col-xs-6 col-data">
+                            <span class="badge">#208</span>
                           </div>
                           <div class="col-xs-6 col-label">Date Added:</div>
-                          <div class="col-xs-6 col-grid">
+                          <div class="col-xs-6 col-data">
                             11/04/2014
                           </div>
                           <div class="col-xs-6 col-label">Payment:</div>
-                          <div class="col-xs-6 col-grid">
+                          <div class="col-xs-6 col-data">
                             Paypal
                           </div>
+                          <div class="col-xs-12 col-data"></div>
                         </div>
                       </li>
                   </ul>
@@ -251,14 +252,18 @@
                 <div class="col-md-6">
                   <ul class="list-group false-table">
                       <li class="list-group-item header-table">
-                        <div class="text-left"><span class="fa fa-map-marker"></span>&nbsp;Payment Address</div>
+                        <div class="text-left-center"><span class="fa fa-map-marker"></span>&nbsp;Payment Address</div>
                       </li>
                       <li class="list-group-item text-left">
-                        Jorge Oliva Fernández</br>
-                        C/ de las ramblas no veas</br>
-                        addres 2</br>
-                        City Esto es aqui 28038</br> 
-                        Barcelona (Spain)
+                        <div class="row">
+                          <div class="col-xs-12">
+                            Jorge Oliva Fernández</br>
+                            C/ de las ramblas no veas</br>
+                            addres 2</br>
+                            City Esto es aqui 28038</br> 
+                            Barcelona (Spain)
+                          </div>
+                        </div>
                       </li>
                   </ul>
                 </div>
@@ -274,7 +279,7 @@
                           <div class="col-md-3">Price</div>
                           <div class="col-md-2">Total</div>
                         </div>
-                        <div class="hidden-md hidden-lg text-left"><span class="fa fa-cubes"></span>&nbsp;Products</div>
+                        <div class="hidden-md hidden-lg"><span class="fa fa-cube"></span>&nbsp;Products</div>
                     </li>
                     <li class="list-group-item">
                       <div class="row">
@@ -284,22 +289,68 @@
                         <div class="col-md-3 col-title">
                          <a href="#">Customize order info page</a>
                         </div>
-                        <div class="col-md-2 col-text hidden-xs">
+                        <div class="col-md-2 col-text hidden-xs hidden-sm">
                           2
                         </div>
-                        <div class="col-md-3 col-text hidden-xs">
-                          <div class="price">
+                        <div class="col-md-3 col-text hidden-xs hidden-sm">
                             $21.50
-                          </div>
                         </div>
-                        <div class="col-md-2 col-text hidden-xs">
-                          <div class="price">
+                        <div class="col-md-2 col-text hidden-xs hidden-sm">
+                          <div class="price-total">
                             $43.00
                           </div>
                         </div>
-                        <div class="col-xs-12 visible-xs-block col-text">
-                          <div class="price">
-                            $21.50 x 2 = $43.00
+                        <div class="col-xs-12 visible-xs-block visible-sm-block col-text">
+                            $21.50 x 2 = <span class="price-total">$43.00</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-md-2 col-img">
+                          <img src="http://jolivapps.com/image/data/html-ads/htmlads.png" width="700px" class="img-responsive"></img>
+                        </div>
+                        <div class="col-md-3 col-title">
+                         <a href="#">HTML side adds</a>
+                        </div>
+                        <div class="col-md-2 col-text hidden-xs hidden-sm">
+                          3
+                        </div>
+                        <div class="col-md-3 col-text hidden-xs hidden-sm">
+                            $10.50
+                        </div>
+                        <div class="col-md-2 col-text hidden-xs hidden-sm">
+                          <div class="price-total">
+                            $31.50
+                          </div>
+                        </div>
+                        <div class="col-xs-12 visible-xs-block visible-sm-block col-text">
+                            $21.50 x 2 = <span class="price-total">$31.00</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="hidden-sm hidden-xs col-md-7"></div>
+                        <div class="col-xs-6 col-md-3">
+                          <strong>Sub-Total:</strong>
+                        </div>
+                        <div class="col-xs-6 col-md-2">
+                          <div class="price-total">
+                            $80.00
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                     <li class="list-group-item">
+                      <div class="row">
+                        <div class="hidden-sm hidden-xs col-md-7"></div>
+                        <div class="col-xs-6 col-md-3">
+                          <strong>Total:</strong>
+                        </div>
+                        <div class="col-xs-6 col-md-2">
+                          <div class="price-total">
+                            $83.00
                           </div>
                         </div>
                       </div>
@@ -307,12 +358,49 @@
                   </ul>
                 </div>
               </div>
-             
+              <h4 class="hidden-sm hidden-xs">Order History</h4>
               <div class="row">
-                <div class="col-sm-5 col-md-2 col-md-push-10">
+                <div class="col-md-12">
+                   <ul class="list-group false-table">    
+                    <li class="list-group-item header-table">
+                        <div class="row hidden-sm hidden-xs">
+                          <div class="col-md-2 text-left">Date</div>
+                          <div class="col-md-2 text-left">Status</div>
+                          <div class="col-md-8 text-left">Comment</div>
+                        </div>
+                        <div class="hidden-md hidden-lg"><span class="fa fa-history"></span>&nbsp;Order History</div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-xs-6 col-md-2 text-left mini-header"><span class="fa fa-clock-o hidden-lg hidden-md"></span>&nbsp;22/04/2013</div>
+                        <div class="col-xs-6 col-md-2 text-left mini-header">Pending</div>
+                        <div class="col-xs-12 col-md-8 text-left col-text">Bank Transfer Instructions</br>
+                          eeee
+                                  </br>
+                          Your order will not ship until we receive payment.</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-xs-6 col-md-2 text-left mini-header"><span class="fa fa-clock-o hidden-lg hidden-md"></span>&nbsp;10/04/2014</div>
+                        <div class="col-xs-6 col-md-2 text-left mini-header">Complete</div>
+                        <div class="col-xs-12 col-md-8 text-left col-text">Prueba ya esta listo el pedido!!</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5 col-sm-4 col-md-2 col-md-push-7 clear-pad-right">
                   <button class="btn btn-primary btn-block btn-form-near">
                     <i class="fa fa-chevron-left"></i>
                     <span>&nbsp;Back</span>
+                  </button>
+                </div>
+                <div class="col-xs-7 col-sm-8 col-md-3 col-md-push-7 clear-pad-left">
+                  <button class="btn btn-default btn-block btn-form-near">
+                    <i class="fa fa-download"></i>
+                    <span>&nbsp;Go to Downloads</span>
                   </button>
                 </div>
               </div>

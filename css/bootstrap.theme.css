@@ -30,6 +30,9 @@ h2{
 	font-size: 23px;
 	margin-bottom: 15px;
 }
+h4{
+	margin-top: 0px;
+}
 a{
 	color: #808080;
 }
@@ -788,6 +791,10 @@ button.mfp-arrow.ctrl-btn{
 .price-new {
 	color: #f71919;
 }
+.price-total{
+	color: #FF5757;
+	font-weight: bold;
+}
 .product-tile .price{
 	line-height: 2;
 }
@@ -979,6 +986,9 @@ button.mfp-arrow.ctrl-btn{
 	padding-left: 5px;
 	padding-right: 5px;
 }
+.text-left-center{
+	text-align: left;
+}
 
 .modal-dialog.modal-sm{
 	width: 450px;
@@ -1026,17 +1036,32 @@ div.required .control-label:after {
 	font-weight: bolder;
 	text-align: left;
 }
-.false-table .col-grid{
+.false-table .col-data{
 	padding-top: 7px;
 	text-align: left;
 }
 
+.badge{
+	background-color: #F71919;	
+}
 
 .btn-group-block{
 	width: 100%;
 }
 .btn-group-block > .btn {
 	width: 50%;
+}
+
+/* Pagination */
+.pagination{
+	margin-top: 0px;
+}
+.pagination>li>a, .pagination>li>span{
+	color: #808080;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+	background-color: #F71919;
+	border-color: #F71919;
 }
 
 
@@ -1079,12 +1104,20 @@ div.required .control-label:after {
 	.false-table .col-text{
 		padding-top: 5px;
 	}
-	.false-table .col-grid-sm{
+	.false-table .col-grid{
 		padding-top: 7px;
 		text-align: left;
 	}
-
+	.text-left-center{
+		text-align: center;
+	}
+	.false-table .mini-header{
+		font-size: 13px;
+		color: #7C7C7C;
+		padding-left: 25px;
+	}
 }
+
 @media(max-width:767px){
 	.modal-dialog.modal-sm{
 		width: auto;
