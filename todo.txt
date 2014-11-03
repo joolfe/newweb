@@ -38,13 +38,9 @@ MENSAJES:
 ACCOUNT
 - No necesito aceptar temrinos para registrarme?? buscar ne mi web. 
         SI
-         - ajustar responsive se debe poner encima. o ponerlo siempre para que sea lineal
+        - Ajustar responsive se debe poner encima. o ponerlo siempre para que sea lineal
         - Ajustar alineado
         - Color de link rojo para que destaque.
-
-- A partir de sm desactivar tooltip porque ya se ve texto no??
-
-
 
 BOTONES
 - color botones de order history no me convence, pensar en colores por acciones buscar por internet.

@@ -449,7 +449,6 @@
       </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
     <script type="text/javascript">
       // Boton Top
       $('.btn-to-top').click(function(){
@@ -554,7 +553,12 @@
           nav:false
       });
       //tooltip
-      $('.btn-go, .btn-delete, .btn-edit, .btn-add').tooltip({container: 'body'});
+      $testEl = $('<div id="smTest" class="hidden-xs hidden-sm"></div>');
+      $testEl.appendTo($('body'));
+      if( !$('#smTest').is(':hidden') ){
+        $('.btn-go, .btn-delete, .btn-edit, .btn-add').tooltip({container: 'body'}); 
+      }    
     </script>
+   
   </body>
 </html>
