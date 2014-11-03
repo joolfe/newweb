@@ -32,9 +32,9 @@
 
 Diseño pagina productos:
 -------------------------
-<<<<<<< Updated upstream
 MENSAJES:
 - dieñar mesajes de ok, ko y eso a ver donde salen y como. Estilos.
+
 =======
 ACCOUNT
 
@@ -43,7 +43,6 @@ ACCOUNT
 - los orders ids ponerlos de otro colorcito todos??
         un badget pero de otro color
         
->>>>>>> Stashed changes
 
 BOTONES
 - color botones de order history no me convence, pensar en colores por acciones buscar por internet.
