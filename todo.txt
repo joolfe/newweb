@@ -32,8 +32,18 @@
 
 Diseño pagina productos:
 -------------------------
+<<<<<<< Updated upstream
 MENSAJES:
 - dieñar mesajes de ok, ko y eso a ver donde salen y como. Estilos.
+=======
+ACCOUNT
+
+- recalcar total de alguna manera.
+- pensar si las cabeceras las pongo centradas oa la izquierda en todos hayq ue hacerlo.
+- los orders ids ponerlos de otro colorcito todos??
+        un badget pero de otro color
+        
+>>>>>>> Stashed changes
 
 BOTONES
 - color botones de order history no me convence, pensar en colores por acciones buscar por internet.
