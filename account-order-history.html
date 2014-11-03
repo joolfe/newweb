@@ -267,11 +267,11 @@
                         <div class="row">
                           <div class="col-xs-12">
                             <div class="btn-group btn-group-block">
-                              <a class="btn btn-default btn-add">
+                              <a class="btn btn-default btn-go" title="View">
                                 <span class="fa fa-eye"></span>
                                 <span class="hidden-md hidden-lg">&nbsp;View</span>
                               </a>
-                              <a class="btn btn-default btn-delete">
+                              <a class="btn btn-default btn-add" title="Reorder">
                                 <span class="fa fa-shopping-cart"></span>
                                 <span class="hidden-md hidden-lg">&nbsp;Reorder</span>
                               </a>
@@ -312,11 +312,11 @@
                         <div class="row">
                           <div class="col-xs-12">
                             <div class="btn-group btn-group-block">
-                              <a class="btn btn-default btn-add">
+                              <a class="btn btn-default btn-go" title="View">
                                 <span class="fa fa-eye"></span>
                                 <span class="hidden-md hidden-lg">&nbsp;View</span>
                               </a>
-                              <a class="btn btn-default btn-delete">
+                              <a class="btn btn-default btn-add" title="Reorder">
                                 <span class="fa fa-shopping-cart"></span>
                                 <span class="hidden-md hidden-lg">&nbsp;Reorder</span>
                               </a>
@@ -327,9 +327,9 @@
                     </div>
                   </li>
               </ul>
-              <div class="row">
-                <div class="col-sm-5 col-md-2 col-md-push-10">
-                  <button class="btn btn-primary btn-block btn-form-near">
+              <div class="row wrap-btn">
+                <div class="col-sm-5 col-md-2">
+                  <button class="btn btn-primary btn-block">
                     <i class="fa fa-chevron-left"></i>
                     <span>&nbsp;Back</span>
                   </button>
@@ -561,6 +561,8 @@
           margin:10,
           nav:false
       });
+       //tooltip
+      $('.btn-go, .btn-delete, .btn-edit, .btn-add').tooltip({container: 'body'});
     </script>
   </body>
 </html>

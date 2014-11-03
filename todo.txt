@@ -35,19 +35,19 @@ Diseño pagina productos:
 MENSAJES:
 - dieñar mesajes de ok, ko y eso a ver donde salen y como. Estilos.
 
-=======
 ACCOUNT
+- No necesito aceptar temrinos para registrarme?? buscar ne mi web. 
+        SI
+         - ajustar responsive se debe poner encima. o ponerlo siempre para que sea lineal
+        - Ajustar alineado
+        - Color de link rojo para que destaque.
 
-- recalcar total de alguna manera.
-- pensar si las cabeceras las pongo centradas oa la izquierda en todos hayq ue hacerlo.
-- los orders ids ponerlos de otro colorcito todos??
-        un badget pero de otro color
-        
+- A partir de sm desactivar tooltip porque ya se ve texto no??
+
+
 
 BOTONES
 - color botones de order history no me convence, pensar en colores por acciones buscar por internet.
-- revisar tema de botones porque no me acaba de gustar que esten en dos sitios distintos...
-        Tengo que crear una regla cuanod hay uno dos y para los distintos tamaños y retocarlos todos.
 
 PRODUCTOS
 - aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
@@ -66,18 +66,18 @@ GLOBAL
 
 BUTTONS RULES:
 --------------
-- En popups:
-        > a la derecha
-        > juntos
-        > ok, continue etc.. a la derecha
-        > ok marcado de rojo
-        > resto otros colores.
-- En Forms:
-        > marcamos opcion princicpal
-        > back en blanquito.
-        > juntos
-        > Si una columna en la izquierda
-        > Si dos columnas a la derecha mejor.
+Botones siempre juntos (nada de separar uno en izquierda otro en derecha)
+Accion back siempre izquierda (user asocia con volver)
+Accion principal derecha (Avanzar..)
+Marcamos rojo accion principal, si solo un bootn rojo (queda mejor en xs.)
+En Forms
+   BOTONES EN IZQUIERDA SIEMPRE
+EN POPUPS
+   BTONES EN DERECHA SIEMPRE
+Separacion de arriba:
+  10px de wrap-btn mas 15px del otro.    
+
+
 
 
 EJEMPLOS INSPIRACIONALES

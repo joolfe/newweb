@@ -261,7 +261,7 @@
                       <div class="col-md-2 col-btn">
                         <div class="row">
                           <div class="col-xs-12">
-                            <a class="btn btn-default btn-add btn-block">
+                            <a class="btn btn-default btn-go btn-block" title="Download">
                               <span class="fa fa-cloud-download"></span>
                               <span class="hidden-md hidden-lg">&nbsp;Download</span>
                             </a>
@@ -296,7 +296,7 @@
                       <div class="col-md-2 col-btn">
                         <div class="row">
                           <div class="col-xs-12">
-                            <a class="btn btn-default btn-add btn-block">
+                            <a class="btn btn-default btn-go btn-block" title="Download">
                               <span class="fa fa-cloud-download"></span>
                               <span class="hidden-md hidden-lg">&nbsp;Download</span>
                             </a>
@@ -306,8 +306,8 @@
                     </div>
                   </li>
               </ul>
-              <div class="row">
-                <div class="col-md-12 text-right">
+              <div class="row wrap-btn">
+                <div class="col-xs-12 col-sm-8 col-md-10 text-right col-sm-push-4 col-md-push-2">
                   <nav>
                     <ul class="pagination pagination-sm">
                       <li><a href="#">&laquo;</a></li>
@@ -315,15 +315,13 @@
                       <li><a href="#">2</a></li>
                       <li class="active"><a href="#">3</a></li>
                       <li><a href="#">4</a></li>
-                      <li><a href="#">5</a></li>
+                      <li><a href="#">...</a></li>
                       <li><a href="#">&raquo;</a></li>
                     </ul>
                   </nav>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-5 col-md-2 col-md-push-10">
-                  <button class="btn btn-primary btn-block btn-form-near">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-sm-pull-8 col-md-pull-10">
+                  <button class="btn btn-primary btn-block">
                     <i class="fa fa-chevron-left"></i>
                     <span>&nbsp;Back</span>
                   </button>
@@ -555,6 +553,8 @@
           margin:10,
           nav:false
       });
+      //tooltip
+      $('.btn-go, .btn-delete, .btn-edit, .btn-add').tooltip({container: 'body'});
     </script>
   </body>
 </html>

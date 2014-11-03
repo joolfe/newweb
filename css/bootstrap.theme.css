@@ -179,9 +179,6 @@ a, a.list-group-item > span {
 }
 
 /* buttons */
-.btn-form{
-	margin-top: 30px;
-}
 .btn-cart, .btn-cart:focus{
 	color: #F71919;
 	background-color: #FFF;
@@ -268,7 +265,7 @@ a, a.list-group-item > span {
 	color: #333;
 	border-color: #CCC;
 }
-.btn-edit, .btn-edit:hover{
+.btn-edit{
 	color: #FFA500;
 }
 .btn-edit:hover, .btn-edit:focus, .btn-edit:active, .btn-edit.active {
@@ -282,12 +279,22 @@ a, a.list-group-item > span {
 	color: #F71919;
 	border-color: #F71919;
 }
-.btn-add, .btn-add:hover{
+.btn-add{
 	color: #229AC8;
 }
 .btn-add:hover, .btn-add:focus, .btn-add:active, .btn-add.active {
 	color: #229AC8;
 	border-color: #229AC8;
+}
+.btn-go{
+	color: #0B6182;
+}
+.btn-go:hover, .btn-go:focus, .btn-go:active, .btn-go.active {
+	color: #0B6182;
+	border-color: #0B6182;
+}
+.wrap-btn{
+	padding-top: 10px;
 }
 
 
@@ -1001,9 +1008,6 @@ button.mfp-arrow.ctrl-btn{
 .psw-check{
 	margin-top: 30px;
 }
-.btn-form-near{
-	margin-top: 10px;
-}
 legend{
 	font-size: 20px;
 	border-bottom: 1px solid #D6D6D6;
@@ -1041,6 +1045,9 @@ div.required .control-label:after {
 	text-align: left;
 }
 
+.list-group{
+	margin-bottom: 15px;
+}
 .badge{
 	background-color: #F71919;	
 }
@@ -1055,6 +1062,7 @@ div.required .control-label:after {
 /* Pagination */
 .pagination{
 	margin-top: 0px;
+	margin-bottom: 5px;
 }
 .pagination>li>a, .pagination>li>span{
 	color: #808080;
@@ -1188,7 +1196,10 @@ div.required .control-label:after {
 		display: block;
 		width: 100%;	
 	}
-
+	.pagination{
+		margin-top: -12px;
+		margin-bottom: 10px;
+	}
 }
 
 
