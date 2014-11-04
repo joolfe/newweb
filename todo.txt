@@ -38,7 +38,11 @@ MENSAJES:
 ACCOUNT
 - No necesito aceptar temrinos para registrarme?? buscar ne mi web. 
         SI
+<<<<<<< Updated upstream
         - Ajustar responsive se debe poner encima. o ponerlo siempre para que sea lineal
+=======
+        - ajustar responsive se debe poner encima. o ponerlo siempre para que sea lineal
+>>>>>>> Stashed changes
         - Ajustar alineado
         - Color de link rojo para que destaque.
 
