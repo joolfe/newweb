@@ -32,8 +32,27 @@
 
 Diseño pagina productos:
 -------------------------
-MENSAJES:
-- dieñar mesajes de ok, ko y eso a ver donde salen y como. Estilos.
+
+- rediseñar los modals al nuevo estilo?
+    - cuadraditos
+    - label visibles
+    - dar una vuelta al link del forgotten.
+    - permitir ver pass con ojoito??
+
+
+LOGOUT OR MESSAGE??
+- success.tpl
+- error.tpl
+
+DISEÑAR NOT FOUND CHULO
+CHECKOUT
+CART
+INFO
+DOCUMENTATION
+OURCUSTOMERS
+HOME
+
+Las instrucciones hace run template para ellas.
 
 PRODUCTOS
 - aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
@@ -43,11 +62,7 @@ PRODUCTOS
 - Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
 	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
-GLOBAL
-- rediseñar los modals al nuevo estilo?
-        - cuadraditos
-        - label visibles
-        - dar una vuelta al link del forgotten.
+
 
 
 BUTTONS RULES:
