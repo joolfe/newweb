@@ -44,6 +44,13 @@ p{
 	margin: 0 0 15px;
 }
 
+a.red-link {
+	color: #F71919;
+}
+a.red-link:hover{
+	text-decoration: underline;
+}
+
 /* top nav*/
 .navbar-top {
 	background-color: #333;
@@ -1008,6 +1015,12 @@ button.mfp-arrow.ctrl-btn{
 .psw-check{
 	margin-top: 30px;
 }
+.tos-check{
+	padding: 6px 12px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	border: 1px solid #D6D6D6;
+}
 legend{
 	font-size: 20px;
 	border-bottom: 1px solid #D6D6D6;
@@ -1072,6 +1085,27 @@ div.required .control-label:after {
 	border-color: #F71919;
 }
 
+/* Alerts */
+.alert-success {
+	color: #62D800;
+	background-color: #FFF;
+	border-color: #62D800;
+}
+.alert-info {
+	color: #229AC8;
+	background-color: #FFF;
+	border-color: #229AC8;
+}
+.alert-warning {
+	color: #FFA500;
+	background-color: #FFF;
+	border-color: #FFA500;
+}
+.alert-danger {
+	color: #A94442;
+	background-color: #FFF;
+	border-color: #A94442;
+}
 
 /* Responsive Css */
 @media(max-width:992px){

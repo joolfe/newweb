@@ -35,20 +35,6 @@ Diseño pagina productos:
 MENSAJES:
 - dieñar mesajes de ok, ko y eso a ver donde salen y como. Estilos.
 
-ACCOUNT
-- No necesito aceptar temrinos para registrarme?? buscar ne mi web. 
-        SI
-<<<<<<< Updated upstream
-        - Ajustar responsive se debe poner encima. o ponerlo siempre para que sea lineal
-=======
-        - ajustar responsive se debe poner encima. o ponerlo siempre para que sea lineal
->>>>>>> Stashed changes
-        - Ajustar alineado
-        - Color de link rojo para que destaque.
-
-BOTONES
-- color botones de order history no me convence, pensar en colores por acciones buscar por internet.
-
 PRODUCTOS
 - aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
         si va a ser siempre variable o le pongo un hidden y elipssis porque siempre va a ser algo dinamico no?
