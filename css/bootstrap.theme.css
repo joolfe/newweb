@@ -1086,10 +1086,14 @@ div.required .control-label:after {
 }
 
 /* Alerts */
+.alert{
+	margin-top: 10px;
+	border-radius: 0px;
+}
 .alert-success {
-	color: #62D800;
+	color: #1DD662;
 	background-color: #FFF;
-	border-color: #62D800;
+	border-color: #1DD662;
 }
 .alert-info {
 	color: #229AC8;
@@ -1102,9 +1106,9 @@ div.required .control-label:after {
 	border-color: #FFA500;
 }
 .alert-danger {
-	color: #A94442;
+	color: #FF4922;
 	background-color: #FFF;
-	border-color: #A94442;
+	border-color: #FF4922;
 }
 
 /* Responsive Css */
