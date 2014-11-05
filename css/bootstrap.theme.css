@@ -1243,6 +1243,9 @@ div.required .control-label:after {
 		margin-top: -12px;
 		margin-bottom: 10px;
 	}
+	.super-text{
+		font-size: 80px;
+	}
 }
 
 

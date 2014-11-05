@@ -32,12 +32,6 @@
 
 Diseño pagina productos:
 -------------------------
-
-DISEÑAR NOT FOUND CHULO
-    - Revisar el responsive
-    - Color de botones sno me ocnvence
-    - Letra de h1 un poco mas peque en xs sino se desborda!!
-
 - rediseñar los modals al nuevo estilo?
     - cuadraditos
     - label visibles
