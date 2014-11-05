@@ -36,18 +36,11 @@ Diseño pagina productos:
 -------------------------
 
 BUSCADOR:
+- responsive del input en sm ajustar 
+    - la clase check psw es el problema
  - Ajustar titulo de cajas
- - Una caja por tipo de busqueda
  - Icono para cada caja como asocio un icono a reusltado?
  - mensajito de vacio a ver como lo hago.
-- Tipos de busqueda:
-    PRODUCTOS
-    - productos
-    LINKS - (todos iguales son)
-    - Links de la web. (esto es info estatica creo)
-    - Informations.
-    - Documentations.
-
 
 - rediseñar los modals al nuevo estilo?
     - cuadraditos
