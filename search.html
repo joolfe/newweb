@@ -196,468 +196,90 @@
         <div class="row">
           <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li class="active">Show it on Tabs!</li>
+            <li class="active">Search</li>
           </ol>
         </div>
 
-        <div class="row"> 
-          <!-- Product Carousel -->
+        <div class="row">
           <div class="col-xs-12">
-          <div class="box main-container">
-          <div class="row"> 
-
-          <div class="col-xs-12 col-md-7 col-lg-8 carousel-div">
-            <div id="carousel-product">
-              <div class="item active">
-                <img data-src="ex-img/carousel1.jpg" alt="900x500" src="ex-img/carousel1.jpg">
-                <div class="carousel-caption hidden-xs">
-                  <span>First slide label</span>
-                  <a class="zoom" href="ex-img/config-tabs-query.jpg"><i  class="fa fa-search-plus"></i></a>
-                </div>
-              </div>
-              <div class="item">
-                <img data-src="ex-img/carousel2.jpg" alt="900x500" src="ex-img/carousel2.jpg">
-                <div class="carousel-caption hidden-xs">
-                  <span>Second slide label</span>
-                  <a class="zoom" href="ex-img/config-modules.jpg"><i  class="fa fa-search-plus"></i></a>
-                </div>
-              </div>
-              <div class="item">
-                <img data-src="ex-img/carousel3.jpg" alt="900x500" src="ex-img/carousel3.jpg">
-                <div class="carousel-caption hidden-xs">
-                  <span>Third slide label</span>
-                  <a class="zoom" href="ex-img/example-1.jpg"><i  class="fa fa-search-plus"></i></a>
-                </div>
-              </div>
-              <div class="item">
-                <img data-src="ex-img/carousel4.jpg" alt="900x500" src="ex-img/carousel4.jpg">
-                <div class="carousel-caption hidden-xs">
-                  <span>Third slide label</span>
-                  <a class="zoom" href="ex-img/example-2.jpg"><i  class="fa fa-search-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-md-5 col-lg-4">
-           <!-- Product Info -->
-            <div class="product-info">
-              <h1>Show it on tab!</h1>
-              <div class="poduct-review">
-                <div class="review">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-o empty"></span>
-                </div>
-                <a href="#" id="link-review">3 reviews</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" id="link-write-review">Write a review</a>
-              </div>
-              <hr></hr>
-              <div class="documentation">
-                <a class="btn btn-invisible" href="#">
-                  <span class="fa fa-book"></span>&nbsp;&nbsp;Documentation
-                </a>
-                <a class="btn btn-invisible" href="#">
-                  <span class="fa fa-print"></span>&nbsp;&nbsp;Download Docu.
-                </a>
-              </div>
-              <hr></hr>
-              <div class="price"> 
-                $119.50     
-                <span class="price-old">$119.50</span>               
-              <!--  <br>
-                <span class="price-tax">Ex Tax: $100.00</span><br>
-                <span class="reward"><small>Price in reward points: 400</small></span><br>
-              -->
-              </div>
-              <hr></hr>
-              <div class="btn-holder">
+            <div class="box main-container">
+              <h2>Search - Palabra</h2>
+              <form>
+                <fieldset>
+                  <div class="row">
+                    <div class="col-md-6 col-lg-5">
+                      <div class="form-group">
+                        <label class="control-label" for="input-search">Search Criteria</label>
+                         <div class="input-group search-box">
+                          <input type="text" id="input-search" class="form-control">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"> 
+                              <i class="fa fa-search"></i>&nbsp;Search
+                            </button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="checkbox psw-check">
+                        <label>
+                          <input type="checkbox" name="input-password"> Search in product descriptions
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+              <legend>Products meeting the search criteria</legend>
+              <div class="tile-container">
                 <div class="row">
-                  <div class="col-xs-6 clear-pad-right">
-                    <button class="btn btn-primary btn-block">Add to cart</button>
-                  </div>
-                  <div class="col-xs-3 clear-pad-all">
-                    <a class="btn btn-secondary btn-block" href="#">Demo</a>
-                  </div>
-                  <div class="col-xs-3 clear-pad-left">
-                    <a class="btn btn-default btn-block" href="">
-                      <span class="fa fa-heart-o"></span>
-                      <span class="visible-sm-inline">&nbsp;Wish list</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          </div>
-          </div>
-          </div>
-        </div>
-
-        <!-- Tags -->
-        <div class="row">
-
-          <div class="col-sm-6 col-md-5">
-            <div class="box" id="tag-container">
-              <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-3">
-                  <div class="tag-wrap">
-                    <div class="tag tag-view">
-                      <span class="fa fa-eye"></span>
-                      <div class="info">80</div>
-                    </div>
-                    <div class="caption">Views</div>
-                  </div>
-                </div>
-
-                <div class="col-xs-4 col-sm-4 col-md-3">
-                  <div class="tag-wrap">
-                    <div class="tag tag-down">
-                      <span class="fa fa-download"></span>
-                      <div class="info">12</div>
-                    </div>
-                    <div class="caption">Downloads</div>
-                  </div>
-                </div>
-
-                <div class="col-xs-4 col-sm-4 col-md-3">
-                  <div class="tag-wrap">
-                    <div class="tag tag-version-max">
-                      <span class="fa fa-hand-o-up"></span>
-                      <div class="info">1.5.6</div>
-                    </div>
-                    <div class="caption">Max Version</div>
-                  </div>
-                </div>
-
-                <div class="col-xs-4 col-sm-4 col-md-3">
-                  <div class="tag-wrap">
-                    <div class="tag tag-version-min">
-                      <span class="fa fa-hand-o-down"></span>
-                      <div class="info">1.5.2</div>
-                    </div>
-                    <div class="caption">Min Version</div>
-                  </div>
-                </div>
-                
-                <div class="clearfix hidden-sm hidden-xs"></div>
-
-                <div class="col-xs-4 col-sm-4 col-md-3">   
-                  <div class="tag-wrap">
-                    <div class="tag tag-vqmod">
-                      <span class="fa fa-plug only-icon"></span>
-                    </div>
-                    <div class="caption">Vqmod</div>
-                  </div>
-                </div>
-              </div>
-<!--
-              <div class="tag-wrap">
-                <div class="tag tag-install">
-                  <span class="fa fa-magic"></span>
-                  <div class="info">Easy</div>
-                </div>
-                <div class="caption">Install</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-resp">
-                  <span class="fa fa-mobile only-icon"></span>
-                </div>
-                <div class="caption">Responsive</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-langua">
-                  <span class="fa fa-flag"></span>
-                  <div class="info">Multi</div>
-                </div>
-                <div class="caption">language</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-boot">
-                  <span class="fa fa-twitter only-icon"></span>
-                </div>
-                <div class="caption">Bootstrap</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-html">
-                  <span class="fa fa-pencil-square-o"></span>
-                  <div class="info">html</div>
-                </div>
-                <div class="caption">Editor</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-skin">
-                  <span class="fa fa-paint-brush"></span>
-                  <div class="info">multi</div>
-                </div>
-                <div class="caption">skin/theme</div>
-              </div>
-
-              <div class="tag-wrap">
-                <div class="tag tag-js">
-                  <span class="fa fa-puzzle-piece"></span>
-                  <div class="info">need</div>
-                </div>
-                <div class="caption">jquery</div>
-              </div>
--->
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-7">
-            <div class="box summary">
-              <h4>Show your products in tabs anywhere in your store showing great amount of information in a small space.</h4>
-              <p>The mod has a lot of easy configuration options and thanks to the separation between tabs and the module in the settings you can create a tab (defining products to be displayed inside and the title) and display it on many modules as you want across your store.</p>
-            </div>
-          </div>
-        
-        </div>
-
-        <!-- Reviews -->
-        <div class="row">
-            <div class="col-md-8">
-              <div class="box" id="review-carousel">
-              <div class="box-head">
-                <span class="box-title">
-                  <span class="fa fa-comments-o"></span>Reviews
-                </span>
-                <span class="nav-controlers"></span>
-              </div>
-              <div class="box-content padd">
-                <div class="owl-carousel">
-                  <div class="item">
-                    <div class="bubble-rev">
-                      <h4>Juan manuel</h4>
-                      <div class="review">
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star-o empty"></span>
-                        <span class="date">
-                              on 02 Dec 2013
-                            </span>
-                      </div>
-                      
-                      <p>
-                        I think this is just what i want, a name follow by the rating and the
-                        I think this is just what i want, a name follow by the rating and the date, the reviews normaly are very very sort i don´t know what is the longest but i think i have to put a limit no?
-                      </p>
-                    </div>
-                    <div class="icon-rev rel">
-                              <span class="fa fa-smile-o"></span>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="bubble-rev">
-                      <h4>Rocky</h4>
-                       <div class="review">
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star-o empty"></span>
-                        <span class="fa fa-star-o empty"></span>
-                        <span class="fa fa-star-o empty"></span>
-                        <span class="date">
-                              on 02 Dec 2013
-                            </span>
-                      </div>
-                      
-                      <p>
-                        I think this is just what i want, a name follow by the rating and the date, the reviews normaly are very very sort i don´t know what is the longest but i think i have to put a limit no?
-                      </p>
-                    </div>
-                    <div class="icon-rev rel">
-                              <span class="fa fa-frown-o"></span>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="bubble-rev">
-                      <h4>Rafaela</h4>
-                          <div class="review">
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="date">
-                              on 02 Dec 2013
-                            </span>
-                      </div>
-                      
-                      <p>
-                        I think this is just what i want, a name follow by the rating and the date, the reviews normaly are very very sort i don´t know what is the longest but i think i have to put a limit no?
-                      </p>
-                    </div>
-                    <div class="icon-rev rel">
-                              <span class="fa fa-smile-o"></span>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="bubble-rev">
-                      <h4>Sotillos man</h4>
-                          <div class="review">
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star-o empty"></span>
-                        <span class="fa fa-star-o empty"></span>
-                        <span class="date">
-                              on 02 Dec 2013
-                            </span>
-                      </div>
-                      
-                      <p>
-                        Great work and support, jorge is a supper guy!
-                      </p>
-                    </div>
-                    <div class="icon-rev rel">
-                              <span class="fa fa-meh-o"></span>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="bubble-rev">
-                      <h4>Legolas</h4>
-                          <div class="review">
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star-o empty"></span>
-                        <span class="date">
-                              on 02 Dec 2013
-                            </span>
-                      </div>
-                      
-                      <p>
-                        I think this is just what i want, a name follow by the rating and the date, the reviews normaly are very very sort i don´t know what is the longest but i think i have to put a limit no?
-                      </p>
-                    </div>
-                    <div class="icon-rev rel">
-                        <span class="fa fa-smile-o"></span>
-                    </div>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="box"  id="review-form">
-                <div class="box-head">
-                  <span class="box-title">
-                    <span class="fa fa-pencil"></span>Write a review
-                  </span>
-                </div>
-                <div class="box-content padd">
-                  <form>
-                    <div class="form-group">
-                      <label class="sr-only" for="review-name">Name</label>
-                      <input type="text" class="form-control" id="review-name" placeholder="Name...">
-                    </div>
-                    <div class="form-group">
-                      <label class="sr-only" for="review-text">Coment</label>
-                      <textarea class="form-control" style="resize: none;" id="review-text" rows="3" placeholder="Comment..."></textarea>
-                    </div>
-                    <div class="form-group">
-                      <label class="sr-only" for="review-rating">Rating</label>
-                      <div class="rating-input">
-                          <input type="radio" value="1" name="radiobutton" id="star-1"/><label class="fa fa-star-o" for="star-1"></label>
-                          <input type="radio" value="2" name="radiobutton" id="star-2"/><label class="fa fa-star-o" for="star-2"></label>
-                          <input type="radio" value="3" name="radiobutton" id="star-3"/><label class="fa fa-star-o" for="star-3"></label>
-                          <input type="radio" value="4" name="radiobutton" id="star-4"/><label class="fa fa-star-o" for="star-4"></label>
-                          <input type="radio" value="5" name="radiobutton" id="star-5"/><label class="fa fa-star-o" for="star-5"></label>  
-                          <span></span>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="sr-only" for="review-captcha">Captcha</label>
-                      <div class="row">
-                        <div class="col-xs-6" style="">
-                          <img class="img-responsive" src="img/index.jpg"></img>
-                        </div>
-                        <div class="col-xs-6">
-                          <input type="text" id="review-captcha" class="form-control" placeholder="Enter Code...">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="wrap-btn">
-                      <button class="btn btn-primary btn-block">
-                        <i class="fa fa-comment"></i>
-                        <span>&nbsp;Send Review</span>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Related products -->
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="box">
-                <div class="box-head">
-                  <span class="box-title">
-                    <span class="fa fa-share-alt"></span>Related Products
-                  </span>
-                </div>
-                <div class="box-content">
-                  <div class="tile-container">
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="product-tile">
-                          <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/data/tabs/tabs.png"/></a>
-                          <div class="product-body">
-                            <div class="name"><a href="#">Mail Templates for orders</a></div>
-                            <div class="row">
-                              <div class="col-xs-6 clear-pad-right">
-                                <div class="price">
-                                            <span class="price-old">$19.50</span> 
-                                            <span class="price-new">$10.75</span>
-                                        </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-tile">
+                      <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/data/tabs/tabs.png"/></a>
+                      <div class="product-body">
+                        <div class="name"><a href="#">Mail Templates for orders</a></div>
+                        <div class="row">
+                          <div class="col-xs-6 clear-pad-right">
+                            <div class="price">
+                                        <span class="price-old">$19.50</span> 
+                                        <span class="price-new">$10.75</span>
                                     </div>
-                                    <div class="col-xs-6 clear-pad-left">
-                                        <div class="review">
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star-o empty"></span>
                                 </div>
-                              </div>
+                                <div class="col-xs-6 clear-pad-left">
+                                    <div class="review">
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star-o empty"></span>
                             </div>
-                              <div class="desc">
-                                Create topics (news) where you describe properties or feature about products to promote them. this is just more text to make line long hey
-                              </div>
-                           <div class="actions">
-                              <div class="row">
-                                <div class="col-xs-12">
-                                  <div class="btn-group">
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-shopping-cart"></i>
-                                      <span>&nbsp;Add to cart</span>
-                                    </button>
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-flask"></i>
-                                    </button>
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-list"></i>
-                                    </button>
-                                  </div>
-                                </div>
+                          </div>
+                        </div>
+                          <div class="desc">
+                            Create topics (news) where you describe properties or feature about products to promote them. this is just more text to make line long hey
+                          </div>
+                       <div class="actions">
+                          <div class="row">
+                            <div class="col-xs-12">
+                              <div class="btn-group">
+                                <button class="btn btn-cart">
+                                  <i class="fa fa-shopping-cart"></i>
+                                  <span>&nbsp;Add to cart</span>
+                                </button>
+                                <button class="btn btn-cart">
+                                  <i class="fa fa-flask"></i>
+                                </button>
+                                <button class="btn btn-cart">
+                                  <i class="fa fa-list"></i>
+                                </button>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="product-tile">
                           <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/cache/data/cookie-advice/cookie-advice-220x140.png"/></a>
                           <div class="product-body">
@@ -745,55 +367,19 @@
                           </div>
                         </div>
                       </div>
-                      <div class="clearfix visible-md"></div>
-                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="product-tile">
-                          <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/cache/data/askProduct/ask-product-220x140.png"/></a>
-                          <div class="product-body">
-                            <div class="name"><a href="#">Order Counter</a></div>
-                            <div class="row">
-                              <div class="col-xs-6 clear-pad-right">
-                                <div class="price">
-                                            <span class="price-new">$10.50</span> 
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 clear-pad-left">
-                                        <div class="review">
-                                  <span class="not-rated">Not rated yet!  </span>
-                                </div>
-                              </div>
-                            </div>
-                                    <div class="desc">
-                                      Caja Rural Payment gateway for Opencart (Ruralvia)
-                                    </div>
-                            <div class="actions">
-                              <div class="row">
-                                <div class="col-xs-12">
-                                  <div class="btn-group">
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-shopping-cart"></i>
-                                      <span>&nbsp;Add to cart</span>
-                                    </button>
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-flask"></i>
-                                    </button>
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-list"></i>
-                                    </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
+
+
+              <legend>Information</legend>
+              <ul class="list-group false-table">
+                  <li class="list-group-item">
+                    <span class="fa fa-inbox"></span>&nbsp;You dont have downloads yet.
+                  </li>
+              </ul>
             </div>
           </div>
-
+        </div>
       </div>
     </div>
 

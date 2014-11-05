@@ -10,6 +10,8 @@
 
 - ver lo de camtasia estudio poner gifs como aqui https://github.com/cdowdy/concrete5-Magnific-Popup mola bastante.
 
+- improove el search, que busque sitios dentro de la web, informations etc...
+
 - hacer una version flat a ver que tal se ve...
 
 - cuando revise las validaciones de los form usar los placeholder para ayudar con eso.
@@ -32,12 +34,14 @@
 
 Diseño pagina productos:
 -------------------------
+
+BUSCADOR
+
 - rediseñar los modals al nuevo estilo?
     - cuadraditos
     - label visibles
     - dar una vuelta al link del forgotten.
     - permitir ver pass con ojoito??
-
 
 LOGOUT OR MESSAGE??
 - success.tpl
