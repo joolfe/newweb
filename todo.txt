@@ -45,16 +45,12 @@ LOGOUT OR MESSAGE??
 - error.tpl
 
 DISEÑAR NOT FOUND CHULO
-  - como la de bootsnip con dos botones contact y go home
-
 CHECKOUT
 CART
 INFO
-SEARCH PAGE
 DOCUMENTATION
 OURCUSTOMERS
 HOME
-
 
 Las instrucciones hace run template para ellas.
 
