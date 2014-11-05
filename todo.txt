@@ -35,7 +35,11 @@
 Diseño pagina productos:
 -------------------------
 
-BUSCADOR
+BUSCADOR:
+ - Ajustar titulo de cajas
+ - Una caja por tipo de busqueda
+ - Icono para cada caja como asocio un icono a reusltado?
+ - mensajito de vacio a ver como lo hago.
 
 - rediseñar los modals al nuevo estilo?
     - cuadraditos
