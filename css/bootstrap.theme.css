@@ -1111,6 +1111,11 @@ div.required .control-label:after {
 	border-color: #FF4922;
 }
 
+/* Not found */
+.super-text{
+	font-size: 100px;
+}
+
 /* Responsive Css */
 @media(max-width:992px){
 	.foot-go-top{
