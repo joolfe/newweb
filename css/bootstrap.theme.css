@@ -1012,7 +1012,7 @@ button.mfp-arrow.ctrl-btn{
 }
 
 /* Formularios */
-.psw-check{
+.psw-check, .desc-check{
 	margin-top: 30px;
 }
 .tos-check{
@@ -1245,6 +1245,10 @@ div.required .control-label:after {
 	}
 	.super-text{
 		font-size: 80px;
+	}
+	.desc-check{
+		margin-top: 0px;
+		margin-left: 5px;
 	}
 }
 

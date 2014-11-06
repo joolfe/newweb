@@ -10,7 +10,7 @@
 
 - ver lo de camtasia estudio poner gifs como aqui https://github.com/cdowdy/concrete5-Magnific-Popup mola bastante.
 
-- improove el search, que busque sitios dentro de la web, informations etc...
+- improove el search, que busque sitios dentro de la web, informations y documentacion etc...
 
 - hacer una version flat a ver que tal se ve...
 
@@ -34,13 +34,6 @@
 
 Diseño pagina productos:
 -------------------------
-
-BUSCADOR:
-- responsive del input en sm ajustar 
-    - la clase check psw es el problema
- - Ajustar titulo de cajas
- - Icono para cada caja como asocio un icono a reusltado?
- - mensajito de vacio a ver como lo hago.
 
 - rediseñar los modals al nuevo estilo?
     - cuadraditos
