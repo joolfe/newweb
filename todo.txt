@@ -45,6 +45,7 @@ LOGOUT OR MESSAGE??
 - success.tpl
 - error.tpl
 
+REVISAR TODO EL TPL DEL TEMPLATE MIO Y VER QUE PAGINAS FALTAN:
 
 CHECKOUT
 CART
@@ -52,6 +53,8 @@ INFO
 DOCUMENTATION
 OURCUSTOMERS
 HOME
+
+
 
 Las instrucciones hace run template para ellas.
 
