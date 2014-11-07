@@ -33,8 +33,6 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 Diseño pagina productos:
 -------------------------
-SPECIAL
-    - El order se desborda. como puedo arregralr??
  
 URGENTE PORQUE ME ESTOY LLEVAND PRODUCTOS A MUCHAS PAGINAS.
 - aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
