@@ -1,9 +1,5 @@
 
-- Demasiados colores negros
-	links tienen uno
-	links fe footer otros
-	headers otros...
-	tego que arreglar eso...s
+- investigar moviles tumbados en otras webs como funcionana porque a mi tumbao la web se ve fatal!!!
 
 - Logo de about tiene que ser fotico mia o algo
 	Me tengo que acer una fotico la trato un poco y listo
@@ -13,6 +9,9 @@
 - improove el search, que busque sitios dentro de la web, informations y documentacion etc...
 
 - hacer una version flat a ver que tal se ve...
+
+- en especial los dropdown deben coger el valor de lo seleccionado, con php se hace esto. Tb el icono
+debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y texto de que.
 
 - cuando revise las validaciones de los form usar los placeholder para ayudar con eso.
 
@@ -35,13 +34,16 @@
 Diseño pagina productos:
 -------------------------
 SPECIAL
-    - poner un cargando o redirigiendo antes de irse a otra pagina??
+    - responsive
     - meter la paginacion
+    - en sm se ve el lateral separador de los productos porque??
+    - tb se ve en xs el de arriba??
 
 URGENTE PORQUE ME ESTOY LLEVAND PRODUCTOS A MUCHAS PAGINAS.
 - aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
         si va a ser siempre variable o le pongo un hidden y elipssis porque siempre va a ser algo dinamico no?
         PENSAR
+- boton add to cart no se ve siempre ok.
 
 BROWSER SUPPORT TPL
 DEMO

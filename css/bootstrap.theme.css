@@ -620,6 +620,10 @@ button.mfp-arrow.ctrl-btn{
 .box .box-content.padd{
 	padding: 20px 18px;
 }
+.box .box-divider{
+	border-top: 1px solid #D6D6D6;
+	margin: 5px 0px 10px 0px
+}
 .tile-container > .row > div:before{
 	/* Separador de productos */
 	content: "";
@@ -1115,6 +1119,11 @@ div.required .control-label:after {
 .super-text{
 	font-size: 100px;
 }
+
+.dropdown-block > button, .dropdown-block > a, .dropdown-block > ul{
+	width: 100%;
+}
+
 
 /* Responsive Css */
 @media(max-width:992px){

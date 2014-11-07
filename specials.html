@@ -202,15 +202,51 @@
 
         <div class="row">
           <div class="col-xs-12">
-            <div class="box main-container">
-              <h2>Our Products on Sale</h2>
-                  <div class="row">
-                    <div class="col-md-2">
-                      <div class="dropdown">
+            <div class="box">
+              <div class="box-head">
+                <div class="row">
+                  <div class="col-sm-6 col-md-8">
+                    <span class="box-title">
+                      <span class="fa fa-tag"></span>Our Products on Sale
+                    </span>
+                  </div>
+                  <div class="visible-xs clearfix box-divider"></div>
+                  <div class="col-xs-6 col-sm-3 col-md-2 clear-pad-right">
+                    <div class="dropdown dropdown-block">
+                      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                        <span class="fa fa-sort-amount-desc"></span>&nbsp;&nbsp;Order&nbsp;&nbsp;<span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu dropdown-select" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Default</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Name (A - Z)</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Name (Z - A)</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Price (Low &gt; High)</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 col-md-2 clear-pad-left">
+                    <div class="dropdown dropdown-block">
+                      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                        <span class="fa fa-th"></span>&nbsp;&nbsp;Show&nbsp;&nbsp;<span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu dropdown-select" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">25</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">50</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">75</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">100</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!--
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 col-md-push-7 clear-pad-right">
+                      <div class="dropdown dropdown-block">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                          Order&nbsp;&nbsp;<span class="caret"></span>
+                          <span class="fa fa-sort-amount-desc"></span>&nbsp;&nbsp;Order&nbsp;&nbsp;<span class="caret"></span>
                         </button>
-                        <ul class="dropdown-menu" role="menu">
+                        <ul class="dropdown-menu dropdown-select" role="menu">
                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Default</a></li>
                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Name (A - Z)</a></li>
                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Name (Z - A)</a></li>
@@ -218,12 +254,12 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="col-md-2">
-                      <div class="dropdown">
+                    <div class="col-sm-6 col-md-2 col-md-push-7 clear-pad-left">
+                      <div class="dropdown dropdown-block">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                          Show&nbsp;&nbsp;<span class="caret"></span>
+                          <span class="fa fa-th"></span>&nbsp;&nbsp;Show&nbsp;&nbsp;<span class="caret"></span>
                         </button>
-                        <ul class="dropdown-menu" role="menu">
+                        <ul class="dropdown-menu dropdown-select" role="menu">
                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">25</a></li>
                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">50</a></li>
                           <li role="presentation"><a role="menuitem" tabindex="-1" href="#">75</a></li>
@@ -231,136 +267,139 @@
                         </ul>
                       </div>
                     </div>
-                  </div>
-              <div class="tile-container">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="product-tile">
-                      <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/data/tabs/tabs.png"/></a>
-                      <div class="product-body">
-                        <div class="name"><a href="#">Mail Templates for orders</a></div>
-                        <div class="row">
-                          <div class="col-xs-6 clear-pad-right">
-                            <div class="price">
-                                        <span class="price-old">$19.50</span> 
-                                        <span class="price-new">$10.75</span>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 clear-pad-left">
-                                    <div class="review">
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star-o empty"></span>
+                </div>
+-->
+              <div class="box-content">
+                <div class="tile-container">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <div class="product-tile">
+                        <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/data/tabs/tabs.png"/></a>
+                        <div class="product-body">
+                          <div class="name"><a href="#">Mail Templates for orders</a></div>
+                          <div class="row">
+                            <div class="col-xs-6 clear-pad-right">
+                              <div class="price">
+                                          <span class="price-old">$19.50</span> 
+                                          <span class="price-new">$10.75</span>
+                                      </div>
+                                  </div>
+                                  <div class="col-xs-6 clear-pad-left">
+                                      <div class="review">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-o empty"></span>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                          <div class="desc">
-                            Create topics (news) where you describe properties or feature about products to promote them. this is just more text to make line long hey
-                          </div>
-                       <div class="actions">
-                          <div class="row">
-                            <div class="col-xs-12">
-                              <div class="btn-group">
-                                <button class="btn btn-cart">
-                                  <i class="fa fa-shopping-cart"></i>
-                                  <span>&nbsp;Add to cart</span>
-                                </button>
-                                <button class="btn btn-cart">
-                                  <i class="fa fa-flask"></i>
-                                </button>
-                                <button class="btn btn-cart">
-                                  <i class="fa fa-list"></i>
-                                </button>
+                            <div class="desc">
+                              Create topics (news) where you describe properties or feature about products to promote them. this is just more text to make line long hey
+                            </div>
+                         <div class="actions">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <div class="btn-group">
+                                  <button class="btn btn-cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span>&nbsp;Add to cart</span>
+                                  </button>
+                                  <button class="btn btn-cart">
+                                    <i class="fa fa-flask"></i>
+                                  </button>
+                                  <button class="btn btn-cart">
+                                    <i class="fa fa-list"></i>
+                                  </button>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="product-tile">
-                      <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/cache/data/cookie-advice/cookie-advice-220x140.png"/></a>
-                      <div class="product-body">
-                        <div class="name"><a href="#">Show it on Tab!</a></div>
-                        <div class="row">
-                          <div class="col-xs-6 clear-pad-right">
-                            <div class="price">
-                                        <span class="price-new">$10.00</span>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 clear-pad-left">
-                                    <div class="review">
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star-o empty"></span>
-                              <span class="fa fa-star-o empty"></span>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <div class="product-tile">
+                        <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/cache/data/cookie-advice/cookie-advice-220x140.png"/></a>
+                        <div class="product-body">
+                          <div class="name"><a href="#">Show it on Tab!</a></div>
+                          <div class="row">
+                            <div class="col-xs-6 clear-pad-right">
+                              <div class="price">
+                                          <span class="price-new">$10.00</span>
+                                      </div>
+                                  </div>
+                                  <div class="col-xs-6 clear-pad-left">
+                                      <div class="review">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-o empty"></span>
+                                <span class="fa fa-star-o empty"></span>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                              <div class="desc">
-                                  Configure side ads for your web of any kind of content: images, text, links ...
-                              </div>
-                       <div class="actions">
-                          <div class="row">
-                            <div class="col-xs-12">
-                              <div class="btn-group">
-                                <button class="btn btn-cart">
-                                  <i class="fa fa-shopping-cart"></i>
-                                  <span>&nbsp;Add to cart</span>
-                                </button>
-                                <button class="btn btn-cart">
-                                  <i class="fa fa-flask"></i>
-                                </button>
-                                <button class="btn btn-cart">
-                                  <i class="fa fa-list"></i>
-                                </button>
+                                <div class="desc">
+                                    Configure side ads for your web of any kind of content: images, text, links ...
+                                </div>
+                         <div class="actions">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <div class="btn-group">
+                                  <button class="btn btn-cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span>&nbsp;Add to cart</span>
+                                  </button>
+                                  <button class="btn btn-cart">
+                                    <i class="fa fa-flask"></i>
+                                  </button>
+                                  <button class="btn btn-cart">
+                                    <i class="fa fa-list"></i>
+                                  </button>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="clearfix visible-sm"></div>
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="product-tile">
-                      <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/data/html-ads/htmlads.png"/></a>
-                      <div class="product-body">
-                        <div class="name"><a href="#">Order Counter</a></div>
-                                <div class="row">
-                          <div class="col-xs-6 clear-pad-right">
-                            <div class="price">
-                                        <span class="price-old">$39.50</span> 
-                                        <span class="price-new">$37.75</span>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 clear-pad-left">
-                                    <div class="review">
-                              <span class="not-rated">Not rated yet!  </span>
+                    <div class="clearfix visible-sm"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <div class="product-tile">
+                        <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/data/html-ads/htmlads.png"/></a>
+                        <div class="product-body">
+                          <div class="name"><a href="#">Order Counter</a></div>
+                                  <div class="row">
+                            <div class="col-xs-6 clear-pad-right">
+                              <div class="price">
+                                          <span class="price-old">$39.50</span> 
+                                          <span class="price-new">$37.75</span>
+                                      </div>
+                                  </div>
+                                  <div class="col-xs-6 clear-pad-left">
+                                      <div class="review">
+                                <span class="not-rated">Not rated yet!  </span>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                          <div class="desc">
-                            Show your customers how many sales are placed in your store, so increases the customer trust in your site.
-                          </div>
-                        <div class="actions">
-                          <div class="row">
-                            <div class="col-xs-12">
-                              <div class="btn-group">
-                                <button class="btn btn-cart">
-                                  <i class="fa fa-shopping-cart"></i>
-                                  <span>&nbsp;Add to cart</span>
-                                </button>
-                                <button class="btn btn-cart">
-                                  <i class="fa fa-flask"></i>
-                                </button>
-                                <button class="btn btn-cart">
-                                  <i class="fa fa-list"></i>
-                                </button>
+                            <div class="desc">
+                              Show your customers how many sales are placed in your store, so increases the customer trust in your site.
+                            </div>
+                          <div class="actions">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <div class="btn-group">
+                                  <button class="btn btn-cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span>&nbsp;Add to cart</span>
+                                  </button>
+                                  <button class="btn btn-cart">
+                                    <i class="fa fa-flask"></i>
+                                  </button>
+                                  <button class="btn btn-cart">
+                                    <i class="fa fa-list"></i>
+                                  </button>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -596,11 +635,6 @@
           items:1,
           margin:10,
           nav:false
-      });
-
-      //Select change
-      $('.autochange-select').change(function() {
-        location.href = $(this).val();
       });
 
     </script>
