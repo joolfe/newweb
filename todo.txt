@@ -38,8 +38,8 @@ URGENTE PORQUE ME ESTOY LLEVAND PRODUCTOS A MUCHAS PAGINAS.
 - aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
         si va a ser siempre variable o le pongo un hidden y elipssis porque siempre va a ser algo dinamico no?
         PENSAR
-- boton add to cart no se ve siempre ok.
 
+MAINTENANCE
 BROWSER SUPPORT TPL
 DEMO
 CHECKOUT
@@ -54,7 +54,6 @@ CHECKOUT
     register.tpl
     shipping_address.tpl
     shipping_method.tpl
-MAINTENANCE
 HOME
 content top?
 content right?
