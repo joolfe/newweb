@@ -1,0 +1,23 @@
+Searching 57 files for "text-left-center"
+
+/Users/joliva/opencart/account-order-info.html:
+  229                    <ul class="list-group false-table">
+  230                        <li class="list-group-item  header-table">
+  231:                         <div class="text-left-center"><span class="fa fa-tasks"></span>&nbsp;Order Detail</div>
+  232                        </li>
+  233                        <li class="list-group-item">
+  ...
+  253                    <ul class="list-group false-table">
+  254                        <li class="list-group-item header-table">
+  255:                         <div class="text-left-center"><span class="fa fa-map-marker"></span>&nbsp;Payment Address</div>
+  256                        </li>
+  257                        <li class="list-group-item text-left">
+
+/Users/joliva/opencart/css/bootstrap.theme.css:
+ 1011  	padding-right: 5px;
+ 1012  }
+ 1013: .text-left-center{
+ 1014  	text-align: left;
+ 1015  }
+
+3 matches across 2 files

@@ -624,6 +624,12 @@ button.mfp-arrow.ctrl-btn{
 	border-top: 1px solid #D6D6D6;
 	margin: 5px 0px 10px 0px
 }
+.box .box-footer{
+	border-top: 1px solid #D6D6D6;
+	padding: 10px 20px;
+
+}
+
 .tile-container > .row > div:before{
 	/* Separador de productos */
 	content: "";
@@ -1004,8 +1010,11 @@ button.mfp-arrow.ctrl-btn{
 	padding-left: 5px;
 	padding-right: 5px;
 }
-.text-left-center{
+.text-left-md{
 	text-align: left;
+}
+.text-right-md{
+	text-align: right;
 }
 
 .modal-dialog.modal-sm{
@@ -1072,14 +1081,18 @@ div.required .control-label:after {
 .btn-group-block{
 	width: 100%;
 }
-.btn-group-block > .btn {
+.btn-group-block > .btn, .btn-group-block > .btn-group {
 	width: 50%;
+}
+.btn-group-block > .btn-group > .btn,  .btn-group-block > .btn-group > .dropdown-menu {
+	width: 100%;
+	min-width: 1px;
 }
 
 /* Pagination */
 .pagination{
 	margin-top: 0px;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 }
 .pagination>li>a, .pagination>li>span{
 	color: #808080;
@@ -1119,11 +1132,6 @@ div.required .control-label:after {
 .super-text{
 	font-size: 100px;
 }
-
-.dropdown-block > button, .dropdown-block > a, .dropdown-block > ul{
-	width: 100%;
-}
-
 
 /* Responsive Css */
 @media(max-width:992px){
@@ -1168,7 +1176,7 @@ div.required .control-label:after {
 		padding-top: 7px;
 		text-align: left;
 	}
-	.text-left-center{
+	.text-center-sm{
 		text-align: center;
 	}
 	.false-table .mini-header{
@@ -1226,6 +1234,9 @@ div.required .control-label:after {
 	.product-tile .desc{
 		height: 48px;
 	}
+	.tile-container {
+		margin-top: -2px;
+	}
 	.tile-container > .row > div:before{
 		/* Separador de productos */
 		margin-top: 0px;
@@ -1248,7 +1259,7 @@ div.required .control-label:after {
 		display: block;
 		width: 100%;	
 	}
-	.pagination{
+	.pagination-table{
 		margin-top: -12px;
 		margin-bottom: 10px;
 	}
@@ -1258,6 +1269,9 @@ div.required .control-label:after {
 	.desc-check{
 		margin-top: 0px;
 		margin-left: 5px;
+	}
+	.text-center-xs{
+		text-align: center;
 	}
 }
 
