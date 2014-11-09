@@ -1131,6 +1131,11 @@ div.required .control-label:after {
 	border-color: #FF4922;
 }
 
+/* text colors*/
+.text-red{
+	color:#F71919;
+}
+
 /* Not found */
 .super-text{
 	font-size: 100px;
