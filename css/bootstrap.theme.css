@@ -847,9 +847,12 @@ button.mfp-arrow.ctrl-btn{
 .product-tile .desc{
 	color:#777;
 	text-align: center;
-	height: 92px;
+	height: 100px;
 	vertical-align: middle;
 	display: table-cell;
+}
+.product-tile .desc > div {
+	max-height: 100px;
 }
 .product-tile .not-rated{
 	color: #CCC;
@@ -1140,9 +1143,6 @@ div.required .control-label:after {
 	}
 	.product-info{
 		margin-top: 15px;
-	}
-	.product-tile .desc{
-		height: 68px;
 	}
 	.product-info{
 		padding: 0px;

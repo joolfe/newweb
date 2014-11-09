@@ -33,11 +33,14 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 Diseño pagina productos:
 -------------------------
- 
+
+PROBR A VER SI HORA RULA OK EN MAC, he puesto dot dot porque queda mejor.
 URGENTE PORQUE ME ESTOY LLEVAND PRODUCTOS A MUCHAS PAGINAS.
-- aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
+    - aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
         si va a ser siempre variable o le pongo un hidden y elipssis porque siempre va a ser algo dinamico no?
         PENSAR
+
+Poner doble div en todas las descripciones d eproductos.
 
 MAINTENANCE
 BROWSER SUPPORT TPL
@@ -55,10 +58,10 @@ CHECKOUT
     shipping_address.tpl
     shipping_method.tpl
 HOME
-content top?
-content right?
-content left?
-content bottom?
+    content top?
+    content right?
+    content left?
+    content bottom?
 INFORMATION
     contact.tpl
     documentation.tpl
@@ -83,7 +86,6 @@ OJO los js estan repartidos tengo que buscarlos en cada uno de los sitios o como
     - permitir ver pass con ojito??
 
 PRODUCTOS
-
 - Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
 	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
@@ -102,8 +104,6 @@ EN POPUPS
    BTONES EN DERECHA SIEMPRE
 Separacion de arriba:
   10px de wrap-btn mas 15px del otro.    
-
-
 
 
 EJEMPLOS INSPIRACIONALES
@@ -126,7 +126,6 @@ http://321cart.com/demo/sellya/index.php?route=product/product&product_id=95
 
 - Megusta que estan separados como en cajitas
 http://themeforest.net/item/pav-digital-store-responsive-opencart-theme/full_screen_preview/6461154
-
 
 
 iconos:
