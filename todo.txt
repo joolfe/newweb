@@ -42,8 +42,6 @@ URGENTE PORQUE ME ESTOY LLEVAND PRODUCTOS A MUCHAS PAGINAS.
 
 Poner doble div en todas las descripciones d eproductos.
 
-buscar clases que oslo pongan rojo y sustituir por text-red
-
 BROWSER SUPPORT TPL
 DEMO
 CHECKOUT
