@@ -10,6 +10,10 @@
 
 - hacer una version flat a ver que tal se ve...
 
+- browser support ajustar
+
+- buscar si alguna herramienta te dice problemas con navegadores.
+
 - en especial los dropdown deben coger el valor de lo seleccionado, con php se hace esto. Tb el icono
 debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y texto de que.
 
@@ -42,8 +46,13 @@ URGENTE PORQUE ME ESTOY LLEVAND PRODUCTOS A MUCHAS PAGINAS.
 
 Poner doble div en todas las descripciones d eproductos.
 
-BROWSER SUPPORT TPL
+el precio en el info product esta antes y en los tiles esta despues, como lo pongo?? decidir.
+
 DEMO
+    - responsive sm
+    - separacion botones
+    - linea de separacion cabecera.
+
 CHECKOUT
     cart.tpl
     checkout.tpl

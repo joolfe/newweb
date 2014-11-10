@@ -554,20 +554,9 @@ button.mfp-arrow.ctrl-btn{
 .product-info .price{
 	margin-bottom: 11px;
 	font-size: 21px;
-	color: #F71919;
 }
 .product-info .price .price-old {
-	text-decoration: line-through;
 	font-size: 19px;
-	color: #888;
-}
-.product-info .price .price-tax{
-	font-size: 14px;
-	color: #999;
-	font-weight: normal;
-}
-.product-info .price .reward{
-	font-size: 14px;
 }
 .product-info .review{
 	display: inline-block;
@@ -809,7 +798,7 @@ button.mfp-arrow.ctrl-btn{
 	font-size: 15px;
 }
 .price-old {
-	color: #777;
+	color: #888;
 	text-decoration: line-through;
 }
 .price-new {
@@ -819,8 +808,17 @@ button.mfp-arrow.ctrl-btn{
 	color: #FF5757;
 	font-weight: bold;
 }
+.price-tax{
+	font-size: 14px;
+	color: #999;
+	font-weight: normal;
+}
+.reward{
+	font-size: 13px;
+}
 .product-tile .price{
 	line-height: 2;
+	font-weight: bold;
 }
 
 /* Product tiles/boxs */
@@ -1140,6 +1138,15 @@ div.required .control-label:after {
 .super-text{
 	font-size: 100px;
 }
+.demo-header{
+	padding: 10px 0px;
+}
+.demo-header h4{
+	margin-top: 10px;
+}
+.demo-header .price{
+	font-weight: bold;
+}
 
 /* Responsive Css */
 @media(max-width:992px){
@@ -1277,6 +1284,9 @@ div.required .control-label:after {
 	}
 	.text-center-xs{
 		text-align: center;
+	}
+	.bottom-margin-xs{
+		margin-bottom: 15px;
 	}
 }
 

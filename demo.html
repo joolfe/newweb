@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home New Template</title>
+     
+    <!-- Foonts -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.theme.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Popup -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css">
+    <script src=" //cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
+
+    <!-- Carousel -->
+    <script type="text/javascript" src="scripts/owl.carousel.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/owl.carousel.css" />
+
+    <!-- Ellipsis -->
+    <script type="text/javascript" src="scripts/jquery.dotdotdot.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="demo-header">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="img/logo.png"/>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-xs-12 text-center-xs">
+                <h2 class="hidden-xs">Background change for products</h2>
+                <h4 class="visible-xs-block">Background change for products</h4>
+              </div>
+            </div>
+            <div class="row text-center-xs bottom-margin-xs">
+              <div class="col-xs-6 col-md-4">
+                <div class="price"> 
+                  <span class="price-new">$119.50</span>       
+                  <span class="price-old">$119.50</span>               
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="review">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-o empty"></span>
+                  <span class="fa fa-star-o empty"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="row">
+              <div class="col-xs-6 col-md-8">
+                <button class="btn btn-primary btn-block">
+                  <span class="fa fa-shopping-cart"></span>&nbsp;Buy this mod
+                </button>
+              </div>
+              <div class="clearfix hidden-xs"></div>
+              <div class="col-xs-6 col-md-8">
+                <button class="btn btn-default btn-block">
+                  <span class="fa fa-cogs"></span>&nbsp;Go to Admin side
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <iframe id="demoIframe" src="http://demo.jolivapps.com/Strawberry" style="width: 100%;" frameborder="0" noresize="noresize"></iframe>
+
+    <script>
+      //function to fix height of iframe!
+      var calcHeight = function() {
+        console.log($('.container').height());
+        var headerDimensions = $('.container').height();
+        $('#demoIframe').height($(window).height() - (headerDimensions+19));
+      }
+      $(document).ready(function() {
+        calcHeight();
+      });
+      $(window).resize(function() {
+        calcHeight();
+      }).load(function() {
+        calcHeight();
+      });
+    </script>
+
+  </body>
+</html>
