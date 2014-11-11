@@ -1147,6 +1147,10 @@ div.required .control-label:after {
 .demo-header .price{
 	font-weight: bold;
 }
+.demo-header .btn-primary{
+	margin-bottom: 5px;
+}
+
 
 /* Responsive Css */
 @media(max-width:992px){
@@ -1287,6 +1291,13 @@ div.required .control-label:after {
 	}
 	.bottom-margin-xs{
 		margin-bottom: 15px;
+	}
+	/* Utils Class */
+	.clear-pad-left-xs {
+		padding-left: 5px;
+	}
+	.clear-pad-right-xs {
+		padding-right: 5px;
 	}
 }
 
