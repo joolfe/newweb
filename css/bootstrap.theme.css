@@ -1057,7 +1057,7 @@ div.required .control-label:after {
 .false-table{
 	text-align: center;
 }
-.false-table .header-table{
+.header-table{
 	font-weight: bold;
 	background-color: #F5F6F7;
 }

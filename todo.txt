@@ -33,9 +33,9 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 - en carousel de productos poner alguna pista de que s epude arrastrar?? plan tutorial??
 
-- Carousel: Las imagenes deben ser mayores a los 570 para que se vena bie siempre incluso en md cuando se reduce.
+- Carousel: Las imagenes deben ser mayores a los 57s0 para que se vena bie siempre incluso en md cuando se reduce.
 
-Diseño pagina productos:
+Diseño pagina productos:s
 -------------------------
 
 El precio en el info product esta antes y en los tiles esta despues, como lo pongo?? decidir.
