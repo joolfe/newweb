@@ -38,15 +38,16 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 Diseño pagina productos:
 -------------------------
 
-Poner doble div en todas las descripciones de productos.
-
-el precio en el info product esta antes y en los tiles esta despues, como lo pongo?? decidir.
+El precio en el info product esta antes y en los tiles esta despues, como lo pongo?? decidir.
 
 DEMO
     - el scroll no me va pq?? ver si rula en windows.
 
+CART
+ - hace un raro los botones en input group...
+ - 
+
 CHECKOUT
-    cart.tpl
     checkout.tpl
     confirm.tpl
     guest.tpl
@@ -57,11 +58,6 @@ CHECKOUT
     register.tpl
     shipping_address.tpl
     shipping_method.tpl
-HOME
-    content top?
-    content right?
-    content left?
-    content bottom?
 INFORMATION
     contact.tpl
     documentation.tpl
@@ -71,6 +67,11 @@ INFORMATION
 PAYMENT
     banktransfer
     paypal
+HOME
+    content top?
+    content right?
+    content left?
+    content bottom?
 
 MAIL DE ORDER
 MODULOS, Revisar cuales uso

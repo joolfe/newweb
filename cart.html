@@ -196,237 +196,132 @@
         <div class="row">
           <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
-            <li class="active">Search</li>
+            <li class="active">Shopping Cart</li>
           </ol>
         </div>
 
         <div class="row">
           <div class="col-xs-12">
             <div class="box main-container">
-              <h2>Search - Palabra</h2>
-              <form>
-                <fieldset>
-                  <div class="row">
-                    <div class="col-sm-7 col-md-6 col-lg-5">
-                      <div class="form-group">
-                        <label class="control-label" for="input-search">Search Criteria</label>
-                         <div class="input-group search-box">
-                          <input type="text" id="input-search" class="form-control">
-                          <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"> 
-                              <i class="fa fa-search"></i><span class="hidden-xs">&nbsp;Search</span>
-                            </button>
-                          </span>
+              <h2>Shopping Cart</h2>
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="list-group false-table">    
+                    <li class="list-group-item header-table">
+                        <div class="row hidden-sm hidden-xs">
+                          <div class="col-md-2">Image</div>
+                          <div class="col-md-3">Name</div>
+                          <div class="col-md-2">Qty.</div>
+                          <div class="col-md-3">Unit Price</div>
+                          <div class="col-md-2">Total</div>
+                        </div>
+                        <div class="hidden-md hidden-lg"><span class="fa fa-cube"></span>&nbsp;Products</div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-md-2 col-img">
+                          <img src="http://jolivapps.com/image/data/view-order/order-view.png" width="700px" class="img-responsive"></img>
+                        </div>
+                        <div class="col-md-3 col-title">
+                         <a href="#">Customize order info page</a>
+                        </div>
+                        <div class="col-md-2 col-text hidden-xs hidden-sm">
+                          <div class="input-group">
+                            <input type="text" class="form-control" value="1">
+                            <span class="input-group-btn">
+                              <button class="btn btn-default btn-add" type="button">
+                                <span class="fa fa-refresh"></span>
+                              </button>
+                              <button class="btn btn-default btn-delete" type="button">
+                                <span class="fa fa-remove"></span>
+                              </button>
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-text hidden-xs hidden-sm">
+                            $21.50
+                        </div>
+                        <div class="col-md-2 col-text hidden-xs hidden-sm">
+                          <div class="price-total">
+                            $43.00
+                          </div>
+                        </div>
+                        <div class="col-xs-12 visible-xs-block visible-sm-block col-text">
+                            $21.50 x 2 = <span class="price-total">$43.00</span>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-sm-5 col-md-5">
-                      <div class="checkbox desc-check">
-                        <label>
-                          <input type="checkbox" name="input-password"> Search in product descriptions
-                        </label>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-md-2 col-img">
+                          <img src="http://jolivapps.com/image/data/html-ads/htmlads.png" width="700px" class="img-responsive"></img>
+                        </div>
+                        <div class="col-md-3 col-title">
+                         <a href="#">HTML side adds</a>
+                        </div>
+                        <div class="col-md-2 col-text hidden-xs hidden-sm">
+                          3
+                        </div>
+                        <div class="col-md-3 col-text hidden-xs hidden-sm">
+                            $10.50
+                        </div>
+                        <div class="col-md-2 col-text hidden-xs hidden-sm">
+                          <div class="price-total">
+                            $31.50
+                          </div>
+                        </div>
+                        <div class="col-xs-12 visible-xs-block visible-sm-block col-text">
+                            $21.50 x 2 = <span class="price-total">$31.00</span>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                </fieldset>
-              </form>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12">
-              <div class="box">
-                <div class="box-head">
-                  <span class="box-title">
-                    <span class="fa fa-folder-open-o"></span>Matching Products 
-                  </span>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="hidden-sm hidden-xs col-md-7"></div>
+                        <div class="col-xs-6 col-md-3">
+                          <strong>Sub-Total:</strong>
+                        </div>
+                        <div class="col-xs-6 col-md-2">
+                          <div class="price-total">
+                            $80.00
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                     <li class="list-group-item">
+                      <div class="row">
+                        <div class="hidden-sm hidden-xs col-md-7"></div>
+                        <div class="col-xs-6 col-md-3">
+                          <strong>Total:</strong>
+                        </div>
+                        <div class="col-xs-6 col-md-2">
+                          <div class="price-total">
+                            $83.00
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-                <div class="box-content">
-                  <div class="tile-container">
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="product-tile">
-                          <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/data/tabs/tabs.png"/></a>
-                          <div class="product-body">
-                            <div class="name"><a href="#">Mail Templates for orders</a></div>
-                            <div class="row">
-                              <div class="col-xs-6 clear-pad-right">
-                                <div class="price">
-                                            <span class="price-old">$19.50</span> 
-                                            <span class="price-new">$10.75</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 clear-pad-left">
-                                        <div class="review">
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star-o empty"></span>
-                                </div>
-                              </div>
-                            </div>
-                              <div class="desc">
-                                <div>
-                                Create topics (news) where you describe properties or feature about products to promote them. this is just more text to make line long hey
-                              </div>
-                              </div>
-                           <div class="actions">
-                              <div class="row">
-                                <div class="col-xs-12">
-                                  <div class="btn-group">
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-shopping-cart"></i>
-                                      <span>&nbsp;Add to cart</span>
-                                    </button>
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-flask"></i>
-                                    </button>
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-list"></i>
-                                    </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="product-tile">
-                          <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/cache/data/cookie-advice/cookie-advice-220x140.png"/></a>
-                          <div class="product-body">
-                            <div class="name"><a href="#">Show it on Tab!</a></div>
-                            <div class="row">
-                              <div class="col-xs-6 clear-pad-right">
-                                <div class="price">
-                                            <span class="price-new">$10.00</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 clear-pad-left">
-                                        <div class="review">
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star"></span>
-                                  <span class="fa fa-star-o empty"></span>
-                                  <span class="fa fa-star-o empty"></span>
-                                </div>
-                              </div>
-                            </div>
-                                  <div class="desc">
-                                    <div>
-                                      Configure side ads for your web of any kind of content: images, text, links ...
-                                    </div>
-                                  </div>
-                           <div class="actions">
-                              <div class="row">
-                                <div class="col-xs-12">
-                                  <div class="btn-group">
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-shopping-cart"></i>
-                                      <span>&nbsp;Add to cart</span>
-                                    </button>
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-flask"></i>
-                                    </button>
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-list"></i>
-                                    </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="clearfix visible-sm"></div>
-                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="product-tile">
-                          <a href="#"><img class="img-responsive" width="700px" src="http://jolivapps.com/image/data/html-ads/htmlads.png"/></a>
-                          <div class="product-body">
-                            <div class="name"><a href="#">Order Counter</a></div>
-                                    <div class="row">
-                              <div class="col-xs-6 clear-pad-right">
-                                <div class="price">
-                                            <span class="price-old">$39.50</span> 
-                                            <span class="price-new">$37.75</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 clear-pad-left">
-                                        <div class="review">
-                                  <span class="not-rated">Not rated yet!  </span>
-                                </div>
-                              </div>
-                            </div>
-                              <div class="desc">
-                                <div>
-                                Show your customers how many sales are placed in your store, so increases the customer trust in your site.
-                                </div>
-                              </div>
-                            <div class="actions">
-                              <div class="row">
-                                <div class="col-xs-12">
-                                  <div class="btn-group">
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-shopping-cart"></i>
-                                      <span>&nbsp;Add to cart</span>
-                                    </button>
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-flask"></i>
-                                    </button>
-                                    <button class="btn btn-cart">
-                                      <i class="fa fa-list"></i>
-                                    </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+              </div>
 
-                    </div>
-                  </div>
+              <div class="row wrap-btn">
+                <div class="col-xs-5 col-sm-4 col-md-3 clear-pad-right">
+                  <button class="btn btn-default btn-block">
+                    <i class="fa fa-chevron-left"></i>
+                    <span>&nbsp;Continue Shopping</span>
+                  </button>
+                </div>
+                <div class="col-xs-7 col-md-2 clear-pad-left">
+                  <button class="btn btn-primary btn-block">
+                    <i class="fa fa-play-circle"></i>
+                    <span>&nbsp;Chekout</span>
+                  </button>
                 </div>
               </div>
             </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="box">
-                <div class="box-head">
-                  <span class="box-title">
-                    <span class="fa fa-binoculars"></span>Maybe you are looking for...
-                  </span>
-                </div>
-                 <div class="main-container">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-4">
-                      <h4>Site places</h4>
-                      <span class="fa fa-angle-right"></span>&nbsp;<a href="#">Checkout Page</a></br>
-                      <span class="fa fa-angle-right"></span>&nbsp;<a href="#">Home</a></br>
-                      <span class="fa fa-angle-right"></span>&nbsp;<a href="#">Search</a></br>
-                      </br>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                      <h4>Information pages</h4>
-                      <span class="fa fa-angle-right"></span>&nbsp;<a href="#">Terms and condition</a></br>
-                      </br>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                      <h4>Documentation</h4>
-                      <span class="fa fa-angle-right"></span>&nbsp;<a href="#">Hola que haces??</a></br>
-                      <span class="fa fa-angle-right"></span>&nbsp;<a href="#">Serach about your life</a></br>
-                      </br>
-                    </div>
-                  </div>
-                </div>
-            </div>
           </div>
         </div>
-
       </div>
     </div>
 
