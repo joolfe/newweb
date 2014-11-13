@@ -1138,8 +1138,11 @@ div.required .control-label:after {
 .super-text{
 	font-size: 100px;
 }
+
+/* demo */
 .demo-header{
-	padding: 10px 0px;
+	padding: 10px 20px;
+	border-bottom: 2px solid #E7E7E7;
 }
 .demo-header h4{
 	margin-top: 10px;
@@ -1150,7 +1153,9 @@ div.required .control-label:after {
 .demo-header .btn-primary{
 	margin-bottom: 5px;
 }
-
+.demo-header img{
+	margin-top: 12px;
+}
 
 /* Responsive Css */
 @media(max-width:992px){
@@ -1200,6 +1205,7 @@ div.required .control-label:after {
 		color: #7C7C7C;
 		padding-left: 25px;
 	}
+
 }
 
 @media(max-width:767px){
@@ -1298,6 +1304,9 @@ div.required .control-label:after {
 	}
 	.clear-pad-right-xs {
 		padding-right: 5px;
+	}
+	.demo-header img{
+		margin-top: 5px;
 	}
 }
 

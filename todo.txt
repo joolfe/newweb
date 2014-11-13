@@ -38,20 +38,12 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 Diseño pagina productos:
 -------------------------
 
-PROBR A VER SI HORA RULA OK EN MAC, he puesto dot dot porque queda mejor.
-URGENTE PORQUE ME ESTOY LLEVAND PRODUCTOS A MUCHAS PAGINAS.
-    - aqui en mac no se me ve bien la altura de los tiles??? se ve vien en windows?? de que depende esto??
-        si va a ser siempre variable o le pongo un hidden y elipssis porque siempre va a ser algo dinamico no?
-        PENSAR
-
-Poner doble div en todas las descripciones d eproductos.
+Poner doble div en todas las descripciones de productos.
 
 el precio en el info product esta antes y en los tiles esta despues, como lo pongo?? decidir.
 
 DEMO
-    - responsive sm
-    - separacion botones
-    - linea de separacion cabecera.
+    - el scroll no me va pq?? ver si rula en windows.
 
 CHECKOUT
     cart.tpl
