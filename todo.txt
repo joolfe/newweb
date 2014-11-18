@@ -43,9 +43,11 @@ El precio en el info product esta antes y en los tiles esta despues, como lo pon
 DEMO
     - el scroll no me va pq?? ver si rula en windows.
 
-CART
- - hace un raro los botones en input group...
- - 
+CARTsss
+ - Tamaño ajustar ambos a ver...
+ - responsive revisar
+ - boton en peque ocultar texto.
+
 
 CHECKOUT
     checkout.tpl

@@ -1089,6 +1089,12 @@ div.required .control-label:after {
 	width: 100%;
 	min-width: 1px;
 }
+.input-group .form-control:first-child{
+	border-right: 0px;
+}
+.input-group-btn:last-child>.btn:first-child{
+	margin-left: 0px;
+}
 
 /* Pagination */
 .pagination{
