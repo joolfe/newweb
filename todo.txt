@@ -43,10 +43,9 @@ El precio en el info product esta antes y en los tiles esta despues, como lo pon
 DEMO
     - el scroll no me va pq?? ver si rula en windows.
 
-CARTsss
- - Tamaño ajustar ambos a ver...
+CART
+- sm no me convence hayq ue darle una vuelta sino no mola.
  - responsive revisar
- - boton en peque ocultar texto.
 
 
 CHECKOUT

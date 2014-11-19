@@ -242,6 +242,17 @@ a, a.list-group-item > span {
 	border-color: #F87070;
 	color: #FFF;
 }
+.btn-tertiary {
+	color: #FFF;
+	background-color: #333;
+	border-color: #333;
+}
+.btn.btn-tertiary:hover, .btn.btn-tertiary:active, .btn.btn-tertiary.active, .btn.btn-tertiary:focus {
+	color: #FFF;
+	background-color: #808080;
+	border-color: #808080;
+}
+
 .btn-secondary {
 	color: #FFF;
 	background-color: #333;
