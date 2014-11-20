@@ -40,12 +40,10 @@ Diseño pagina productos:s
 
 El precio en el info product esta antes y en los tiles esta despues, como lo pongo?? decidir.
 
+Hechar un ojo a las cabeceras de las tabals? no se si acaban de convencerme la verdad...
+
 DEMO
     - el scroll no me va pq?? ver si rula en windows.
-
-CART
-- sm no me convence hayq ue darle una vuelta sino no mola.
- - responsive revisar
 
 
 CHECKOUT

@@ -1193,7 +1193,7 @@ div.required .control-label:after {
 		margin-left: 5px;
 	}
 	/* False table especial css */
-	.false-table .col-img{
+	.false-table .col-img-sm{
 		padding-top: 10px;
 	}
 	.false-table .col-btn{
@@ -1314,6 +1314,13 @@ div.required .control-label:after {
 	}
 	.bottom-margin-xs{
 		margin-bottom: 15px;
+	}
+	/* False table */
+	.false-table .col-img-xs{
+		padding-top: 10px;
+	}
+	.false-table .col-input{
+		padding: 10px 0px 5px 0px;
 	}
 	/* Utils Class */
 	.clear-pad-left-xs {
