@@ -38,34 +38,37 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 Diseño pagina productos:s
 -------------------------
 
-El precio en el info product esta antes y en los tiles esta despues, como lo pongo?? decidir.
-
 Hechar un ojo a las cabeceras de las tabals? no se si acaban de convencerme la verdad...
 
 DEMO
-    - el scroll no me va pq?? ver si rula en windows.
+    - El scroll no me va pq?? ver si rula en windows.
 
+CHECKOUT
+    
 
 CHECKOUT
     checkout.tpl
-    confirm.tpl
-    guest.tpl
-    guest_shipping.tpl
-    login.tpl
-    payment_address.tpl
-    payment_method.tpl
-    register.tpl
-    shipping_address.tpl
-    shipping_method.tpl
+        confirm.tpl
+        guest.tpl
+        guest_shipping.tpl
+        login.tpl
+        payment_address.tpl
+        payment_method.tpl
+        register.tpl
+        shipping_address.tpl
+        shipping_method.tpl
+
 INFORMATION
     contact.tpl
     documentation.tpl
     information.tpl
     sitemap.tpl
     sitesgallery.tpl
+
 PAYMENT
     banktransfer
     paypal
+
 HOME
     content top?
     content right?
@@ -76,14 +79,11 @@ MAIL DE ORDER
 MODULOS, Revisar cuales uso
 Las instrucciones hace run template para ellas.
 
-OJO los js estan repartidos tengo que buscarlos en cada uno de los sitios o como lo hago?? pensar ya
-    - en special hay js especifico.
-
-- rediseñar los modals al nuevo estilo?
-    - cuadraditos
-    - label visibles
-    - dar una vuelta al link del forgotten.
-    - permitir ver pass con ojito??
+- Rediseñar los modals al nuevo estilo?
+    - Cuadraditos
+    - Label visibles
+    - Dar una vuelta al link del forgotten.
+    - Permitir ver pass con ojito??
 
 PRODUCTOS
 - Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
