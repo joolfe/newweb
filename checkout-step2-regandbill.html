@@ -200,31 +200,31 @@
             <li class="active">Checkout</li>
           </ol>
         </div>
-
         <div class="row">
           <div class="col-xs-12">
             <div class="box main-container">
-              <h2>Checkout</h2>
               <div class="row bs-wizard">
                 <div class="col-xs-3 bs-wizard-step complete">
                   <div class="text-center bs-wizard-stepnum">Step 1</div>
                   <div class="progress"><div class="progress-bar"></div></div>
-                  <a href="#" class="bs-wizard-dot"></a>
+                  <a href="checkout-step1.html" class="bs-wizard-dot"></a>
                   <div class="bs-wizard-info text-center">Customer</div>
+                  <div class="bs-wizard-arrow text-center"><span class="fa"></span></div>
                 </div>
                 
                 <div class="col-xs-3 bs-wizard-step active"><!-- complete -->
                   <div class="text-center bs-wizard-stepnum">Step 2</div>
                   <div class="progress"><div class="progress-bar"></div></div>
                   <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">Billing Details</div>
+                  <div class="bs-wizard-info text-center">Billing <span class="hidden-xs">Details</span></div>
+                  <div class="bs-wizard-arrow text-center"><span class="fa"></span></div>
                 </div>
                 
                 <div class="col-xs-3 bs-wizard-step disabled"><!-- complete -->
                   <div class="text-center bs-wizard-stepnum">Step 3</div>
                   <div class="progress"><div class="progress-bar"></div></div>
                   <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">Payment Method</div>
+                  <div class="bs-wizard-info text-center">Payment <span class="hidden-xs">Method</span></div>
                 </div>
                 
                 <div class="col-xs-3 bs-wizard-step disabled"><!-- active -->
@@ -234,11 +234,158 @@
                   <div class="bs-wizard-info text-center">Confirm</div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-xs-12">
-                  Esto ya es info de aqui :-)
+
+              <div class="checkout-container">
+              <h2>Create New Account</h2>
+              <form>
+                <fieldset>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <legend>Your Personal Details</legend>
+                      <div class="row">
+                        <div class="col-md-11 col-lg-10">
+                          <div class="form-group required">
+                            <label class="control-label" for="input-firstname">First Name</label>
+                            <input type="text" name="firstname" value="" id="input-firstname" class="form-control">
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-11 col-lg-10">
+                          <div class="form-group required">
+                            <label class="control-label" for="input-lastname">Last Name</label>
+                            <input type="text" name="lastname" value="" id="input-lastname" class="form-control">
+                          </div>   
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-11 col-lg-10">
+                          <div class="form-group required">
+                            <label class="control-label" for="input-mail">E-mail</label>
+                            <input type="text" name="mail" value="" placeholder="example@gmail.com" id="input-mail" class="form-control">
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-sm-6 col-md-6 col-lg-5">  
+                          <div class="form-group">
+                            <label class="control-label" for="input-telephone">Telephone</label>
+                            <input type="text" name="telephone" value="" id="input-telephone" class="form-control">
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-sm-6 col-md-6 col-lg-5">
+                          <div class="form-group">
+                            <label class="control-label" for="input-fax">Fax</label>
+                            <input type="text" name="fax" value="" id="input-fax" class="form-control">
+                          </div>
+                        </div>  
+                      </div>  
+                      <legend>Your Password</legend>
+                      <div class="row">
+                        <div class="col-md-7 col-lg-6">
+                          <div class="form-group required">
+                            <label class="control-label" for="input-password">Password</label>
+                            <input type="password" name="password" value="" id="input-password" class="form-control" placeholder="Must have at least 6 characters">
+                          </div>
+                        </div>
+                        <div class="col-md-5">
+                          <div class="checkbox psw-check">
+                            <label>
+                              <input type="checkbox" name="input-password"> Check password
+                            </label>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>  
+                    <div class="col-md-6">
+                      <legend>Your Address</legend>
+                      <div class="row">
+                        <div class="col-sm-10 col-md-8 col-lg-7">
+                          <div class="form-group">
+                            <label class="control-label" for="input-company">Company</label>
+                            <input type="text" name="company" value="" id="input-company" class="form-control">
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-12 col-lg-11">
+                          <div class="form-group required">
+                            <label class="control-label" for="input-address1">Address 1</label>
+                            <input type="text" name="address1" value="" id="input-address1" class="form-control">
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-12 col-lg-11">
+                          <div class="form-group">
+                            <label class="control-label" for="input-address2">Address 2</label>
+                            <input type="text" name="address2" value="" id="input-address2" class="form-control">
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-8 col-lg-7">
+                          <div class="form-group required">
+                            <label class="control-label" for="input-city">City</label>
+                            <input type="text" name="city" value="" id="input-city" class="form-control">
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-sm-6 col-md-5 col-lg-4">
+                          <div class="form-group required">
+                            <label class="control-label" for="input-postcode">Post Code</label>
+                            <input type="text" name="postcode" value="" id="input-postcode" class="form-control">
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-9 col-lg-8">
+                          <div class="form-group required">
+                            <label class="control-label" for="input-country">Country</label>
+                            <select name="country_id" id="input-country" class="form-control">
+                              <option value=""> --- Please Select --- </option>
+                              <option value="244">Aaland Islands</option>
+                              <option value="1">Afghanistan</option>
+                              <option value="2">Albania</option>
+                              <option value="3">Algeria</option>
+                              <option value="4">American Samoa</option>
+                              <option value="5">Andorra</option>
+                              <option value="6">Angola</option>
+                              <option value="7">Anguilla</option>
+                              <option value="8">Antarctica</option>
+                              <option value="9">Antigua and Barbuda</option>
+                              <option value="10">Argentina</option>
+                              <option value="11">Armenia</option>   
+                            </select> 
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-9 col-lg-8">
+                          <div class="form-group required">
+                            <label class="control-label" for="input-zone">Region / State</label>
+                            <select name="zone_id" id="input-zone" class="form-control"><option value=""> --- Please Select --- </option>
+                              <option value="3513">Aberdeen</option><option value="3514">Aberdeenshire</option>
+                              <option value="3515">Anglesey</option><option value="3516">Angus</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>  
+                  </div>                
+                </fieldset>
+                <div class="row wrap-btn">
+                  <div class="col-xs-12 col-md-5 col-lg-push-5 col-lg-4">
+                    <input type="hidden" name="input-privacy" value="false">
+                    <button class="btn btn-default btn-check btn-block">
+                      <span class="fa fa-fw fa-square-o"></span>&nbsp;I have read and agree to the 
+                      <a class="red-link" href="">Privacy Policy</a>
+                    </button>
+                  </div>
+                  <div class="clearfix visible-xs-block"></div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-push-5 col-lg-3">
+                    <button class="btn btn-primary btn-block">
+                      <i class="fa fa-check"></i>
+                      <span>&nbsp;Continue</span>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </form>
+            </div>
+
             </div>
           </div>
         </div>

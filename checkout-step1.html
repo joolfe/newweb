@@ -200,31 +200,32 @@
             <li class="active">Checkout</li>
           </ol>
         </div>
-
         <div class="row">
           <div class="col-xs-12">
             <div class="box main-container">
-              <h2>Checkout</h2>
               <div class="row bs-wizard">
-                <div class="col-xs-3 bs-wizard-step complete">
+                <div class="col-xs-3 bs-wizard-step active">
                   <div class="text-center bs-wizard-stepnum">Step 1</div>
                   <div class="progress"><div class="progress-bar"></div></div>
                   <a href="#" class="bs-wizard-dot"></a>
                   <div class="bs-wizard-info text-center">Customer</div>
+                  <div class="bs-wizard-arrow text-center">
+                    <span class="fa"></span>
+                  </div>
                 </div>
                 
-                <div class="col-xs-3 bs-wizard-step active"><!-- complete -->
+                <div class="col-xs-3 bs-wizard-step disabled"><!-- complete -->
                   <div class="text-center bs-wizard-stepnum">Step 2</div>
                   <div class="progress"><div class="progress-bar"></div></div>
                   <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">Billing Details</div>
+                  <div class="bs-wizard-info text-center">Billing <span class="hidden-xs">Details</span></div>
                 </div>
                 
                 <div class="col-xs-3 bs-wizard-step disabled"><!-- complete -->
                   <div class="text-center bs-wizard-stepnum">Step 3</div>
                   <div class="progress"><div class="progress-bar"></div></div>
                   <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">Payment Method</div>
+                  <div class="bs-wizard-info text-center">Payment <span class="hidden-xs">Method</span></div>
                 </div>
                 
                 <div class="col-xs-3 bs-wizard-step disabled"><!-- active -->
@@ -234,11 +235,51 @@
                   <div class="bs-wizard-info text-center">Confirm</div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-xs-12">
-                  Esto ya es info de aqui :-)
+
+              <div class="checkout-container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="block-content">
+                      <h2>New Customer</h2>
+                      <p><b>Register Account</b></p>
+                      <p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
+                      <div class="row wrap-btn">
+                        <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+                          <a href="checkout-step2-regandbill.html" class="btn btn-primary btn-block">
+                            <i class="fa fa-pencil"></i>
+                            <span>&nbsp;Register</span>
+                          </a>
+                        </div>
+                      </div>      
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h2>Returning Customer</h2>
+                    <form>
+                      <div class="form-group">
+                        <label class="control-label" for="login-email">E-mail</label>
+                        <input type="text" class="form-control" id="login-email" placeholder="Your account E-mail...">
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label" for="login-pass">Password</label>
+                        <input type="password" class="form-control" id="login-pass" placeholder="Your Password...">
+                      </div>
+                      <div class="form-group">
+                        <a href="account-forgoten.html" class="link-forgot">Forgot Password? <span class="fa fa-lock "></span></a>
+                      </div>
+                      <div class="row wrap-btn">
+                        <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+                          <button class="btn btn-primary btn-block">
+                            <i class="fa fa-sign-in"></i>
+                            <span>&nbsp;Sign In</span>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>

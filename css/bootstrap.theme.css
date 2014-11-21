@@ -1174,8 +1174,7 @@ div.required .control-label:after {
 }
 
 /* Steps */
-.bs-wizard {margin-top: 40px;}
-.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard {border-bottom: solid 1px #D6D6D6; }
 .bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
 .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
@@ -1192,7 +1191,13 @@ div.required .control-label:after {
 .bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
 .bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
 .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+.bs-wizard > .bs-wizard-step.active .bs-wizard-info {color: #333; font-weight: bold;}
+.bs-wizard > .bs-wizard-step.active .bs-wizard-arrow {color: #D6D6D6; margin-top: -20px; font-size: 28px}
+.bs-wizard > .bs-wizard-step.active .bs-wizard-arrow > span { position: relative; top:15px;}
+.bs-wizard > .bs-wizard-step.active .bs-wizard-arrow > span:before {content: "\f0d8";}
 /* END Steps */
+
+.checkout-container{ padding: 40px 40px 20px 40px;}
 
 /* Responsive Css */
 @media(max-width:992px){
@@ -1242,6 +1247,7 @@ div.required .control-label:after {
 		color: #7C7C7C;
 		padding-left: 25px;
 	}
+	.checkout-container{ padding: 40px 20px 20px 20px}
 
 }
 
@@ -1352,6 +1358,7 @@ div.required .control-label:after {
 	.demo-header img{
 		margin-top: 5px;
 	}
+	.checkout-container{ padding: 20px 0px}
 }
 
 

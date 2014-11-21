@@ -12,6 +12,8 @@
 
 - browser support ajustar
 
+- EN la demo d eopencart cuando añade algo al carrito pone loading mientras hace la peticion me mola mucho eso.
+
 - buscar si alguna herramienta te dice problemas con navegadores.
 
 - en especial los dropdown deben coger el valor de lo seleccionado, con php se hace esto. Tb el icono
@@ -44,7 +46,13 @@ DEMO
     - El scroll no me va pq?? ver si rula en windows.
 
 CHECKOUT
-    
+ Demasiado complejos los pasos quitar el texto de step??
+ Step 1
+    - meter en algun sitio un Go to cart?    
+ Step 2
+    - sm ajustar algn tamaño que son mu grandes
+Step 3
+Step 4
 
 CHECKOUT
     checkout.tpl

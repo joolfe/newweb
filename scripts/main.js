@@ -107,11 +107,11 @@ $('#carousel-product').owlCarousel({
 });
 //Mask/unmask password
 $('.psw-check input').click(function(e) {
-if( $(this).prop('checked') ){
-    $('#'+$(this).attr('name') ).attr('type', 'text');
-}else{
-    $('#'+$(this).attr('name')).attr('type', 'password');
-}
+  if( $(this).prop('checked') ){
+      $('#'+$(this).attr('name') ).attr('type', 'text');
+  }else{
+      $('#'+$(this).attr('name')).attr('type', 'password');
+  }
 });
 //tooltip
 $testEl = $('<div id="smTest" class="hidden-xs hidden-sm"></div>');
@@ -119,3 +119,17 @@ $testEl.appendTo($('body'));
 if( !$('#smTest').is(':hidden') ){
 $('.btn-go, .btn-delete, .btn-edit, .btn-add').tooltip({container: 'body'}); 
 }
+//check button
+$( '.btn-check' ).click(function(e) {
+  e.preventDefault();
+  $icon = $(this).children('span');
+  if($icon.hasClass('fa-square-o')){
+    $icon.removeClass('fa-square-o').addClass('fa-check-square-o');
+    $(this).prev().val('true');
+  }else{
+    $icon.removeClass('fa-check-square-o').addClass('fa-square-o');
+    $(this).prev().val('false');
+  }
+  console.log($(this).prev().val());
+  
+});
