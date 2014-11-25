@@ -121,7 +121,11 @@ $('.btn-go, .btn-delete, .btn-edit, .btn-add').tooltip({container: 'body'});
 }
 //check button
 $( '.btn-check' ).click(function(e) {
+ console.log(e.target.nodeName);
+ if( e.target.nodeName == "BUTTON"  ){
   e.preventDefault();
+  console.log("entra");
+ }
   $icon = $(this).children('span');
   if($icon.hasClass('fa-square-o')){
     $icon.removeClass('fa-square-o').addClass('fa-check-square-o');
@@ -130,6 +134,4 @@ $( '.btn-check' ).click(function(e) {
     $icon.removeClass('fa-check-square-o').addClass('fa-square-o');
     $(this).prev().val('false');
   }
-  console.log($(this).prev().val());
-  
 });

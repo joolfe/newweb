@@ -44,14 +44,15 @@ Hechar un ojo a las cabeceras de las tabals? no se si acaban de convencerme la v
 
 DEMO
     - El scroll no me va pq?? ver si rula en windows.
+     En windows va en mac no porque???
 
 CHECKOUT
- Demasiado complejos los pasos quitar el texto de step??
  Step 1
     - meter en algun sitio un Go to cart?    
  Step 2
-    - sm ajustar algn tamaño que son mu grandes
+
 Step 3
+
 Step 4
 
 CHECKOUT
