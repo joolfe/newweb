@@ -49,8 +49,8 @@ DEMO
 CHECKOUT
  Step 1
     - meter en algun sitio un Go to cart?    
- Step 2
-
+ Step 2 - no register 
+    - empezar con esto
 Step 3
 
 Step 4
