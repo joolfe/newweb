@@ -1202,6 +1202,8 @@ div.required .control-label:after {
 /* END Steps */
 
 .checkout-container{ padding: 40px 40px 20px 40px;}
+legend > span { cursor:default;}
+.no-bottom-margin{ margin-bottom: 0px}
 
 /* Responsive Css */
 @media(max-width:992px){

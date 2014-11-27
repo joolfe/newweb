@@ -47,26 +47,12 @@ DEMO
      En windows va en mac no porque???
 
 CHECKOUT
- Step 1
-    - meter en algun sitio un Go to cart?    
- Step 2 - no register 
-    - empezar con esto
-Step 3
+- cuando es registrarse sale un modify en el paso 1 cunaod estas ogado no-
+- buoton cargando o layer cargando
+    ladda button mola pero no se...compatibilidades??
+- ajax para carga hacer alguno completo a ver.
 
-Step 4
-
-CHECKOUT
-    checkout.tpl
-        confirm.tpl
-        guest.tpl
-        guest_shipping.tpl
-        login.tpl
-        payment_address.tpl
-        payment_method.tpl
-        register.tpl
-        shipping_address.tpl
-        shipping_method.tpl
-
+        
 INFORMATION
     contact.tpl
     documentation.tpl

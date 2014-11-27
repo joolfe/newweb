@@ -105,7 +105,7 @@ $('#carousel-product').owlCarousel({
   margin:10,
   nav:false
 });
-//Mask/unmask password
+// Mask/unmask password
 $('.psw-check input').click(function(e) {
   if( $(this).prop('checked') ){
       $('#'+$(this).attr('name') ).attr('type', 'text');
@@ -113,13 +113,13 @@ $('.psw-check input').click(function(e) {
       $('#'+$(this).attr('name')).attr('type', 'password');
   }
 });
-//tooltip
+// Tooltip
 $testEl = $('<div id="smTest" class="hidden-xs hidden-sm"></div>');
 $testEl.appendTo($('body'));
 if( !$('#smTest').is(':hidden') ){
 $('.btn-go, .btn-delete, .btn-edit, .btn-add').tooltip({container: 'body'}); 
 }
-//check button
+// Check button
 $( '.btn-check' ).click(function(e) {
  console.log(e.target.nodeName);
  if( e.target.nodeName == "BUTTON"  ){
@@ -133,5 +133,16 @@ $( '.btn-check' ).click(function(e) {
   }else{
     $icon.removeClass('fa-check-square-o').addClass('fa-square-o');
     $(this).prev().val('false');
+  }
+});
+// Legend with radios label work
+$( 'legend > span' ).click(function(e) {
+  $(this).prev().prop("checked", true);
+});
+// Accordion always one open
+$('.accordion-legend').on('click',function(e){
+  console.log("aqui");
+  if($(this).parent().children('.collapse').hasClass('in')){
+      e.stopPropagation();
   }
 });
