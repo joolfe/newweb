@@ -461,12 +461,20 @@ a, a.list-group-item > span {
 	color: white;
 	opacity: 1;
 }
+.dark-modal .modal-content{
+	background-color: transparent;
+}
 .dark-modal .modal-body{
 	padding-bottom: 10px;
+	background-color: #FFF;
 }
 .dark-modal .modal-footer{
 	margin-top: 0px;
 	padding: 16px 20px 16px 20px;
+	background-color: #FFF;
+	border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
 }
 
 /* Login Popup */

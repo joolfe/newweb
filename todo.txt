@@ -1,6 +1,4 @@
 
-- investigar moviles tumbados en otras webs como funcionana porque a mi tumbao la web se ve fatal!!!
-
 - Logo de about tiene que ser fotico mia o algo
 	Me tengo que acer una fotico la trato un poco y listo
 
@@ -12,16 +10,16 @@
 
 - browser support ajustar
 
-- EN la demo d eopencart cuando añade algo al carrito pone loading mientras hace la peticion me mola mucho eso.
+- En la demo d  opencart cuando añade algo al carrito pone loading mientras hace la peticion me mola mucho eso.
 
 - buscar si alguna herramienta te dice problemas con navegadores.
 
-- en especial los dropdown deben coger el valor de lo seleccionado, con php se hace esto. Tb el icono
+- en eSpecial page los dropdown deben coger el valor de lo seleccionado, con php se hace esto. Tb el icono
 debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y texto de que.
 
 - cuando revise las validaciones de los form usar los placeholder para ayudar con eso.
 
-- convertir el menu lateral  en un menu depslegable en xs?????
+- convertir el menu lateral en un menu depslegable en xs?????
 
 - captcha colores guay pero no me usta como se redimensiona...pongo mas gande o como??
 
@@ -35,7 +33,7 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 - en carousel de productos poner alguna pista de que s epude arrastrar?? plan tutorial??
 
-- Carousel: Las imagenes deben ser mayores a los 57s0 para que se vena bie siempre incluso en md cuando se reduce.
+- Carousel: Las imagenes deben ser mayores a los 570px para que se vena bie siempre incluso en md cuando se reduce.
 
 Diseño pagina productos:s
 -------------------------
@@ -45,24 +43,18 @@ Hechar un ojo a las cabeceras de las tabals? no se si acaban de convencerme la v
 DEMO
     - El scroll no me va pq?? ver si rula en windows.
      En windows va en mac no porque???
+      
+ sitesgallery.tpl
 
-CHECKOUT
-- cuando es registrarse sale un modify en el paso 1 cunaod estas ogado no-
-- buoton cargando o layer cargando
-    ladda button mola pero no se...compatibilidades??
-- ajax para carga hacer alguno completo a ver.
-
-        
 INFORMATION
-    contact.tpl
     documentation.tpl
     information.tpl
     sitemap.tpl
-    sitesgallery.tpl
 
-PAYMENT
-    banktransfer
-    paypal
+Crear carrousel de customers??
+ http://bootsnipp.com/snippets/featured/infinite-carousel-loop
+ pero con el owl
+
 
 HOME
     content top?
@@ -74,17 +66,38 @@ MAIL DE ORDER
 MODULOS, Revisar cuales uso
 Las instrucciones hace run template para ellas.
 
-- Rediseñar los modals al nuevo estilo?
-    - Cuadraditos
-    - Label visibles
-    - Dar una vuelta al link del forgotten.
-    - Permitir ver pass con ojito??
-
 PRODUCTOS
 - Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
 	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
 
+CHECKOUT
+--------
+    NO AJAX:
+        - Validate como los formularios del amdin todos tienen validate y en funcon de eso lo hago.
+        - redirecciones si ko.
+
+    Si no logdo => checkout/login -> step1 [GET]
+        boton register => checkout/register -> step2 reg and bill [GET]
+            boton confirm => checkout/register/validate -> valida 
+                - si redirect redirije
+                - si error pinta errores
+                - si ok route=checkout/payment_method
+        boton login => checkout/login/validate [POST]
+            - si redirect redirije -> esto es el ok va a checkout que va a step 2 bill.
+            - si error pinta errores
+    Si logado => checkout/payment_address -> step2 bill [GET]
+        boton payment => route=checkout/payment_address/validate
+            - si redirect redirige -> normalmente es al comprobar productos y demas que redirige al carro o a login.
+            - si errpr => pinta erores
+            - si ok -> siguiete paso checkout/payment_method
+                    -> actualiza el anterior checkout/payment_address -> esto lo haria en el back
+                    -> el de payment addres rellena el o los combos con un ajax...
+    checkout/payment_method
+        boton payment => route=checkout/payment_method/validate
+            - si redirect redirige
+            - si error pinta
+            - si ok ->  route=checkout/confirm
 
 
 BUTTONS RULES:
@@ -99,58 +112,6 @@ EN POPUPS
    BTONES EN DERECHA SIEMPRE
 Separacion de arriba:
   10px de wrap-btn mas 15px del otro.    
-
-
-EJEMPLOS INSPIRACIONALES
-me mola para los tiles
-http://fresh-pixel.com/premium-templates/?theme=essentials-magento
-
-http://prestazilla.com/demo/maxshop2/index.php
-
-- Tiene una descripcion...
-http://mobilewebs.net/mojoomla/demo/opencart/vigo/index.php?route=product/product&product_id=99
-
--tb buena
-http://themeforest.net/item/olivia-opencart-responsive-theme/full_screen_preview/8529563
-
-- muchos enredos pero on es malo 
-http://althemist.com/metropoliten/index.php?route=product/product&product_id=50
-
-- De este me gusta que la parte de la derecha es de otro color ueda bien
-http://321cart.com/demo/sellya/index.php?route=product/product&product_id=95
-
-- Megusta que estan separados como en cajitas
-http://themeforest.net/item/pav-digital-store-responsive-opencart-theme/full_screen_preview/6461154
-
-
-iconos:
-|- key
-|- user
-- play en crculito o play (checkout)
-|- cart
-|- corazon
-|- estrella
-- cart +
-- labs o flask o proveta vamos
-- lista de info
-- avion (enviar mensaje)
-- mail
-- mail alternativo ->
-- share (related products)
-- flecha top (go top)
-- cart alternatibo -> indicra web en opencart osea que bola del mundo vale..
-- reloj
-- globo de mensaje
-- lupa
-- lupa zoom
-- cruz de delete.
-- ojo
-- download
-- vesion up
-- version down.
-- icono para responsive
-- vqmod tb
-|- home
 
 
 
