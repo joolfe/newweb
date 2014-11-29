@@ -21,6 +21,8 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 - convertir el menu lateral en un menu depslegable en xs?????
 
+- meter sitemap en algun sitio (footer) hacer que ne el php slagan los productos (no estas en categorias)
+
 - captcha colores guay pero no me usta como se redimensiona...pongo mas gande o como??
 
 - edit y add address es la misma pagina pero deberia cmabiar la etiqueta.
@@ -43,18 +45,9 @@ Hechar un ojo a las cabeceras de las tabals? no se si acaban de convencerme la v
 DEMO
     - El scroll no me va pq?? ver si rula en windows.
      En windows va en mac no porque???
-      
- sitesgallery.tpl
 
-INFORMATION
-    documentation.tpl
+INFORMATION   
     information.tpl
-    sitemap.tpl
-
-Crear carrousel de customers??
- http://bootsnipp.com/snippets/featured/infinite-carousel-loop
- pero con el owl
-
 
 HOME
     content top?
@@ -66,10 +59,15 @@ MAIL DE ORDER
 MODULOS, Revisar cuales uso
 Las instrucciones hace run template para ellas.
 
+Scripts de añadir a carrito etc ver como lo hago.
+
 PRODUCTOS
 - Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
 	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
+Crear carrousel de customers??
+ http://bootsnipp.com/snippets/featured/infinite-carousel-loop
+ pero con el owl
 
 CHECKOUT
 --------

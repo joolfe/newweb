@@ -1212,6 +1212,53 @@ div.required .control-label:after {
 .checkout-container{ padding: 40px 40px 20px 40px;}
 legend > span { cursor:default;}
 .no-bottom-margin{ margin-bottom: 0px}
+/* Panel image */
+.panel-image {
+	border-color: #DDD;
+}
+.panel-image > .panel-body { 
+	overflow: hidden; 
+	padding: 7px;
+}
+.panel-image > .panel-footer{
+	background-color: #FFF;
+	text-align: center;
+	overflow: hidden;
+	padding: 0px;
+}
+.panel-image > .panel-footer > a{
+	font-size: 17px;
+	font-weight: bold;
+	color:#F71919;
+	padding: 10px 15px;
+	display: block;
+}
+.panel-image > .panel-footer > a:hover, .panel-image > .panel-footer > a:active {
+	background-color: #F6F6F6;
+	text-decoration: none;
+}
+
+/* Documentation */
+.docu h4{
+	color: #F71919;
+	margin-top: 20px;
+}
+.docu .tip{
+	padding: 9px;
+	border-radius: 3px;
+	background-color: #F5F5F5;
+	border: 1px solid #E3E3E3;
+	margin-top: 10px;
+	display: inline-block;
+}
+.docu .tip span{
+	font-size: 18px;
+	color: grey;
+}
+.docu img {
+	margin-bottom: 15px;
+	border:	1px solid #D6D6D6;
+}
 
 /* Responsive Css */
 @media(max-width:992px){

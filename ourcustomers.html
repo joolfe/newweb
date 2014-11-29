@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home New Template</title>
+     
+    <!-- Foonts -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.theme.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Popup -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css">
+    <script src=" //cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
+
+    <!-- Carousel -->
+    <script type="text/javascript" src="scripts/owl.carousel.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/owl.carousel.css" />
+
+    <!-- Ellipsis -->
+    <script type="text/javascript" src="scripts/jquery.dotdotdot.min.js"></script>
+
+  </head>
+  <body>
+    <!-- Top Header -->
+    <div class="navbar-top" role="navigation">
+      <div class="container">
+      <div class="row">
+        <ul class="nav nav-pills currency-set">
+          <li>
+            <a href="#">€</a>
+          </li>
+          <li>
+            <a href="#">$</a>
+          </li>
+          <li class="active">
+            <a href="#">£</a>
+          </li>
+        </ul>
+
+        <ul class="nav nav-pills pull-right links-set">
+          <li><a href="#"><i class="fa fa-play-circle"></i><span class="hidden-xs"> Checkout</span></a></li>
+          <li><a href="#"><i class="fa fa-heart"></i><span class="hidden-xs"> Wish List</span></a></li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#login-modal">
+              <i class="fa fa-user"></i><span class="hidden-xs"> Account</span>
+            </a> 
+          </li>
+        </ul>
+
+
+      </div>
+      </div>
+    </div>
+    <!-- Main Header -->
+    <div class="header-main" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 text-center">
+            <img src="img/logo.png"/>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="visible-xs visible-sm">&nbsp;</div>
+            <div class="input-group search-box">
+              <input type="text" class="form-control">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"> 
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="visible-xs visible-sm">&nbsp;</div>
+              <div class="btn-group btn-block shoppig-cart">
+                <button class="btn btn-cart dropdown-toggle btn-block" data-toggle="dropdown">
+                  <span class="fa fa-shopping-cart"></span>
+                   0 item(s) - $0.00
+                   <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right" data-stopPropagation="true" role="menu">
+                  <li data-stopPropagation="true">
+                    <table class="cart-products">
+                      <tbody>
+                        <tr>
+                          <td><img src="img/1.png"></img></td>
+                          <td><a>Pup up login</a></td>
+                          <td>x1</td>
+                          <td class="col-price">9,45 $</td>
+                          <td><a><i class="fa fa-times cart-remove"></i></a></td>
+                        </tr>
+                        <tr><td colspan="5"><div class="divider"></div></td></tr>
+                        <tr>
+                          <td><img src="img/2.png"></img></td>
+                          <td><a>Background change for products</a></td>
+                          <td>x1</td>
+                          <td class="col-price">9,45 $</td>
+                          <td><a><i class="fa fa-times cart-remove"></i></a></td>
+                        </tr>
+                        <tr><td colspan="5"><div class="divider"></div></td></tr>
+                        <tr>
+                          <td><img src="img/3.png"></img></td>
+                          <td><a>Pup up login</a></td>
+                          <td>x1</td>
+                          <td class="col-price">9,45 $</td>
+                          <td><a><i class="fa fa-times cart-remove"></i></a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="cart-totals">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td><strong>Sub-Total</strong></td>
+                          <td> 12.34 $</td>
+                        </tr>
+                        <tr>
+                          <td><strong>Total</strong></td>
+                          <td> 120.34 $</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </li>
+                  <li class="cart-buttons">
+                      <div class="hidden-xs col-sm-4 col-md-2"></div>
+                      <div class="col-xs-6 col-sm-4 col-md-5 clear-pad-right">
+                        <button class="btn btn-default btn-block">View Cart</button>
+                      </div>
+                      <div class="col-xs-6 col-sm-4 col-md-5 clear-pad-left">
+                        <button class="btn btn-primary btn-block">Checkout</button>
+                      </div>
+                      <div class="clearfix"></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>    
+    </div>
+
+    <!-- Main Body -->
+    <div class="main-body">
+      <div class="container">
+        <div class="row">
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">Sites Gallery</li>
+          </ol>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="box main-container">
+              <h2>Our Customers</h2>
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="panel panel-image">
+                    <div class="panel-body">
+                      <img src="http://jolivapps.com/image/data/customers/hispasolution.jpg" class="img-responsive" />
+                    </div>
+                    <div class="panel-footer">
+                      <a href="#">Hispasolution</a>
+                    </div>
+                  </div>     
+                </div>  
+                
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="panel panel-image">
+                    <div class="panel-body">
+                      <img src="http://jolivapps.com/image/data/customers/gametitan.jpg" class="img-responsive" />
+                    </div>
+                    <div class="panel-footer">
+                      <a href="#">Gamestitan</a>
+                    </div>
+                  </div>    
+                </div> 
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="panel panel-image">
+                    <div class="panel-body">
+                      <img src="http://jolivapps.com/image/data/customers/genuinebatteries.jpg" class="img-responsive" />
+                    </div>
+                    <div class="panel-footer">
+                      <a href="#">Genuine bateries</a>
+                    </div>
+                  </div>    
+                </div> 
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="panel panel-image">
+                    <div class="panel-body">
+                      <img src="http://jolivapps.com/image/data/customers/fraq.jpg" class="img-responsive" />
+                    </div>
+                    <div class="panel-footer">
+                      <a href="#">Fraglive</a>
+                    </div>
+                  </div>    
+                </div>    
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="panel panel-image">
+                    <div class="panel-body">
+                      <img src="http://jolivapps.com/image/data/customers/psychostore.png" class="img-responsive" />
+                    </div>
+                    <div class="panel-footer">
+                      <a href="#">Psychostore</a>
+                    </div>
+                  </div>    
+                </div>  
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="panel panel-image">
+                    <div class="panel-body">
+                      <img src="http://jolivapps.com/image/data/customers/trustedsales.jpg" class="img-responsive" />
+                    </div>
+                    <div class="panel-footer">
+                      <a href="#">Trusted Sales</a>
+                    </div>
+                  </div>    
+                </div>  
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-sm-push-6 col-md-push-0"><h4>About Us</h4>
+            <div class="media">
+              <a class="pull-left" href="#">
+              <img width="70px" class="media-object" src="img/logo_about.jpg" >
+              </a>
+              <p class="about-text">After developing many web stores using OpenCart we discovered the power and versatility of 
+              this Shopping Cart, but also we miss some basic and useful mods in it. For this reasons we offer 
+              this mods in our shop at a reasonable price, because we take into account that users who choose 
+              OpenCart also do it because is a free Open Source solution.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-md-pull-0 col-sm-pull-6"><h4>Information</h4>
+            <ul class="link-holder">
+              <li><a href="">Documentation<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Know Our customers<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Privacy Policy<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Terms & Conditions<span class="lh-ico fa fa-chevron-right"></span></a></li>
+            </ul>
+          </div>
+          <div class="clearfix visible-sm"></div>
+          <div class="col-md-3 col-sm-6"><h4>My Account</h4>
+            <ul class="link-holder">
+              <li><a href="">My Account<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Order History<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Downloads<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Wishlist<span class="lh-ico fa fa-chevron-right"></span></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 contact">
+            <h4>Contact Us</h4>
+            <ul class="link-holder">
+              <li><a href=""><span class="contact-ico fa fa-envelope"></span>jolivapps@gmail.com</a></li>
+              <li><a href=""><span class="contact-ico fa fa-comment"></span>joolfe04@gmail.com</a></li>
+              <li><a href=""><span class="contact-ico fa fa-clock-o"></span>10am to 17pm</a></li>
+              <li><a href="http://www.opencart.com/index.php?route=extension/extension&filter_username=joliva"><span class="contact-ico fa fa-globe"></span>Us in Opencart Web</a></li>
+            </ul>
+            <div class="btn-holder">
+              <button class="btn btn-dark btn-block" data-toggle="modal" data-target="#contact-modal"><span class="fa fa-send-o"></span>&nbsp;&nbsp;Send us a message!</button>
+            </div>
+          </div>
+        </div>
+        <div class="row foot-go-top">
+          <div class="col-sm-12 text-center go-top-holder">
+              <button class="btn btn-to-top">
+                <span class="fa fa-arrow-up"></span>
+              </button>
+          </div>
+        </div>
+        <div class="row deep-footer">
+          <div class="col-sm-6 copyright">&copy; 2014 JolivApps. All Rights Reserved | <a href="" target="_blank">Attributions</a></div>
+          <div class="col-sm-6 payments-icons-wrap">
+            <ul class="payments-icons">
+              <li class="f-no-margin"><span class="fa fa-cc-paypal fa-25x"></span></li>
+              <li><span class="fa fa-cc-visa fa-25x"></span></li>
+              <li><span class="fa fa-cc-mastercard fa-25x"></span></li>
+              <li><span class="fa fa-cc-amex fa-25x"></span></li>  
+              <li><span class="fa fa-cc-discover fa-25x"></span></li>        
+            </ul>
+          </div>    
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Contact -->
+    <div class="modal fade dark-modal" id="contact-modal" role="dialog">
+      <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title"><span class="fa fa-envelope"></span>&nbsp;Contact Us</h4>
+        </div>
+        <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="contact-name">Name</label>
+            <input type="text" class="form-control" id="contact-name" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email</label>
+            <input type="email" class="form-control" id="contact-email" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="contact-text">Enquiry</label>
+            <textarea class="form-control" style="resize: none;" id="contact-text" rows="3" placeholder=""></textarea>
+          </div>
+          <div class="form-group">
+            <label for="contact-captcha">Captcha</label>
+            <div class="row">
+              <div class="col-xs-5 col-sm-6 clear-pad-right-xs">
+                <input type="text" id="contact-captcha" class="form-control" placeholder="Enter Code...">
+              </div>
+              <div class="col-xs-7 col-sm-6 clear-pad-left-xs">
+                <img class="img-responsive" src="img/index.jpg"></img>
+              </div>
+            </div>
+          </div>
+        </form>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+            <div class="hidden-xs col-sm-6"></div>
+            <div class="col-xs-6 col-sm-3 clear-pad-right">
+              <button type="button" class="btn btn-block btn-default" data-dismiss="modal">Close</button>
+            </div>
+            <div class="col-xs-6 col-sm-3 clear-pad-left">
+              <button type="button" class="btn btn-block btn-primary">Send</button>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Login Modal -->
+        <div class="modal fade dark-modal" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">
+                  <span class="fa fa-user"></span>&nbsp;Login
+                </h4>
+              </div>
+              <div class="modal-body">
+                <form action="" method="post" accept-charset="UTF-8" autocomplete="off">
+                  <div class="form-group">
+                    <label for="contact-name">E-mail</label>
+                    <input class="form-control" type="text" name="usernamec"/>
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-name">Password</label>
+                    <input class="form-control" type="password" name="passwordc"/>
+                  </div>
+                  <a class="link-forgot">Forgot Password? <span class="fa fa-lock "></span></a>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <div class="row">
+                  <div class="hidden-xs col-sm-6"></div>
+                  <div class="col-xs-6 col-sm-3 clear-pad-right">
+                    <button type="button" class="btn btn-block btn-default" data-dismiss="modal">Register</button>              
+                  </div>
+                  <div class="col-xs-6 col-sm-3 clear-pad-left">
+                    <button type="button" class="btn btn-block btn-primary">Login</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <script src="scripts/main.js"></script>
+
+  </body>
+</html>
