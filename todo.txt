@@ -49,9 +49,8 @@ DEMO
      En windows va en mac no porque???
 
 MLTIFEATURED => como related products 
-    - que pasa si hay mas de una linea?? separadores
-    - dar una vuelta porque lo de separar asi no me mola nada de nada
-    Una rayita poner asi?? border-right: 1px solid #E4E4E4;
+    - el tile en xs menos espacio menos padding?
+    - puedo hacerlo con box en general???
 
 HOME
     content top?
