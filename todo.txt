@@ -31,6 +31,8 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 - css pasarle algun validador
 
+- hacer information con los servicios?
+
 - meter validadores html5 en formularios????
 
 - en carousel de productos poner alguna pista de que s epude arrastrar?? plan tutorial??
@@ -46,8 +48,10 @@ DEMO
     - El scroll no me va pq?? ver si rula en windows.
      En windows va en mac no porque???
 
-INFORMATION   
-    information.tpl
+MLTIFEATURED => como related products 
+    - que pasa si hay mas de una linea?? separadores
+    - dar una vuelta porque lo de separar asi no me mola nada de nada
+    Una rayita poner asi?? border-right: 1px solid #E4E4E4;
 
 HOME
     content top?
@@ -55,9 +59,15 @@ HOME
     content left?
     content bottom?
 
+DISEÑAR HOME
+
+hcaer un apartado en productos con la instalacion?
+
 MAIL DE ORDER
-MODULOS, Revisar cuales uso
+
 Las instrucciones hace run template para ellas.
+
+Script estudiar si onlcik si click si live etc... a ver como lo hago que esta cada cosa de su madr ey padre.
 
 Scripts de añadir a carrito etc ver como lo hago.
 

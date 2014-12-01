@@ -36,7 +36,7 @@ h4{
 a{
 	color: #808080;
 }
-a:hover, a:focus{
+a:hover, a:focus, a.hovered{
 	outline: none;
 	color: #F71919;
 }
@@ -46,6 +46,7 @@ p{
 
 a.red-link {
 	color: #F71919;
+	cursor: pointer;
 }
 a.red-link:hover{
 	text-decoration: underline;
@@ -223,7 +224,7 @@ a, a.list-group-item > span {
 	background-color: #333;
 	border-color: #FFF;
 }
-.btn.btn-dark:hover, .btn.btn-dark:active, .btn.btn-dark.active {
+.btn.btn-dark:hover, .btn.btn-dark.hovered, .btn.btn-dark:active, .btn.btn-dark.active {
 	color: #FFF;
 	background-color: #F71919;
 }
@@ -361,7 +362,7 @@ a, a.list-group-item > span {
 .link-holder > li > a:hover{
 	text-decoration: none;
 }
-.link-holder > li > a:hover > span{
+.link-holder > li > a:hover > span, .link-holder > li > a.hovered > span{
 	border-color: #F71919;
 }
 .link-holder > li > a:hover > .lh-ico{

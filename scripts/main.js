@@ -124,7 +124,6 @@ $( '.btn-check' ).click(function(e) {
  console.log(e.target.nodeName);
  if( e.target.nodeName == "SPAN" || e.target.nodeName == "BUTTON" ){
   e.preventDefault();
-  console.log("entra");
  }
   $icon = $(this).children('span.fa');
   if($icon.hasClass('fa-square-o')){
@@ -145,4 +144,16 @@ $('.accordion-legend').on('click',function(e){
   if($(this).parent().children('.collapse').hasClass('in')){
       e.stopPropagation();
   }
+});
+// Contact link to higlight
+$( ".go-contact" ).on('click', function(e) {
+  $('body').animate(
+    {scrollTop : $('.contact').offset().top-20 },
+    600, 
+    function() {
+      $('.contact a, .contact .btn').addClass('hovered').delay( 600 ).queue(function(next){
+          $(this).removeClass('hovered').dequeue();;
+      });
+    });
+  e.stopPropagation();
 });
