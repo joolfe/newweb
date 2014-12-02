@@ -39,30 +39,32 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 - Carousel: Las imagenes deben ser mayores a los 570px para que se vena bie siempre incluso en md cuando se reduce.
 
-Diseño pagina productos:s
--------------------------
+- Correccion de columns top, left. bottom y top. 
+    - Solo voy a usar top y left creo pero no esta mal hacerlo bien ara futuro.
+    - Son unos ifs lo que separa por columnas. es facil
 
-Hechar un ojo a las cabeceras de las tabals? no se si acaban de convencerme la verdad...
+-----------------------------
 
 DEMO
     - El scroll no me va pq?? ver si rula en windows.
-     En windows va en mac no porque???
-
-MLTIFEATURED => como related products 
-    - el tile en xs menos espacio menos padding?
-    - puedo hacerlo con box en general???
-
-HOME
-    content top?
-    content right?
-    content left?
-    content bottom?
+      En windows va en mac no porque???
 
 DISEÑAR HOME
+- que mods van??
+    - multifeatured con cosas spearadas .
+        for opencart 2.0
+        for seo
+        new...
+        NO??
+    - Carousel con las cosas 
 
-hcaer un apartado en productos con la instalacion?
+diseñar un apartado en productos con la instalacion?
+    ejecutar script
+    subir archivos al servidor
+    instalar mod
+    dar permisos de acceso
 
-MAIL DE ORDER
+MAIL DE ORDER -> DISEÑAR.
 
 Las instrucciones hace run template para ellas.
 

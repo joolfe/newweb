@@ -540,6 +540,9 @@ a, a.list-group-item > span {
 	margin-top: 0px;
 	width: 100%;
 }
+.carousel-div{
+	border-right: 1px solid #E4E4E4;
+}
 
 /* Magnific popup */
 button.mfp-arrow.ctrl-btn{
@@ -641,29 +644,6 @@ button.mfp-arrow.ctrl-btn{
 	padding: 10px 20px;
 	background-color: #FAFAFA;
 }
-
-#carousel-product:before{
-	/* Separador de carousel */
-	content: "";
-	height: 100%;
-	position: absolute;
-	right: -22px;
-	top: 0;
-	width: 1px;
-}
-#carousel-product:before {
-	background: #D6D6D6; /* Old browsers */
-	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZmZmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ1JSIgc3RvcC1jb2xvcj0iI2Q2ZDZkNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iI2Q2ZDZkNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top,  #fcfff4 0%, #d6d6d6 45%, #d6d6d6 55%, #ffffff 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(45%,#d6d6d6), color-stop(55%,#d6d6d6), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #fcfff4 0%,#d6d6d6 45%,#d6d6d6 55%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #fcfff4 0%,#d6d6d6 45%,#d6d6d6 55%,#ffffff 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #fcfff4 0%,#d6d6d6 45%,#d6d6d6 55%,#ffffff 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #fcfff4 0%,#d6d6d6 45%,#d6d6d6 55%,#ffffff 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
-}
-
 /* Listgroup en menu-box*/
 .menu-box .list-group{
 	margin-bottom: -1px;
@@ -1303,6 +1283,7 @@ legend > span { cursor:default;}
 		padding-left: 25px;
 	}
 	.checkout-container{ padding: 40px 20px 20px 20px}
+	.carousel-div{border-right: 0px;padding: 0px 7px;}
 
 }
 
@@ -1399,6 +1380,22 @@ legend > span { cursor:default;}
 	}
 	.unclear-pad-right-xs {
 		padding-right: 15px;
+	}
+	/* padding correction for xs */
+	.box .box-content{
+		padding: 0px 7px;
+	}
+	.product-tile{
+		padding: 15px 5px;
+	}
+	.box .box-content.padd{
+		padding: 20px 12px;
+	}
+	.summary {
+		padding: 15px 12px;
+	}
+	.product-info-container{
+		padding: 0px 7px;
 	}
 }
 
