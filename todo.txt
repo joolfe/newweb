@@ -43,6 +43,10 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
     - Solo voy a usar top y left creo pero no esta mal hacerlo bien ara futuro.
     - Son unos ifs lo que separa por columnas. es facil
 
+- poner add cart y remove cart cmo en lo nuevo de opencart
+
+- Tesear todo lo de script wishlist etc..
+
 -----------------------------
 
 DEMO
@@ -51,34 +55,37 @@ DEMO
 
 DISEÑAR HOME
 - que mods van??
+    - Carousel con las cosas 
     - multifeatured con cosas spearadas .
+    Sencillos ya que no suele usarse el next nunca yo no lo suelo usar...
         for opencart 2.0
         for seo
         new...
         NO??
-    - Carousel con las cosas 
+    - un mod de poner etiquetas plan, soporte gatis etc??
+    - Crear carrousel de customers??
+     http://bootsnipp.com/snippets/featured/infinite-carousel-loop
+     pero con el owl
 
-diseñar un apartado en productos con la instalacion?
+- diseñar un apartado en productos con la instalacion?
     ejecutar script
     subir archivos al servidor
     instalar mod
     dar permisos de acceso
 
-MAIL DE ORDER -> DISEÑAR.
+- Las instrucciones hace run template para ellas.
 
-Las instrucciones hace run template para ellas.
+- MAIL DE ORDER -> DISEÑAR.
 
-Script estudiar si onlcik si click si live etc... a ver como lo hago que esta cada cosa de su madr ey padre.
-
-Scripts de añadir a carrito etc ver como lo hago.
+- Script estudiar si onlcik si click si live etc... a ver como lo hago que esta cada cosa de su madr ey padre.
 
 PRODUCTOS
 - Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
 	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
-Crear carrousel de customers??
- http://bootsnipp.com/snippets/featured/infinite-carousel-loop
- pero con el owl
+
+
+
 
 CHECKOUT
 --------
@@ -121,7 +128,6 @@ EN POPUPS
    BTONES EN DERECHA SIEMPRE
 Separacion de arriba:
   10px de wrap-btn mas 15px del otro.    
-
 
 
 

@@ -1133,6 +1133,9 @@ div.required .control-label:after {
 	background-color: #FFF;
 	border-color: #FF4922;
 }
+.close{
+	opacity: 1;
+}
 
 /* text colors*/
 .text-red{
