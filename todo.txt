@@ -49,19 +49,9 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 -----------------------------
 
-DEMO
-    - El scroll no me va pq?? ver si rula en windows.
-      En windows va en mac no porque???
-
 DISEÑAR HOME
 - que mods van??
     - Carousel con las cosas 
-    - multifeatured con cosas spearadas .
-    Sencillos ya que no suele usarse el next nunca yo no lo suelo usar...
-        for opencart 2.0
-        for seo
-        new...
-        NO??
     - un mod de poner etiquetas plan, soporte gatis etc??
     - Crear carrousel de customers??
      http://bootsnipp.com/snippets/featured/infinite-carousel-loop
@@ -77,7 +67,6 @@ DISEÑAR HOME
 
 - MAIL DE ORDER -> DISEÑAR.
 
-- Script estudiar si onlcik si click si live etc... a ver como lo hago que esta cada cosa de su madr ey padre.
 
 PRODUCTOS
 - Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...

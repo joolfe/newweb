@@ -3,7 +3,7 @@
  *
  */
 // Boton Top
-$('.btn-to-top').click(function(){
+$(document).delegate('.btn-to-top', 'click', function(){
   $('html, body').animate({scrollTop : 0},800);
   return false;
 });
@@ -14,10 +14,10 @@ $(function() {
 	});
 });
 // Search
-$('.btn-search').on('click', function() {
+$(document).delegate('.btn-search','click', function() {
   search();
 });
-$('#search_filter').on('keydown', function(e) {
+$(document).delegate('#search_filter','keydown', function(e) {
   if (e.keyCode == 13) {search();}
 });
 function search(){
@@ -128,7 +128,6 @@ var cart = {
   }
 }
 
-
 // Magnific zoom
 $('.zoom').magnificPopup({
 	type: 'image',
@@ -146,10 +145,8 @@ $('.zoom').magnificPopup({
 });
 // reviews carousel 
 $('.owl-carousel').owlCarousel({
-  loop:false,
   margin:10,
   nav:true,
-  dots:true,
   navText:['<span class="fa fa-chevron-left"></span>','<span class="fa fa-chevron-right"></span>'],
   navContainer:'.nav-controlers',
   responsive:{
@@ -207,11 +204,11 @@ function changeSmile($element, value){
 	}
 }
 // review links
-$( "#link-review" ).click(function(e) {
+$(document).delegate('#link-review','click', function(e) {
 	$('html, body').animate({scrollTop : $('#review-carousel').offset().top-20 },600);
 	e.stopPropagation();
 });
-$( "#link-write-review" ).click(function(e) {
+$(document).delegate('#link-write-review', 'click', function(e) {
 	$('html, body').animate({scrollTop : $('#review-form').offset().top-20 },600);
 	e.stopPropagation();
 });
@@ -222,7 +219,7 @@ $('#carousel-product').owlCarousel({
   nav:false
 });
 // Mask/unmask password
-$('.psw-check input').click(function(e) {
+$(document).delegate('.psw-check input','click',function(e) {
   if( $(this).prop('checked') ){
       $('#'+$(this).attr('name') ).attr('type', 'text');
   }else{
@@ -236,7 +233,7 @@ if( !$('#smTest').is(':hidden') ){
 $('.btn-go, .btn-delete, .btn-edit, .btn-add').tooltip({container: 'body'}); 
 }
 // Check button
-$( '.btn-check' ).click(function(e) {
+$(document).delegate('.btn-check','click',function(e) {
  console.log(e.target.nodeName);
  if( e.target.nodeName == "SPAN" || e.target.nodeName == "BUTTON" ){
   e.preventDefault();
@@ -251,7 +248,7 @@ $( '.btn-check' ).click(function(e) {
   }
 });
 // Legend with radios label work
-$( 'legend > span' ).click(function(e) {
+$(document).delegate('legend > span', 'click', function(e) {
   $(this).prev().prop("checked", true);
 });
 // Accordion always one open
@@ -262,7 +259,7 @@ $('.accordion-legend').on('click',function(e){
   }
 });
 // Contact link to higlight
-$( ".go-contact" ).on('click', function(e) {
+$(document).delegate('.go-contact' ,'click', function(e) {
   $('body').animate(
     {scrollTop : $('.contact').offset().top-20 },
     600, 
