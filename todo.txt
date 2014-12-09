@@ -52,7 +52,8 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 DISEÑAR HOME
 - que mods van??
     - Carousel con los banners 
-    - un mod de poner etiquetas plan, soporte gatis etc??
+    - mod de eiquetas ver que pongo
+    Diseñar esos dos a ver.
     - Crear carrousel de customers??
      http://bootsnipp.com/snippets/featured/infinite-carousel-loop
      pero con el owl
