@@ -51,7 +51,7 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 DISEÑAR HOME
 - que mods van??
-    - Carousel con las cosas 
+    - Carousel con los banners 
     - un mod de poner etiquetas plan, soporte gatis etc??
     - Crear carrousel de customers??
      http://bootsnipp.com/snippets/featured/infinite-carousel-loop
@@ -65,13 +65,14 @@ DISEÑAR HOME
 
 - Las instrucciones hace run template para ellas.
 
+- las tags no acaban de convencerme, ver opciones?
+
 - MAIL DE ORDER -> DISEÑAR.
 
 
 PRODUCTOS
 - Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
 	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
-
 
 
 
