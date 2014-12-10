@@ -51,14 +51,22 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 DISEÑAR HOME
 - que mods van??
+    - lbel hacer con media??
+
     - Carousel con los banners 
+        - ponerle navegador?? en producto no lo hay...
+        - ponerle auto
+        - corregir paddings.
         - crear config propia no? 
-        - en xs que hago?? lo escondo??
-        - ponerle un margin arriba 
+        - en xs lo escondo no tiene sentido.
+    
 
     - Crear carrousel de customers??
      http://bootsnipp.com/snippets/featured/infinite-carousel-loop
      pero con el owl
+
+
+- carousel productos en xs eliminar tb?? ver otras webs.
 
 - diseñar un apartado en productos con la instalacion?
     ejecutar script

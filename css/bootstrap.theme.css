@@ -1263,6 +1263,13 @@ legend > span { cursor:default;}
 	text-align: center;
 }
 
+#carousel-home{
+	margin-top: 10px;
+	padding: 5px;
+	border:	1px solid #D6D6D6;
+	background-color: white;
+}
+
 /* Responsive Css */
 @media(max-width:992px){
 	.foot-go-top{
@@ -1309,7 +1316,7 @@ legend > span { cursor:default;}
 	}
 	.checkout-container{ padding: 40px 20px 20px 20px}
 	.carousel-div{border-right: 0px;padding: 0px 7px;}
-
+	.box.cont-label{margin-top: 20px;}
 }
 
 @media(max-width:767px){
