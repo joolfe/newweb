@@ -270,3 +270,9 @@ $(document).delegate('.go-contact' ,'click', function(e) {
     });
   e.stopPropagation();
 });
+// Home Carousel producto
+$('#carousel-home').owlCarousel({
+  items:1,
+  margin:10,
+  nav:false
+});

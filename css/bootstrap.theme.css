@@ -1241,6 +1241,28 @@ legend > span { cursor:default;}
 	border:	1px solid #D6D6D6;
 }
 
+/* Tags icon*/
+.box.cont-label{
+	margin-top: 10px;
+	padding: 16px;
+}
+.cont-label .fa{
+	font-size: 26px;
+	color: #F71919;
+}
+.label-title{
+	font-size: 18px;
+	color: #474747;
+}
+.label-desc{
+	font-size: 14px;
+	color:#808080;
+}
+.cont-label table{
+	width:100%;
+	text-align: center;
+}
+
 /* Responsive Css */
 @media(max-width:992px){
 	.foot-go-top{
@@ -1399,6 +1421,12 @@ legend > span { cursor:default;}
 	}
 	.product-info-container{
 		padding: 0px 7px;
+	}
+	.cont-label table{
+		text-align: left;
+	}
+	.cont-label  .fa{
+		padding-left: 10px;
 	}
 }
 
