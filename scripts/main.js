@@ -274,5 +274,10 @@ $(document).delegate('.go-contact' ,'click', function(e) {
 $('#carousel-home').owlCarousel({
   items:1,
   margin:10,
-  nav:false
+  nav:false,
+  loop:true,
+  autoplay:true,
+  autoplayTimeout:3000,
+  autoplaySpeed:3000,
+  autoplayHoverPause:false
 });

@@ -544,6 +544,7 @@ a, a.list-group-item > span {
 	border-right: 1px solid #E4E4E4;
 }
 
+
 /* Magnific popup */
 button.mfp-arrow.ctrl-btn{
 	background-color: #F71919;	
@@ -703,10 +704,12 @@ button.mfp-arrow.ctrl-btn{
 	*display:inline
 }
 .owl-theme .owl-dots .owl-dot span{
-	width:10px;
-	height:10px;
+	width:12px;
+	height:12px;
 	margin:5px 7px;
-	background:#CCC;
+/*background:#CCC;*/
+	background-color: white;
+	border:1px solid #808080;
 	display:block;
 	-webkit-backface-visibility:visible;
 	-webkit-transition:opacity 200ms ease;
@@ -719,11 +722,12 @@ button.mfp-arrow.ctrl-btn{
 	border-radius:30px 
 }
 .owl-theme .owl-dots .owl-dot.active span{
-	background:#f71919;
+	background-color: #F54D4D;
 }
 .owl-theme .owl-dots .owl-dot:hover span{
-	background:#333;
+	background:#D6D6D6;
 }
+
 
 /* Review bubles */
 .bubble-rev{
@@ -1263,12 +1267,22 @@ legend > span { cursor:default;}
 	text-align: center;
 }
 
+/* Carousel home */
 #carousel-home{
 	margin-top: 10px;
 	padding: 5px;
 	border:	1px solid #D6D6D6;
 	background-color: white;
 }
+#carousel-home .owl-controls{
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+}
+#carousel-home.owl-theme .owl-dots .owl-dot.active span{
+	border:1px solid white;
+}
+
 
 /* Responsive Css */
 @media(max-width:992px){
@@ -1435,6 +1449,7 @@ legend > span { cursor:default;}
 	.cont-label  .fa{
 		padding-left: 10px;
 	}
+	.box.cont-label{margin-top: 10px;}
 }
 
 
