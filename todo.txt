@@ -45,23 +45,11 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 - poner add cart y remove cart cmo en lo nuevo de opencart
 
+- hacer un carousel de clientes??
+
 - Tesear todo lo de script wishlist etc..
 
 -----------------------------
-
-DISEÑAR HOME
-- que mods van??
-    - label hacer con media??
-
-    - Carousel con los banners 
-        pensar que hago en xs no me acaba de convencer esonderlo :-()
-
-    - Crear carrousel de customers??
-     http://bootsnipp.com/snippets/featured/infinite-carousel-loop
-     pero con el owl
-
-
-- carousel productos en xs eliminar tb?? ver otras webs.
 
 - diseñar un apartado en productos con la instalacion?
     ejecutar script

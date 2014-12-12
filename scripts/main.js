@@ -278,6 +278,5 @@ $('#carousel-home').owlCarousel({
   loop:true,
   autoplay:true,
   autoplayTimeout:3000,
-  autoplaySpeed:3000,
   autoplayHoverPause:false
 });
