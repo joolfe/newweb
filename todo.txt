@@ -51,6 +51,8 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 -----------------------------
 
+- cambiar bootra a 3.3.1 y ver si algo casca
+
 - diseñar un apartado en productos con la instalacion?
     ejecutar script
     subir archivos al servidor

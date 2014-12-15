@@ -607,6 +607,12 @@ button.mfp-arrow.ctrl-btn{
 	padding: 10px 20px;
 }
 
+.step-title{
+	color:#F71919;
+	border-bottom: 1px solid #D6D6D6;
+	padding-top: 15px;
+}
+
 /* BOX styles*/
 .box {
 	margin-top: 25px;
@@ -1282,6 +1288,7 @@ legend > span { cursor:default;}
 #carousel-home.owl-theme .owl-dots .owl-dot.active span{
 	border:1px solid white;
 }
+
 
 
 /* Responsive Css */
