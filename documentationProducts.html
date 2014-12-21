@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home New Template</title>
+     
+    <!-- Foonts -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.theme.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Popup -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css">
+    <script src=" //cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
+
+    <!-- Carousel -->
+    <script type="text/javascript" src="scripts/owl.carousel.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/owl.carousel.css" />
+
+    <!-- Ellipsis -->
+    <script type="text/javascript" src="scripts/jquery.dotdotdot.min.js"></script>
+
+  </head>
+  <body>
+    <!-- Top Header -->
+    <div class="navbar-top" role="navigation">
+      <div class="container">
+      <div class="row">
+        <ul class="nav nav-pills currency-set">
+          <li>
+            <a href="#">€</a>
+          </li>
+          <li>
+            <a href="#">$</a>
+          </li>
+          <li class="active">
+            <a href="#">£</a>
+          </li>
+        </ul>
+
+        <ul class="nav nav-pills pull-right links-set">
+          <li><a href="#"><i class="fa fa-play-circle"></i><span class="hidden-xs"> Checkout</span></a></li>
+          <li><a href="#"><i class="fa fa-heart"></i><span class="hidden-xs"> Wish List</span></a></li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#login-modal">
+              <i class="fa fa-user"></i><span class="hidden-xs"> Account</span>
+            </a> 
+          </li>
+        </ul>
+
+
+      </div>
+      </div>
+    </div>
+    <!-- Main Header -->
+    <div class="header-main" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 text-center">
+            <img src="img/logo.png"/>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="visible-xs visible-sm">&nbsp;</div>
+            <div class="input-group search-box">
+              <input type="text" class="form-control">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"> 
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="visible-xs visible-sm">&nbsp;</div>
+              <div class="btn-group btn-block shoppig-cart">
+                <button class="btn btn-cart dropdown-toggle btn-block" data-toggle="dropdown">
+                  <span class="fa fa-shopping-cart"></span>
+                   0 item(s) - $0.00
+                   <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right" data-stopPropagation="true" role="menu">
+                  <li data-stopPropagation="true">
+                    <table class="cart-products">
+                      <tbody>
+                        <tr>
+                          <td><img src="img/1.png"></img></td>
+                          <td><a>Pup up login</a></td>
+                          <td>x1</td>
+                          <td class="col-price">9,45 $</td>
+                          <td><a><i class="fa fa-times cart-remove"></i></a></td>
+                        </tr>
+                        <tr><td colspan="5"><div class="divider"></div></td></tr>
+                        <tr>
+                          <td><img src="img/2.png"></img></td>
+                          <td><a>Background change for products</a></td>
+                          <td>x1</td>
+                          <td class="col-price">9,45 $</td>
+                          <td><a><i class="fa fa-times cart-remove"></i></a></td>
+                        </tr>
+                        <tr><td colspan="5"><div class="divider"></div></td></tr>
+                        <tr>
+                          <td><img src="img/3.png"></img></td>
+                          <td><a>Pup up login</a></td>
+                          <td>x1</td>
+                          <td class="col-price">9,45 $</td>
+                          <td><a><i class="fa fa-times cart-remove"></i></a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="cart-totals">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td><strong>Sub-Total</strong></td>
+                          <td> 12.34 $</td>
+                        </tr>
+                        <tr>
+                          <td><strong>Total</strong></td>
+                          <td> 120.34 $</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </li>
+                  <li class="cart-buttons">
+                      <div class="hidden-xs col-sm-4 col-md-2"></div>
+                      <div class="col-xs-6 col-sm-4 col-md-5 clear-pad-right">
+                        <button class="btn btn-default btn-block">View Cart</button>
+                      </div>
+                      <div class="col-xs-6 col-sm-4 col-md-5 clear-pad-left">
+                        <button class="btn btn-primary btn-block">Checkout</button>
+                      </div>
+                      <div class="clearfix"></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>    
+    </div>
+
+    <!-- Main Body -->
+    <div class="main-body">
+      <div class="container">
+        <div class="row">
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">Documentation</li>
+          </ol>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="box main-container">
+              <div class="docu">
+                <div class="row">
+                  <div class="col-md-9">
+                    <h2>Introduction</h2>
+                    <div>
+                      <p>
+                        This doc try to explain the installation and Use of opencart "Pop up Login" extension:</p>
+                      <p>
+                        This mod have a part in vqmod so don’t overwrite any opencart core file, i don’t imagine a reason to do but if you want to make the changes directly to your opencart core file can read our guide <a href="index.php?route=information/documentation&amp;topics_id=3" target="_blank">How to apply vqmod changes directly to our opencart core files</a></p>
+                      <p>
+                        This mod use Jquery, opencarts default installation come with this js library but you have to ensure you have not remove in your shop personalization.</p>
+                    </div>
+                    <h2>Mod/Extension Content</h2>
+                    <div>
+                      <p>
+                        This mod/extension has the next files:</p>
+                      <ul style="list-style-type:square">
+                        <li>
+                          \install\vqmod\xml\popuplogin.xml</li>
+                        <li>
+                          \install\admin\controller\module\loginpopup.php</li>
+                        <li>
+                          \install\admin\language\english\module\loginpopup.php</li>
+                        <li>
+                          \install\admin\view\template\module\loginpopup.tpl</li>
+                        <li>
+                          \install\admin\view\javascript\jquery\jquery.qtip-1.0.0-rc3.min.js</li>
+                        <li>
+                          \install\catalog\controller\module\loginpopup.php</li>
+                        <li>
+                          \install\catalog\language\english\module\loginpopup.php</li>
+                        <li>
+                          \install\catalog\view\theme\default\template\module\loginpopup.tpl<font color="red">*¹</font></li>
+                        <li>
+                          \install\catalog\view\theme\default\stylesheet\module\popuplogin.css<font color="red">*¹</font></li>
+                        <li>
+                          \install\catalog\view\theme\default\image\user.png and user-wait.gif<font color="red">*¹</font></li>
+                      </ul>
+                      <p>
+                        <font color="red">*¹</font> If you don't use default theme you have to adapt the file path.</p>
+                    </div>
+                    <h2>Installation</h2>
+                    <div>
+                      <dl>
+                        <dt>
+                          <b>Step 1: Upload to Server</b></dt>
+                        <dd>
+                          Copy the contents of the "Install" folder to your store's top level directory, preserving the directory structure. This will not overwrite anything as they are all new files.</dd>
+                        <dt>
+                          <b>Step 2: Install Module Into Administration</b></dt>
+                        <dd>
+                          Login to your store's admin and, from the menu, select "Extensions &gt; Modules", then click the "Install" link in the "Action" column for the "Pop up Login" module. You will see a message with the installation confirm.</dd>
+                      </dl>
+                    </div>
+                    <h2>Module Configuration</h2>
+                    <div>
+                      <p>
+                        Once we have the module installed we can enter in the configuration page, login to your store's admin and, from the menu, select "Extensions &gt; Modules", then click de "Edit" link in same row of the module. You will see something like this:</p>
+                      <p>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="colorbox" href="img/docu/esquema1.jpg"><img src="http://jolivapps.com/image/data/popUpLogin/login-pop-up-form.jpg" class="img-responsive"  /> </a></p>
+                        </div>
+                      </div>
+                      <p>
+                        This screen let you configure the options of the module, now we’ll continue describing the different option:</p>
+                      <dl>
+                        <dt>
+                          <b>Title:</b></dt>
+                        <dd>
+                          Is the title of the pop up window, the text appears at the top of the window (Point 1 of the image). This module is multilingual so you can set a title for each language.</dd>
+                        <dt>
+                          <b>Validation by Ajax:</b></dt>
+                        <dd>
+                          This is a new feature that makes the whole login process from the popup by ajax AJAX, read section "Ajax Feature" for more info.</dd>
+                        <dt>
+                          <b>Style Class:</b></dt>
+                        <dd>
+                          The pop up comes configured with default opencart classes, but this field let you add a custom css class.</dd>
+                        <dt>
+                          <b>Back Shadow:</b></dt>
+                        <dd>
+                          If you choose "Yes" will be displayed a layer behind the pop up that do not allow any operation in the web until the customer close the pop up or try to logon into the web.(See point 4 of the image)</dd>
+                        <dt>
+                          <b>Open in header link:</b></dt>
+                        <dd>
+                          If you choose option "Yes" the link of "login" in the header instead of redirecting to the login screen will open the logon popup.</dd>
+                        <dt>
+                          <b>Draggable:</b></dt>
+                        <dd>
+                          If you choose option "Yes" let the user move the pop up around the screen.</dd>
+                        <dt>
+                          <b>Resizable:</b></dt>
+                        <dd>
+                          If you choose option "Yes" let the user change the size of the pop up.</dd>
+                        <dt>
+                          <b>Auto show:</b></dt>
+                        <dd>
+                          You can choose between three options:
+                          <ul style="margin: 0px;">
+                            <li>
+                              Always: when the user enters the main page of your web, pop up is displayed (if the user is not logged in) if the user closes the popup and reload main page the pop up reappears.(Only when is not logged in)</li>
+                            <li>
+                              Never: pop up does not automatically appear never.</li>
+                            <li>
+                              One time: the pop up is displayed the first time the user access main page, if user close the pop up will not return to appear during this navigation (This functionality use a session cookie, read cookie section for more information).</li>
+                          </ul>
+                        </dd>
+                        <dt>
+                          <b>Status:</b></dt>
+                        <dd>
+                          Enables and disables the module with this option.</dd>
+                      </dl>
+                      <p>
+                        <a class="colorbox" href="image/data/popUpLogin/pop-up-view.jpg"><img src="image/data/popUpLogin/pop-up-view.jpg" style="width: 270px;" /></a></p>
+                    </div>
+                    <h2>How it works?</h2>
+                    <div>
+                      <p>
+                        Once we have the module configured according to our preferences, we can prove in our store, the auto-show only acts on the *main page of the store and the pop up only will appear when user is NOT logged in. The rest of behaviour depends on the settings you want, here are some interesting examples:</p>
+                      <ol>
+                        <li>
+                          <b>Show only first time: </b> If you set the auto-show to "One time" if the user enters to main page the pop up will be shown, and during this session the user will never see anymore. With session we refer until the user closes their browser (Explorer, Mozilla ...)</li>
+                        <li>
+                          <b>No auto show, but show when you click the header link: </b>If you set the auto-show to "Never" and you activate the header link ("Open in header link" option) the pop up not will be shown auto, but when the user click on the header link instead of redirecting to the login screen will open the logon popup.</li>
+                        <li>
+                          <b>Always show: </b> If you set the auto-show to "Always" the pop up always will appear when customer go to the main page, only when user is not logged in.</li>
+                        <li>
+                          <b>Resizable example: </b> As shown in the image below the user can resize the popup</li>
+                        <li>
+                          <b>Ejemplo de Dragable: </b> As the image below shows can move the pop around the screen.</li>
+                      </ol>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <a class="colorbox" href="image/data/popUpLogin/dragable-pop-up.jpg"><img src="image/data/popUpLogin/dragable-pop-up.jpg" style="width: 270px;" /> </a></td>
+                            <td>
+                              <a class="colorbox" href="image/data/popUpLogin/resizable-pop-up.jpg"><img src="image/data/popUpLogin/resizable-pop-up.jpg" style="width: 270px;" /> </a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p>
+                        *If you want the "auto show" to work on more sites on your store please contact us, is possible to configure.</p>
+                    </div>
+                    <h2>Ajax Feature</h2>
+                    <div>
+                      <p>
+                        This new feature make possible to do all login process in the pop up dialog using ajax, this is the behaviour:</p>
+                      <ul>
+                        <li>
+                          If the customer incorrectly enter the data is not redirected to login page, the error is shown in the dialog popup</li>
+                        <li>
+                          If the customer correctly enter the data the popup is closed (automatically) and the page is refresh to actualizate the header and user data.</li>
+                        <li>
+                          To show the user that the request is being processed the login button has an icon that spins while waiting for the response to the request.</li>
+                      </ul>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <a class="colorbox" href="image/data/popUpLogin/ajax-error.jpg"><img src="image/data/popUpLogin/ajax-error.jpg" style="width: 270px;" /> </a></td>
+                            <td>
+                              <a class="colorbox" href="image/data/popUpLogin/ajax-icon.jpg"><img src="image/data/popUpLogin/ajax-icon.jpg" style="width: 270px;" /> </a></td>
+                            <td>
+                              <a class="colorbox" href="image/data/popUpLogin/ajax-wait.jpg"><img src="image/data/popUpLogin/ajax-wait.jpg" style="width: 270px;" /> </a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p>
+                        You can easy change the icon and the gif off the login button just replace the images user.png and user-wait.gif in the "catalog\view\theme\default\image" folder.</p>
+                    </div>
+                    <h2>Changing the style of pop up</h2>
+                    <div>
+                      <p>
+                        As described in the configuration section, you can customize the look of our pop up assigning a own CSS class in the field "class", but there is an alternative more interesting, thanks to that pop up use jquery you can totally change the look with the jQuery UI ThemeRoller, the ThemeRoller is a jquery tool that let you configure the aspect of jquery widgets very easily, see what we should do to change the look of our popup.</p>
+                      <dl>
+                        <dt>
+                          <b>Step 1:</b></dt>
+                        <dd>
+                          We go to the web page <a href="http://jqueryui.com/themeroller/" target="_blank">themeroller</a>, In the left we can see the themeroller tool and in the right the examples of different jquery widgets, in our case we must look the "dialog" that is the plug-in that uses our mod "pop up login".<br />
+                          <a class="colorbox" href="image/data/popUpLogin/tr-step1.jpg"><img src="image/data/popUpLogin/tr-step1.jpg" style="width: 270px;" /> </a></dd>
+                        <dt>
+                          <b>Step 2:</b></dt>
+                        <dd>
+                          In ThemeRoller tool can configure every aspect of our theme in the first tab "Roll Your Own", or on the second tab "Gallery" we can see a gallery of predefined themes. Let us see the predefined themes.<br />
+                          <a class="colorbox" href="image/data/popUpLogin/tr-step2.jpg"><img src="image/data/popUpLogin/tr-step2.jpg" style="width: 270px;" /> </a></dd>
+                        <dt>
+                          <b>Step 3:</b></dt>
+                        <dd>
+                          If you click on the image of the "widgets theme" the colour will change and we can see how they apply to our dialog. We choose for example "Redmon" that fits perfectly into our default opencart store.<br />
+                          <a class="colorbox" href="image/data/popUpLogin/tr-step3.jpg"><img src="image/data/popUpLogin/tr-step3.jpg" style="width: 270px;" /> </a></dd>
+                        <dt>
+                          <b>Step 4:</b></dt>
+                        <dd>
+                          Once we choose our theme we click download, save the zip file to your computer. This file is the entire jQuery library, we are only interested in the css file that is in the folder css/redmon/jquery-ui-1.9.0.custom.css, we will copy this file to our store on the path \catalog\view\javascript\jquery\ui\themes create a folder "redmon" and will paste css file inside.</dd>
+                        <dt>
+                          <b>Step 5:</b></dt>
+                        <dd>
+                          Now we only need to change the reference to jQuery css in the header, we go to the file header.tpl in catalog\view\theme\default\template\common and look for the line where says "jquery/ui/themes/" and replace this path for our file path.<br />
+                          <a class="colorbox" href="image/data/popUpLogin/pop-up-themeroller.jpg"><img src="image/data/popUpLogin/pop-up-themeroller.jpg" style="width: 270px;" /> </a></dd>
+                      </dl>
+                      <p>
+                        And we have prepared our pop up!</p>
+                    </div>
+                    <h2>Use of Cookies</h2>
+                    <div>
+                      <p>
+                        The Functionality to display only once the pop up use cookies, according to new European regulations you must give all the cookie information to the user, if your store should respect this law that is the information of the cookie that is installed with this mod:</p>
+                      <style type="text/css">
+                    .cookietable{
+                      border-collapse: collapse;
+                      margin-bottom: 10px;
+                    }
+                    .cookietable td, th{
+                      border-width: 1px;
+                      padding: 5px;
+                      border-style: inset;
+                      border-color: gray;
+                    } </style>
+                      <table class="cookietable">
+                        <thead>
+                          <tr>
+                            <th>
+                              Cookie name</th>
+                            <th>
+                              Cookie provider</th>
+                            <th>
+                              Expires after</th>
+                            <th>
+                              Description of cookie</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td style="width: 12%;">
+                              popuplogin</td>
+                            <td style="width: 14%;">
+                              empty</td>
+                            <td style="width: 12%;">
+                              session</td>
+                            <td>
+                              Don’t stores information, only serves to indicate that the user already entered on the web and not have to show the popup again</td>
+                          </tr>
+                        </tbody>
+                        <tbody>
+                        </tbody>
+                      </table>
+                      <p>
+                        The cookie will only be in the client's browser during the session, that is, when you close the browser, the cookie disappears and next time you enter the store the popup reappears.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3" id="menu-bar">
+                     <div class="hidden-print hidden-xs hidden-sm" data-spy="affix" data-offset-top="160" data-offset-bottom="430">
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <a href="#">Cras justo odio</a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">Dapibus ac facilisis in</a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">Morbi leo risus</a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">Porta ac consectetur ac</a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#">Vestibulum at eros</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-sm-push-6 col-md-push-0"><h4>About Us</h4>
+            <div class="media">
+              <a class="pull-left" href="#">
+              <img width="70px" class="media-object" src="img/logo_about.jpg" >
+              </a>
+              <p class="about-text">After developing many web stores using OpenCart we discovered the power and versatility of 
+              this Shopping Cart, but also we miss some basic and useful mods in it. For this reasons we offer 
+              this mods in our shop at a reasonable price, because we take into account that users who choose 
+              OpenCart also do it because is a free Open Source solution.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-md-pull-0 col-sm-pull-6"><h4>Information</h4>
+            <ul class="link-holder">
+              <li><a href="">Documentation<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Know Our customers<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Privacy Policy<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Terms & Conditions<span class="lh-ico fa fa-chevron-right"></span></a></li>
+            </ul>
+          </div>
+          <div class="clearfix visible-sm"></div>
+          <div class="col-md-3 col-sm-6"><h4>My Account</h4>
+            <ul class="link-holder">
+              <li><a href="">My Account<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Order History<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Downloads<span class="lh-ico fa fa-chevron-right"></span></a></li>
+              <li><a href="">Wishlist<span class="lh-ico fa fa-chevron-right"></span></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 contact">
+            <h4>Contact Us</h4>
+            <ul class="link-holder">
+              <li><a href=""><span class="contact-ico fa fa-envelope"></span>jolivapps@gmail.com</a></li>
+              <li><a href=""><span class="contact-ico fa fa-comment"></span>joolfe04@gmail.com</a></li>
+              <li><a href=""><span class="contact-ico fa fa-clock-o"></span>10am to 17pm</a></li>
+              <li><a href="http://www.opencart.com/index.php?route=extension/extension&filter_username=joliva"><span class="contact-ico fa fa-globe"></span>Us in Opencart Web</a></li>
+            </ul>
+            <div class="btn-holder">
+              <button class="btn btn-dark btn-block" data-toggle="modal" data-target="#contact-modal"><span class="fa fa-send-o"></span>&nbsp;&nbsp;Send us a message!</button>
+            </div>
+          </div>
+        </div>
+        <div class="row foot-go-top">
+          <div class="col-sm-12 text-center go-top-holder">
+              <button class="btn btn-to-top">
+                <span class="fa fa-arrow-up"></span>
+              </button>
+          </div>
+        </div>
+        <div class="row deep-footer">
+          <div class="col-sm-6 copyright">&copy; 2014 JolivApps. All Rights Reserved | <a href="" target="_blank">Attributions</a></div>
+          <div class="col-sm-6 payments-icons-wrap">
+            <ul class="payments-icons">
+              <li class="f-no-margin"><span class="fa fa-cc-paypal fa-25x"></span></li>
+              <li><span class="fa fa-cc-visa fa-25x"></span></li>
+              <li><span class="fa fa-cc-mastercard fa-25x"></span></li>
+              <li><span class="fa fa-cc-amex fa-25x"></span></li>  
+              <li><span class="fa fa-cc-discover fa-25x"></span></li>        
+            </ul>
+          </div>    
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Contact -->
+    <div class="modal fade dark-modal" id="contact-modal" role="dialog">
+      <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title"><span class="fa fa-envelope"></span>&nbsp;Contact Us</h4>
+        </div>
+        <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="contact-name">Name</label>
+            <input type="text" class="form-control" id="contact-name" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email</label>
+            <input type="email" class="form-control" id="contact-email" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="contact-text">Enquiry</label>
+            <textarea class="form-control" style="resize: none;" id="contact-text" rows="3" placeholder=""></textarea>
+          </div>
+          <div class="form-group">
+            <label for="contact-captcha">Captcha</label>
+            <div class="row">
+              <div class="col-xs-5 col-sm-6 clear-pad-right-xs">
+                <input type="text" id="contact-captcha" class="form-control" placeholder="Enter Code...">
+              </div>
+              <div class="col-xs-7 col-sm-6 clear-pad-left-xs">
+                <img class="img-responsive" src="img/index.jpg"></img>
+              </div>
+            </div>
+          </div>
+        </form>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+            <div class="hidden-xs col-sm-6"></div>
+            <div class="col-xs-6 col-sm-3 clear-pad-right">
+              <button type="button" class="btn btn-block btn-default" data-dismiss="modal">Close</button>
+            </div>
+            <div class="col-xs-6 col-sm-3 clear-pad-left">
+              <button type="button" class="btn btn-block btn-primary">Send</button>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Login Modal -->
+        <div class="modal fade dark-modal" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">
+                  <span class="fa fa-user"></span>&nbsp;Login
+                </h4>
+              </div>
+              <div class="modal-body">
+                <form action="" method="post" accept-charset="UTF-8" autocomplete="off">
+                  <div class="form-group">
+                    <label for="contact-name">E-mail</label>
+                    <input class="form-control" type="text" name="usernamec"/>
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-name">Password</label>
+                    <input class="form-control" type="password" name="passwordc"/>
+                  </div>
+                  <a class="link-forgot">Forgot Password? <span class="fa fa-lock "></span></a>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <div class="row">
+                  <div class="hidden-xs col-sm-6"></div>
+                  <div class="col-xs-6 col-sm-3 clear-pad-right">
+                    <button type="button" class="btn btn-block btn-default" data-dismiss="modal">Register</button>              
+                  </div>
+                  <div class="col-xs-6 col-sm-3 clear-pad-left">
+                    <button type="button" class="btn btn-block btn-primary">Login</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <script src="scripts/main.js"></script>
+
+  </body>
+</html>

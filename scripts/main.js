@@ -280,3 +280,15 @@ $('#carousel-home').owlCarousel({
   autoplayTimeout:3000,
   autoplayHoverPause:false
 });
+//affix funtion
+$(function() {
+    var affix-menu = "";
+    //Recorremos los h2 y creamos el affix
+    $('.main-body h2').each( function( key ) {
+      $(this).attr('id','menu-affix-'+key);
+      //$('#menu-bar').appendTo
+    });
+
+    var $affixElement = $('div[data-spy="affix"]');
+    $affixElement.width($affixElement.parent().width());
+});

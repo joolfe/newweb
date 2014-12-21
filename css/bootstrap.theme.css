@@ -603,14 +603,16 @@ button.mfp-arrow.ctrl-btn{
 }
 
 /* sumary */
-.summary{
-	padding: 10px 20px;
+.summary, .inst-step{
+	padding: 20px 20px;
 }
 
-.step-title{
+.inst-step .media-heading{
 	color:#F71919;
-	border-bottom: 1px solid #D6D6D6;
-	padding-top: 15px;
+}
+
+.inst-step .media-middle{
+	color: #BBB;
 }
 
 /* BOX styles*/
@@ -1250,6 +1252,11 @@ legend > span { cursor:default;}
 	margin-bottom: 15px;
 	border:	1px solid #D6D6D6;
 }
+.docu h2{
+	color: #F71919;
+	margin-top: 20px;
+	cursor:pointer;
+}
 
 /* Tags icon*/
 .box.cont-label{
@@ -1289,6 +1296,12 @@ legend > span { cursor:default;}
 	border:1px solid white;
 }
 
+.affix{
+	top:20px;
+}
+.affix-bottom {
+  position: absolute;
+}
 
 
 /* Responsive Css */
@@ -1338,6 +1351,9 @@ legend > span { cursor:default;}
 	.checkout-container{ padding: 40px 20px 20px 20px}
 	.carousel-div{border-right: 0px;padding: 0px 7px;}
 	.box.cont-label{margin-top: 20px;}
+	.inst-step .media:first-child{margin-top: 0px}
+	.inst-step .media{margin-top: 20px}
+	
 }
 
 @media(max-width:767px){
@@ -1364,7 +1380,7 @@ legend > span { cursor:default;}
 		text-align: center;
 		margin: 15px 0px 14px 0px;
 	}
-	.media{
+	.footer .media{
 		margin-top: 0px;
 	}	
 	.payments-icons{
@@ -1444,7 +1460,7 @@ legend > span { cursor:default;}
 	.box .box-content.padd{
 		padding: 20px 12px;
 	}
-	.summary {
+	.summary, .inst-step {
 		padding: 15px 12px;
 	}
 	.product-info-container{
