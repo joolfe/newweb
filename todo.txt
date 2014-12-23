@@ -53,8 +53,9 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 - Documentation:
     - Menu afix
-        - poner bonito
-        - hacer que se cree por javascript??
+        - poner links en roho
+        - ver temblor loco en md porque cojones pasa???
+            creo que es porque manda el scroll mas abajo que lo que el menu puede llegar :-0
     - ve que hago con los dl
     - tabla de cookies
     - buscar si alguna docu tiene lago especial.

@@ -282,13 +282,21 @@ $('#carousel-home').owlCarousel({
 });
 //affix funtion
 $(function() {
-    var affix-menu = "";
-    //Recorremos los h2 y creamos el affix
-    $('.main-body h2').each( function( key ) {
-      $(this).attr('id','menu-affix-'+key);
-      //$('#menu-bar').appendTo
-    });
-
+    var liElement = '<li class="list-group-item"><a href="%href">%name</a></li>';
+    //html.replace(/%s/g, 'TEST');
     var $affixElement = $('div[data-spy="affix"]');
-    $affixElement.width($affixElement.parent().width());
+    if( $affixElement.length ){
+      $affixElement.width($affixElement.parent().width());
+      $affixElement.show();
+      $ulElement = $affixElement.find('ul');
+      $liElement = $affixElement.find('li');
+      //Recorremos los h2 y creamos el affix
+      $('.main-body h2').each( function( key ) {
+        $(this).attr('id','menu-affix-'+key);
+        $cloneEl = $liElement.clone().appendTo($ulElement);
+        $cloneEl.find('a').text($(this).text()).attr('href','#'+'menu-affix-'+key);
+      });
+      $liElement.remove();
+    }
+    
 });

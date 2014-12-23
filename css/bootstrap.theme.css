@@ -1254,7 +1254,7 @@ legend > span { cursor:default;}
 }
 .docu h2{
 	color: #F71919;
-	margin-top: 20px;
+	padding-top: 20px;
 	cursor:pointer;
 }
 
