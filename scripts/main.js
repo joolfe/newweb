@@ -286,17 +286,16 @@ $(function() {
     //html.replace(/%s/g, 'TEST');
     var $affixElement = $('div[data-spy="affix"]');
     if( $affixElement.length ){
-      $affixElement.width($affixElement.parent().width());
-      $affixElement.show();
-      $ulElement = $affixElement.find('ul');
-      $liElement = $affixElement.find('li');
+      $affixElement.width($affixElement.parent().width()).show();
+      $listParent = $affixElement.find('div');
+      $listItem = $affixElement.find('a');
       //Recorremos los h2 y creamos el affix
       $('.main-body h2').each( function( key ) {
         $(this).attr('id','menu-affix-'+key);
-        $cloneEl = $liElement.clone().appendTo($ulElement);
-        $cloneEl.find('a').text($(this).text()).attr('href','#'+'menu-affix-'+key);
+        $cloneEl = $listItem.clone().appendTo($listParent);
+        $cloneEl.attr('href','#'+'menu-affix-'+key).find('span').text($(this).text());
       });
-      $liElement.remove();
+      $listItem.remove();
     }
     
 });

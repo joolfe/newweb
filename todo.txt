@@ -49,13 +49,18 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 - Tesear todo lo de script wishlist etc..
 
+
+
 -----------------------------
 
 - Documentation:
-    - Menu afix
-        - poner links en roho
-        - ver temblor loco en md porque cojones pasa???
-            creo que es porque manda el scroll mas abajo que lo que el menu puede llegar :-0
+    Affix:
+    - la distancia en sm del affix no es la buena hacerlo dinamico por javascript.
+        Quizas con esto arregle problema dos, sino dejarlo estar.
+    - error conocido. el menu de la docu productos cunaod esta en sm y se da ultima opcion vibra y no tengo ni zorra de porque.
+    Solo pasa en chrome,
+
+
     - ve que hago con los dl
     - tabla de cookies
     - buscar si alguna docu tiene lago especial.
