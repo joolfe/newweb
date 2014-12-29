@@ -1,12 +1,16 @@
 
-- Logo de about tiene que ser fotico mia o algo
-	Me tengo que acer una fotico la trato un poco y listo
+- Correccion de columns top, left. bottom y top. 
+    - Solo voy a usar top y left creo pero no esta mal hacerlo bien ara futuro.
+    - Son unos ifs lo que separa por columnas. es facil
 
-- ver lo de camtasia estudio poner gifs como aqui https://github.com/cdowdy/concrete5-Magnific-Popup mola bastante.
+- crear parte de documentation como demo etc...
 
 - improove el search, que busque sitios dentro de la web, informations y documentacion etc...
 
-- hacer una version flat a ver que tal se ve...
+- Logo de about tiene que ser fotico mia o algo
+	Me tengo que acer una fotico la trato un poco y listo
+
+- Sitemap hay que arreglarlo.
 
 - browser support ajustar
 
@@ -19,72 +23,43 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
 
 - cuando revise las validaciones de los form usar los placeholder para ayudar con eso.
 
-- convertir el menu lateral en un menu depslegable en xs?????
-
-- meter sitemap en algun sitio (footer) hacer que ne el php slagan los productos (no estas en categorias)
-
-- captcha colores guay pero no me usta como se redimensiona...pongo mas gande o como??
-
 - edit y add address es la misma pagina pero deberia cmabiar la etiqueta.
 
 - Buscar que licencia pongo en el css.
 
-- css pasarle algun validador
+- css pasarle algun validador.
 
 - hacer information con los servicios?
 
-- meter validadores html5 en formularios????
-
-- en carousel de productos poner alguna pista de que s epude arrastrar?? plan tutorial??
-
 - Carousel: Las imagenes deben ser mayores a los 570px para que se vena bie siempre incluso en md cuando se reduce.
-
-- Correccion de columns top, left. bottom y top. 
-    - Solo voy a usar top y left creo pero no esta mal hacerlo bien ara futuro.
-    - Son unos ifs lo que separa por columnas. es facil
 
 - poner add cart y remove cart cmo en lo nuevo de opencart
 
-- hacer un carousel de clientes??
+- Testear todo lo de script wishlist etc..
 
-- Tesear todo lo de script wishlist etc..
+- hacer una version flat a ver que tal se ve...
 
+PRODUCTOS
+- Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...
+    SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
 
 -----------------------------
 
-- Documentation:
-    Affix:
-    - la distancia en sm del affix no es la buena hacerlo dinamico por javascript.
-        Quizas con esto arregle problema dos, sino dejarlo estar.
-    - error conocido. el menu de la docu productos cunaod esta en sm y se da ultima opcion vibra y no tengo ni zorra de porque.
-    Solo pasa en chrome,
+- revisar tareas pedientes
 
+- bajarme template para empezar la remodelacion
 
-    - ve que hago con los dl
-    - tabla de cookies
-    - buscar si alguna docu tiene lago especial.
-    - la lista de archivos??
-    - los pasos de instalacion hacerlo 
+- BOTON DOCMENTATION DONDE LO PONGO!!!
 
-
-- QUtar tags y poner lo que tenia antes.
-
-- cambiar bootra a 3.3.1 y ver si algo casca
-
-- MAIL DE ORDER -> DISEÑAR.
-
-
-PRODUCTOS
-- Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...investigar a ver...
-	SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
 DOCUMENTAICONES CAMBIOS
 ------------------------
 - limpiar el css.
 - cambiar h2 por h4 y quitar links
 - imagenes responsive y quitar las tablas por divs.
-- 
+- tablas ponerla con las clases de boottrasp table table-bordered y poner la div de responsive. 
+- repasar listas.
 
 CHECKOUT
 --------
@@ -163,3 +138,12 @@ Separacion de arriba:
 		
 		imagedestroy($image);		
 	}
+
+PARA FUTURO:
+------------
+- en carousel de productos poner alguna pista de que s epude arrastrar?? plan tutorial?
+- meter validadores html5 en formularios????
+- MAIL DE ORDER -> DISEÑAR. de momento no me interesa tocarlo.
+- convertir el menu lateral en un menu depslegable en xs?????
+- hacer un carousel de clientes??
+- ver lo de camtasia estudio poner gifs como aqui https://github.com/cdowdy/concrete5-Magnific-Popup mola bastante.

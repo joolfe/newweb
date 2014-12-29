@@ -243,17 +243,6 @@ a, a.list-group-item > span {
 	border-color: #F87070;
 	color: #FFF;
 }
-.btn-tertiary {
-	color: #FFF;
-	background-color: #333;
-	border-color: #333;
-}
-.btn.btn-tertiary:hover, .btn.btn-tertiary:active, .btn.btn-tertiary.active, .btn.btn-tertiary:focus {
-	color: #FFF;
-	background-color: #808080;
-	border-color: #808080;
-}
-
 .btn-secondary {
 	color: #FFF;
 	background-color: #333;
@@ -479,7 +468,7 @@ a, a.list-group-item > span {
 }
 
 /* Login Popup */
-.link-forgot{
+a.link-forgot{
 	cursor: pointer;
 	color: #807F7F;
 	margin-left: 3px;
@@ -593,6 +582,9 @@ button.mfp-arrow.ctrl-btn{
 .product-info hr{
 	border-top: 1px solid #ECECEC;
 }
+#link-write-review{
+	display: inline-block;
+}
 
 /* Estrellitas */
 .review{
@@ -601,6 +593,7 @@ button.mfp-arrow.ctrl-btn{
 .review .empty{
 	color:#474747;
 }
+
 
 /* sumary */
 .summary, .inst-step{
@@ -735,7 +728,6 @@ button.mfp-arrow.ctrl-btn{
 .owl-theme .owl-dots .owl-dot:hover span{
 	background:#D6D6D6;
 }
-
 
 /* Review bubles */
 .bubble-rev{
@@ -880,6 +872,7 @@ button.mfp-arrow.ctrl-btn{
 .tile-container{
 	margin-bottom: -1px;
 }
+
 /* Rating input */
 .rating-input{
 	cursor: pointer;
@@ -913,102 +906,6 @@ button.mfp-arrow.ctrl-btn{
 	font-size: 18px; 
 	margin-left: 10px;
 	display: inline-block;
-}
-
-/* Tags */
-#tag-container{
-	text-align: center;
-	padding: 10px 15px 20px 15px;
-}
-.tag-wrap{
-	text-align: center;
-	display: inline-block;
-	font-weight: bold;
-	color: #777;
-	padding-top: 10px;
-}
-.tag{
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	display: inline-block;
-	width: 60px;
-	height: 60px;
-	color:#333;
-	border: 1px solid #D6D6D6;
-}
-.tag .fa{
-	margin-top: 6px;
-	font-size: 20px;
-}
-.tag .caption{
-	white-space: nowrap;
-}
-.tag .fa.only-icon{
-	line-height: 59px;
-	font-size: 25px;
-	margin-top: 0px;
-}
-.tag .info-bis{
-	margin-top: 8px;
-}
-
-.tag-view{
-	color:white;
-	background-color: #F71919;
-}
-.tag-down{
-	color: #333;
-	border: 2px solid #333;
-}
-.tag-vqmod{
-	color:white;
-	background-color: #EFB33C;
-}
-.tag-install{
-	border: 2px solid #70B53F;
-	color: #70B53F;
-}
-.tag-resp{
-	color:white;
-	background-color: #0F9494;
-}
-.tag.tag-resp .fa{
-	font-size: 40px;
-}
-.tag-langua{
-	border: 2px solid #E76D66;
-	color: #E76D66;
-}
-.tag-boot{
-	color:white;
-	background-color: #6F5499;
-}
-.tag-html{
-	border: 2px solid #F06529;
-	color: #F06529;
-}
-.tag-skin{
-	border: 2px solid #27B9B7;
-	color: #27B9B7;	
-}
-.tag-js{
-	color:white;
-	background-color: #808080;
-}
-.tag.tag-js .info{
-	font-weight: normal;
-}
-.tag.tag-js .fa{
-	padding-left: 5px;
-}
-.tag-version-max{
-	color: #00C064;
-	border: 2px solid #00C064;	
-}
-.tag-version-min{
-	color: #FFCF00;
-	border: 2px solid #FFCF00;	
 }
 
 /* Utils Class */
@@ -1257,6 +1154,10 @@ legend > span { cursor:default;}
 	padding-top: 20px;
 	cursor:pointer;
 }
+.docu dd{
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
 
 /* Tags icon*/
 .box.cont-label{
@@ -1303,6 +1204,11 @@ legend > span { cursor:default;}
   position: absolute;
 }
 
+/* indicators */
+.indicators > span{
+	margin-right: 15px;
+	display: inline-block;
+}
 
 /* Responsive Css */
 @media(max-width:992px){
@@ -1473,6 +1379,7 @@ legend > span { cursor:default;}
 		padding-left: 10px;
 	}
 	.box.cont-label{margin-top: 10px;}
+	.indicators > span{margin-bottom: 5px;}
 }
 
 

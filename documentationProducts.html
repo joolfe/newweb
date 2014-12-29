@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.theme.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -23,7 +23,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
     <!-- Popup -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css">
@@ -377,51 +377,43 @@
                     <div>
                       <p>
                         The Functionality to display only once the pop up use cookies, according to new European regulations you must give all the cookie information to the user, if your store should respect this law that is the information of the cookie that is installed with this mod:</p>
-                      <style type="text/css">
-                    .cookietable{
-                      border-collapse: collapse;
-                      margin-bottom: 10px;
-                    }
-                    .cookietable td, th{
-                      border-width: 1px;
-                      padding: 5px;
-                      border-style: inset;
-                      border-color: gray;
-                    } </style>
-                      <table class="cookietable">
-                        <thead>
-                          <tr>
-                            <th>
-                              Cookie name</th>
-                            <th>
-                              Cookie provider</th>
-                            <th>
-                              Expires after</th>
-                            <th>
-                              Description of cookie</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td style="width: 12%;">
-                              popuplogin</td>
-                            <td style="width: 14%;">
-                              empty</td>
-                            <td style="width: 12%;">
-                              session</td>
-                            <td>
-                              Don’t stores information, only serves to indicate that the user already entered on the web and not have to show the popup again</td>
-                          </tr>
-                        </tbody>
-                        <tbody>
-                        </tbody>
-                      </table>
+                      <div class="table-responsive">
+                        <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th>
+                                Cookie name</th>
+                              <th>
+                                Cookie provider</th>
+                              <th>
+                                Expires after</th>
+                              <th>
+                                Description of cookie</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="width: 12%;">
+                                popuplogin</td>
+                              <td style="width: 14%;">
+                                empty</td>
+                              <td style="width: 12%;">
+                                session</td>
+                              <td>
+                                Don’t stores information, only serves to indicate that the user already entered on the web and not have to show the popup again</td>
+                            </tr>
+                          </tbody>
+                          <tbody>
+                          </tbody>
+                        </table>
+                      </div>
                       <p>
                         The cookie will only be in the client's browser during the session, that is, when you close the browser, the cookie disappears and next time you enter the store the popup reappears.</p>
                     </div>
                   </div>
                   <div class="col-md-3" id="menu-bar">
-                     <div class="hidden-print hidden-xs hidden-sm" style="display:none" data-spy="affix" data-offset-top="160" data-offset-bottom="430">
+                     <div class="hidden-print hidden-xs hidden-sm" id="affix-div" style="display:none" >
+                      <!-- data-offset-top="160" data-offset-bottom="430" -->
                       <div class="list-group">
                         <span class="list-group-item text-red text-center">Index of contents</span>
                         <a class="list-group-item" href="#"><span>none</span></a>

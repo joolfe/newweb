@@ -230,7 +230,8 @@ $(document).delegate('.psw-check input','click',function(e) {
 $testEl = $('<div id="smTest" class="hidden-xs hidden-sm"></div>');
 $testEl.appendTo($('body'));
 if( !$('#smTest').is(':hidden') ){
-$('.btn-go, .btn-delete, .btn-edit, .btn-add').tooltip({container: 'body'}); 
+  $('.btn-go, .btn-delete, .btn-edit, .btn-add').tooltip({container: 'body'}); 
+  $('.indicators > span').tooltip();
 }
 // Check button
 $(document).delegate('.btn-check','click',function(e) {
@@ -282,10 +283,10 @@ $('#carousel-home').owlCarousel({
 });
 //affix funtion
 $(function() {
-    var liElement = '<li class="list-group-item"><a href="%href">%name</a></li>';
-    //html.replace(/%s/g, 'TEST');
-    var $affixElement = $('div[data-spy="affix"]');
+    var $affixElement = $('#affix-div');
+
     if( $affixElement.length ){
+      //le ponemos el width dinamicamente en funcion del tamaño dle padre.
       $affixElement.width($affixElement.parent().width()).show();
       $listParent = $affixElement.find('div');
       $listItem = $affixElement.find('a');
@@ -296,6 +297,17 @@ $(function() {
         $cloneEl.attr('href','#'+'menu-affix-'+key).find('span').text($(this).text());
       });
       $listItem.remove();
-    }
-    
+      //Inicializamos plugin de afix
+      $('#affix-div').affix({
+        offset: {
+          top: 160,
+          bottom: function () {
+            console.log($('.footer').outerHeight(true));
+            return (this.bottom = $('.footer').outerHeight(true) + 60)
+          }
+        }
+      })
+   
+    }      
 });
+
