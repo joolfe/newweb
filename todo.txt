@@ -68,6 +68,7 @@ debe cambiar para acortar porque en xs no cabe bien. pongo icono indica orden y 
     - los pasos de instalacion hacerlo 
 
 
+
 - QUtar tags y poner lo que tenia antes.
 
 - cambiar bootra a 3.3.1 y ver si algo casca
@@ -83,7 +84,7 @@ DOCUMENTAICONES CAMBIOS
 ------------------------
 - limpiar el css.
 - cambiar h2 por h4 y quitar links
-- imagenes responsive y quitar las tablas por divs.
+- imagenes responsive y quitar las tablas.
 - 
 
 CHECKOUT
