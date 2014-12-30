@@ -7,9 +7,6 @@
 
 - improove el search, que busque sitios dentro de la web, informations y documentacion etc...
 
-- Logo de about tiene que ser fotico mia o algo
-	Me tengo que acer una fotico la trato un poco y listo
-
 - Sitemap hay que arreglarlo.
 
 - browser support ajustar
@@ -43,14 +40,37 @@ PRODUCTOS
 - Carousel no se selecciona ulimo dot aunque pone que lo han solucionado...
     SALE CON BETA 3 esta or la 2.4.. estar pendiente a ver...
 
-
+TODOS
 -----------------------------
+- Logo de about tiene que ser fotico mia o algo
+    Me tengo que acer una fotico la trato un poco y listo
 
-- revisar tareas pedientes
+- links en mensajes poner de colores??
+- la x de los mensjaes en xs se descoloca!!!
 
-- bajarme template para empezar la remodelacion
+HEADER:
+- Logon, cuando esta logado en algun lado hay que poner logoff
+    Añadir otro icono cuando logado y comprobar bien los responsives que no se junten...
+- se recomienda poner los script la final lo hago??
+- cdns, hacer condicional para levantar a web rapido si se jode alguno?
+    es decir, me bajo todo y lo pongo estatico peor con un if lo hago condicional ok?
+- hacer primero el footer antes de hacer operativa de logon.
+
+- hacer commons primero
+    - header
+    - footer
+    - columns
 
 - BOTON DOCMENTATION DONDE LO PONGO!!!
+
+
+CAMBIOS:
+--------
+- cambio de logo y favicon
+- cambio de theme
+- añadidas palabras en header.php (language)
+- cambiado chekout.php para añadir la devolucion del html del carrito en add.
+- cabio el wishlist.php para poner el mensaje info de logarse.
 
 
 DOCUMENTAICONES CAMBIOS

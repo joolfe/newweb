@@ -23,6 +23,7 @@ $(document).delegate('#search_filter','keydown', function(e) {
 function search(){
   url = $('base').attr('href') + 'index.php?route=product/search';
   var filter_name = $('#search_filter').attr('value');
+  console.log('Aqui'+filter_name);
   if (filter_name) {
     url += '&filter_name=' + encodeURIComponent(filter_name);
   }
